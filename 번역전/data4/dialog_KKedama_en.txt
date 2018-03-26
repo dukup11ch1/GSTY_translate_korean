@@ -1,0 +1,461 @@
+﻿Kind:|Attack|cAttack|
+Dialog:KKedama0a:みんなみんな戦争戦争って！
+　どうして手を取り合えない！
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:僕が、僕がみんなを守るんだ！
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:守りたいものがあるから
+　戦えるんだ！
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:親父、お袋…
+　見ていてくれよッ！
+
+Kind:|Attack|cAttack|
+Cond:|isHPLow,|
+Dialog:KKedama0a:まだやれるからさ…
+　動けよ、体ｧッ！
+
+Kind:|Attack|cAttack|
+Cond:|isHPLow,|
+Dialog:KKedama0a:この程度の痛み、
+　あいつの涙に比べたら…！
+
+Kind:|cAttack|
+Cond:|isHPLow,|
+Dialog:KKedama0a:さっきのあいつ…あれは、涙…？
+
+Kind:|Attack|
+Cond:|isHPHigh|
+Dialog:KKedama0a:絶好調だ！　このまま突貫する！
+
+Kind:|Attack|
+Cond:|isEnHPLow|
+Dialog:KKedama0a:貴様の命運もここに尽きたな
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:KKedama0a:ｴﾈﾙｷﾞｰ充填100％…突撃する！
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:KKedama0a:そこｫー！！
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:KKedama0a:ﾌﾟﾗｸﾃｨｽもせずに前に出るから！
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:KKedama0a:ああもう！
+　わからないなら体で教えてやるよ！
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:KKedama0a:うわぁぁーっ！　体が熱い！！
+
+Kind:|Weapon|
+Cond:|isEnHPLow|
+WepId:|0|
+Dialog:KKedama0a:今楽にしてやる！
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:KKedama0a:前に出過ぎだって、何度言えば！
+
+Kind:|Weapon|
+EnId:|Daiyosei|
+WepId:|0|
+Dialog:KKedama0a:へへ…可愛いな、嬢ちゃん
+
+Kind:|Weapon|
+Cond:|isHPLow|
+WepId:|0|
+Dialog:KKedama0a:地獄の底まで道連れ、ってか
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:そこ、そこ、そこーっ！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:うわぁぁーっ！　体が熱い！！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:君を落とすけど、恨まないでくれよ
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:お前に俺の弾が見切れるかっての！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:ﾊﾞｯ…ﾊﾞｯｷｬﾛｫｰｯ！！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:誰が殺せだなんてッ！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:人を殺すことでしか、自分の
+　正しさを証明できないのかよｫーっ！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:母親に何を教わった！
+　殺せって言ったのかぁ！？
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:こんな人間たちなら、俺が始末する！
+　俺だけが罪を被ればいい！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:ﾌﾟﾗｸﾃｨｽもせずに前に出るから！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:君を落としてこの戦争が終わるなら…
+　僕は、撃つ！！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:当たれ、当たれよぉっ！
+　当たれ当たれ、当たれったら！
+　うわぁぁぁーっ！！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:どうしてこの戦場に来たんだ！
+　君みたいな少女がッ！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:馬鹿野郎、出てくるな！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:そんなところにいて…
+　当てろって言ってるようなもんだ！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:KKedama0a:出るな、出てきたら撃つ！
+　…くそ、遅いのかよッ！？
+
+Kind:|Weapon|
+WepId:|-2|
+Dialog:KKedama0a:ふん、怖気づいたか…嘆かわしい
+
+Kind:|Weapon|
+WepId:|-4|
+Dialog:KKedama0a:遠くから攻撃してさ。
+　ま、生き延びる術って奴か？
+
+Kind:|cAttack|
+Dialog:KKedama0a:やったらやり返される。
+　単純な仕組みだろ？
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:うわぁぁぁっ！
+　どうして戦争してまで！
+
+Kind:|cAttack|
+Dialog:KKedama0a:お前が堕ちたら泣く人も
+　いるんだろ！　だったら出てくるなよ！
+
+Kind:|cAttack|
+Dialog:KKedama0a:どうして撃つのを止めない！
+　俺もお前も、同じ人間だろうッ！
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:出てきたからには堕とす。
+　物心ついたときから、
+　そう教わってきたんだ
+
+Kind:|cAttack|
+Dialog:KKedama0a:これしかないのか…？
+　戦うことでしか、
+　戦争を止められないのか…？
+
+Kind:|cAttack|
+Dialog:KKedama0a:止めろって言ってるのに！
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:ｲﾔだよ！　戦うのはｷﾗいだよ！
+　…だけどッ！
+
+Kind:|cAttack|
+Dialog:KKedama0a:来るな、来るなっ！
+　うわぁぁぁーっ！！
+
+Kind:|cAttack|
+Cond:|isHPLow|
+Dialog:KKedama0a:少女の…声…？
+
+Kind:|cAttack|
+Dialog:KKedama0a:君を撃つことでしか、
+　僕は君を止められない
+
+Kind:|cAttack|
+Dialog:KKedama0a:君が悪いんだ…
+　君が僕を撃つから！！
+
+Kind:|cAttack|
+Dialog:KKedama0a:ﾊﾞｶ野郎！
+　撃ったら撃たれるんだよ！
+　どうしてそれがわからない！
+
+Kind:|Hit|
+Dialog:KKedama0a:ち、直撃だと！？
+
+Kind:|Hit|
+Dialog:KKedama0a:っ痛ー！　こいつは効いたぜ～！
+
+Kind:|Hit|
+Dialog:KKedama0a:おいおい、直撃かよっ？！
+
+Kind:|Hit|
+Dialog:KKedama0a:そうやってみんな…
+　やられたらやり返すって、そればかり！
+
+Kind:|Hit|
+Dialog:KKedama0a:だからもう撃つなってばさ！
+
+Kind:|Hit|
+Dialog:KKedama0a:お前が撃ち続ける限り、
+　憎しみの連鎖は終わらないんだッ！
+
+Kind:|Hit|
+Dialog:KKedama0a:くぅっ！　い、痛いさ…
+　だけど世界中の誰もが痛い！！
+
+Kind:|Hit|
+Dialog:KKedama0a:どうして人間同士で
+　撃ち合わなきゃいけない！
+　どうして憎み合わなきゃいけない！
+
+Kind:|Hit|
+Cond:|isDamageLow|
+Dialog:KKedama0a:気持ちのない攻撃なんて
+　効かない！！
+
+Kind:|Hit|Guard|
+EnId:|Daiyosei,Rumia,|
+Dialog:KKedama0a:可愛いもんだな。
+　いや、攻撃のことじゃない。
+　君のことだ
+
+Kind:|Hit|
+Dialog:KKedama0a:痛いさ。
+　だけど撃った君も痛いだろう！？
+
+Kind:|Hit|
+Dialog:KKedama0a:そんなに戦争がしたいのかよ！
+
+Kind:|Hit|
+Dialog:KKedama0a:みんなで作り上げた
+　平和だろぉーっ！
+
+Kind:|Hit|
+Dialog:KKedama0a:僕を墜とせば戦争をやめるのか。
+　違う癖に！！
+
+Kind:|Hit|
+Dialog:KKedama0a:やれやれ…
+　余所見してたらこのｻﾞﾏだ
+
+Kind:|Hit|
+Dialog:KKedama0a:腕の一本や二本、惜しむものかよ！
+
+Kind:|Hit|
+Dialog:KKedama0a:くそっ…
+　ｴﾝｼﾞﾝがやられたのか…っ！？
+
+Kind:|Hit|
+Dialog:KKedama0a:満身創痍か…面白い！
+
+Kind:|Hit|
+Cond:|isHPLow|
+Dialog:KKedama0a:残念だが、まだだ！
+
+Kind:|Hit|
+Cond:|isHPLow|
+Dialog:KKedama0a:倒したと思っただろ？
+
+Kind:|Hit|
+Cond:|isHPLow,|
+Dialog:KKedama0a:痛ぇよぉ…親父ｨ…お袋ｫ…
+
+Kind:|Hit|
+Cond:|isHPLow|
+Dialog:KKedama0a:倒れるもんか！
+　立って…立ってあいつのところへ帰る！
+
+Kind:|Hit|Guard|
+EnId:|Alice,Daiyosei|
+EnWep:|0|
+Dialog:KKedama0a:違う、もっと下だ！
+
+Kind:|Hit|Guard|
+Cond:|isHPLow,|
+EnId:|Alice|
+EnWep:|0|
+Dialog:KKedama0a:左の頬を蹴られたなら、
+　右の頬も出せ…
+Dialog:KKedama0a:…ってのは、
+　大叔父さんの台詞だったかな
+
+Kind:|Evade|
+Dialog:KKedama0a:命は惜しくない！
+　だがお前にやれるほど
+　安い命でもない！
+
+Kind:|Evade|
+Dialog:KKedama0a:生きて帰れって、
+　あいつが言うからさ
+
+Kind:|Evade|
+Dialog:KKedama0a:遊び半分なら、この戦争から降りろ！
+
+Kind:|Guard|
+Dialog:KKedama0a:耐え切れるのか…？
+　いや、耐えて見せる！
+
+Kind:|Graze|
+Dialog:KKedama0a:ｸﾞﾚｲｽﾞ
+
+Kind:|Barrier|
+Dialog:KKedama0a:ﾊﾞﾘｱ
+
+Kind:|Slash|
+Dialog:KKedama0a:切り払い
+
+Kind:|Pichun|
+Dialog:KKedama0a:はは、あっけないんだね、命って…
+Dialog:KKedama0a:うっ、うわぁぁぁぁぁぁー！！
+
+Kind:|Pichun|
+Dialog:KKedama0a:ありがとう。
+　これで僕もあいつのところへ、
+　行、け……
+
+Kind:|Pichun|
+Dialog:KKedama0a:俺を墜としたのは、
+　貴様で丁度108人目だ！
+
+Kind:|Pichun|
+Dialog:KKedama0a:本当は…
+　本当は戦争なんてどうでもいいんだ。
+　俺は…俺はあいつさえ救えれば…
+Dialog:KKedama0a:だけど…それも…もう…
+
+Kind:|Pichun|
+EnId:|Alice,Keine|
+EnWep:|0|
+Dialog:KKedama0a:べっぴんさんに蹴られたなら本望…
+Dialog:KKedama0a:…ってのは、
+　ひい爺さんの台詞だったかな
+
+Kind:|Pichun|
+EnId:|Keine,Komachi,Sakuya,Meiling,Marisa,Reimu|
+EnWep:|1|
+Dialog:KKedama0a:悪いな、俺は年下が好きなんだ
+
+Kind:|Pichun|
+Dialog:KKedama0a:ふん、ｱﾃﾞｨｵｽ
+
+Kind:|PichunMap|
+Dialog:KKedama0a:None
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:ちょ、ちょっと待てよ！
+　別に戦うだなんて言ってないだろ！？
+
+Kind:|Weapon|
+WepId:|0|1|
+Dialog:KKedama0a:人を殺すことでしか、自分の
+　正しさを証明できないのかよｫーっ！
+
+Kind:|Weapon|
+WepId:|0|1|
+Dialog:KKedama0a:母親に何を教わった！
+　戦争しろって言ったのかぁ！？
+
+Kind:|Weapon|
+WepId:|0|1|
+Dialog:KKedama0a:父ちゃんも母ちゃんも
+　泣いてるぞｫーッ！
+
+Kind:|sAttack|
+Dialog:KKedama0a:僕が戦うことで、
+　この戦争を終わらせられるならッ！
+
+Kind:|sAttack|sGuard|
+Dialog:KKedama0a:誰だって戦いたくないけど！
+
+Kind:|sAttack|sGuard|
+Dialog:KKedama0a:目の前で誰かが傷つくのを、
+　黙って見てるのが戦争屋かよぉッ！
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:戦争戦争って、
+　馬鹿の一つ覚えみたいに！
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:大人の癖に泣いたりして、
+　母ちゃんの膝の上じゃないんだぞ！
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:主義とか主張とかさ。
+　要は死ぬか生きるかだっての！
+
+Kind:|Pichun|
+Dialog:KKedama0a:機体のｵｰﾊﾞｰﾎｰﾙと、
+　汚れたｽｰﾂのｸﾘｰﾆﾝｸﾞ代…
+　こりゃ、今月も給料はなしだぜ
+
+Kind:|Evade|Graze|
+Dialog:KKedama0a:あーらよっと。
+　へへ、こんなもんだな
+
+Kind:|Hit|
+Dialog:KKedama0a:君と痛みを共有できたら…
+　誰も傷つかなくったって！
+
+Kind:|Attack|cAttack|
+Dialog:KKedama0a:裸になれば一緒だろ！？
+　着飾るから中身が判らなくなる！
+
+Kind:|Attack|
+Dialog:KKedama0a:こんにちは、戦争屋さん…っと！
+
+Kind:|cAttack|
+EventId:|1|
+Dialog:KKedama0a:ここで退がったって、
+　帰る場所なんかないんだよｫ！
+
+Kind:|Hit|
+EventId:|1|
+Dialog:KKedama0a:俺もお前も
+　いつか終わっちまうんだ…
+　痛みなんて、ただの過程だろ？
+
+Kind:|Weapon|
+EventId:|1|
+Dialog:KKedama0a:ﾒｿﾒｿすんなよ、大人だろッ！？
+
+Kind:|Pichun|
+EventId:|1|
+Dialog:KKedama0a:機体のｵｰﾊﾞｰﾎｰﾙと、
+　汚れたｽｰﾂのｸﾘｰﾆﾝｸﾞ代…
+　こりゃ、今月の給料もﾊﾟｧだぜ
+
+Kind:|aAttack|
+Dialog:KKedama0a:僕が戦うことで、
+　この戦争を終わらせられるならッ！

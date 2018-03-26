@@ -1,0 +1,13 @@
+﻿Kind:|Attack|cAttack|Hit|Guard|Evade|Graze|sAttack|sGuard|Barrier|Slash|Pichun|Counter|SBreak|
+Dialog:Karasu0a:……
+
+Kind:|Attack|cAttack|Hit|Guard|Evade|Graze|sAttack|sGuard|Barrier|Slash|Pichun|Counter|SBreak|
+Dialog:Karasu0a:……
+
+Kind:|Weapon|
+WepId:|0|1|-2|-4|
+Dialog:Karasu0a:……
+
+Kind:|PichunMap|
+Dialog:Karasu0a:None
+

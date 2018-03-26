@@ -1,0 +1,22 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "ØØ°W";
+Char[u_id, s_id*7+0] = 115;
+Char[u_id, s_id*7+1] = 128;
+Char[u_id, s_id*7+2] = 161;
+Char[u_id, s_id*7+3] = 93;
+Char[u_id, s_id*7+4] = 162;
+Char[u_id, s_id*7+5] = 161;
+Char[u_id, s_id*7+6] = 48;
+Temper[u_id, s_id]   = "ã‹C";
+Type[u_id, s_id]     = "SP_PRY";
+
+Pair[u_id, s_id]     = "|";
+Revenge[u_id, s_id]  = "|";
+
+SPList[u_id, s_id]     = "|j•Ÿ|’¼Š´|K‰^|‘_Œ‚|’¼Œ‚|Šú‘Ò|";
+SPListLv[u_id, s_id]   = "|01|10|100|100|100|100|";
+SPListCost[u_id, s_id] = "|45|25|15|15|30|60|";
+
+NumSkills[u_id, s_id]    = 0;

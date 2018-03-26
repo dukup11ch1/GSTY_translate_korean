@@ -1,0 +1,109 @@
+var u_id; u_id = argument0;
+
+//unit data-----------------------------
+Name[u_id]      = "秋　静葉";
+NameShort[u_id] = "静葉";
+Race[u_id]      = "神";
+
+Unit[u_id, 0]   = 7800;
+Unit[u_id, 1]   = 200;
+Unit[u_id, 2]   = 95;
+Unit[u_id, 3]   = 800;
+Unit[u_id, 4]   = 6;
+MovSlow[u_id]   = 0.4;
+Size[u_id]      = "M";
+Cost[u_id]      = 1.5;
+Tune[u_id]      = "|5000|200|60|500|";
+
+NumSlots[u_id]  = 3;
+Compat[u_id, 0] = "A";
+Compat[u_id, 1] = "A";
+Compat[u_id, 2] = "C";
+Compat[u_id, 3] = "A";
+
+NumSpecials[u_id] = 1;
+Special[u_id, 0]  = "MBLOCK";
+
+NumWeps[u_id]   = 2; if(global.stage_num == 19) NumWeps[u_id] += 1;
+WepTune[u_id]   = "C";
+
+NumBGM[u_id]    = 1;
+BGM[u_id, 0]    = "bgm_battle_Shizuha";
+NumPilots[u_id] = 1;
+Pilot[u_id, 0]  = "Shizuha";
+
+SprPichun[u_id] = "04";
+
+//weapon--------------------------------
+var WepId; WepId = 0;
+
+WepKind[u_id, WepId]    = 0;
+WepName[u_id, WepId]    = "狂いの落葉";
+WepDemo[u_id, WepId]    = "rakuyo";
+WepDamage[u_id, WepId]  = 2050;
+WepRMin[u_id, WepId]    = 3;
+WepRMax[u_id, WepId]    = 7;
+WepHit[u_id, WepId]     = 20;
+WepCrt[u_id, WepId]     = 10;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 0;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 15;
+WepMP[u_id, WepId]      = 0;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "C";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 0;
+WepName[u_id, WepId]    = "ﾌｫｰﾘﾝﾌﾞﾗｽﾄ";
+WepDemo[u_id, WepId]    = "FBlast";
+WepDamage[u_id, WepId]  = 2350;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 5;
+WepHit[u_id, WepId]     = 10;
+WepCrt[u_id, WepId]     = 20;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 10;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "C";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "？？？？？";
+WepDemo[u_id, WepId]    = "Aki_kick";
+WepDamage[u_id, WepId]  = 2950;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 3;
+WepHit[u_id, WepId]     = 15;
+WepCrt[u_id, WepId]     = 25;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 25;
+WepPower[u_id, WepId]   = 110;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "B";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "Minoriko_en|";
+WepShape[u_id, WepId]   = "";

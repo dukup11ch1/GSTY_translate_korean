@@ -1,0 +1,140 @@
+Kind:|Attack|
+Dialog:Merlin0a:二人には悪いけど、
+　やっぱり私の音が一番よね！
+
+Kind:|Attack|
+Dialog:Merlin0a:二人には悪いけど、
+　やっぱり私の音が一番よね！
+
+Kind:|Attack|
+Dialog:Merlin0a:ﾍﾞﾙ上げよ～し！
+　楽しくやりましょう！
+
+Kind:|Attack|
+Dialog:Merlin0a:さあ、私の演奏を聴いて
+　ﾊｯﾋﾟｰになろう！
+
+Kind:|cAttack|
+Dialog:Merlin0a:どんな時も、
+　ﾊｯﾋﾟｰの魂を忘れちゃいけないわ！
+
+Kind:|cAttack|
+Dialog:Merlin0a:私の演奏を聴いて
+　無事だった食料は無いわ！
+
+Kind:|cAttack|
+Dialog:Merlin0a:あなたには少しばかし
+　躁状態になって貰った方が良いわね！
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:Merlin0a:破天荒にいくわよ～
+Dialog:Merlin1a:あた～っく！
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:Merlin0a:どんどんあげていきましょー！
+Dialog:Merlin1a:そーれ！
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:Merlin0a:下、左、左下～…
+Dialog:Merlin1a:しょうりゅうけーん！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:Merlin0a:音が遠くまで届くｺﾂは…
+　ﾊｯﾋﾟｰよ！
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:Merlin1a:ぱふぱふ～
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:Merlin0a:へにょり倒すわよ～
+
+Kind:|Weapon|
+WepId:|2|
+Dialog:Merlin1a:ﾌｧﾝﾌｧｰﾚは盛大にいくわよ～！
+
+Kind:|Weapon|
+WepId:|2|
+Dialog:Merlin1a:どこまでもｿｳﾙﾌﾙに届けるわ～
+
+Kind:|Weapon|
+WepId:|2|
+Dialog:Merlin1a:飛び出せ、ﾊｯﾋﾟｰｻｳﾝﾄﾞ！
+
+Kind:|Weapon|
+WepId:|-2|
+Dialog:Merlin2a:ああん、ちょっと休憩させて～
+
+Kind:|Weapon|
+WepId:|-4|
+Dialog:Merlin0a:心を動かせない音になんか
+　興味はないわ
+
+Kind:|Weapon|
+WepId:|-4|
+Dialog:Merlin1a:んー、あなたはお呼びでないわー
+
+Kind:|aAttack|
+Dialog:Merlin0a:ﾘﾍﾞﾝｼﾞ
+
+Kind:|sAttack|
+Dialog:Merlin1a:この舞台は私のものね～
+
+Kind:|sAttack|
+Dialog:Merlin0a:お待たせしました！
+　花形の登場よ～！
+
+Kind:|sGuard|
+Dialog:Merlin1a:目立つ機会は逃がさない！
+
+Kind:|sGuard|
+Dialog:Merlin1a:ここでまさかのｻﾌﾟﾗｲｽﾞっ！
+
+Kind:|Hit|
+Dialog:Merlin2a:ｸﾗｸﾗする～
+
+Kind:|Hit|
+Dialog:Merlin2a:もう、傷がつくじゃないの
+
+Kind:|Hit|Guard|
+Dialog:Merlin2a:きゃっ！？
+　あなたもﾉﾘﾉﾘなのねー！
+
+Kind:|Hit|Guard|
+Dialog:Merlin0a:あー楽しい。
+　じゃなかった、痛い痛い
+
+Kind:|Hit|Guard|
+Dialog:Merlin0a:うんうん！
+　私が一番目立っちゃうものね～
+
+Kind:|Evade|
+Dialog:Merlin1a:わうわう～♪
+
+Kind:|Graze|
+Dialog:Merlin0a:ｸﾞﾚｲｽﾞ
+
+Kind:|Barrier|
+Dialog:Merlin0a:ﾊﾞﾘｱ
+
+Kind:|SBreak|
+Dialog:Merlin0a:ｽﾍﾟﾙﾌﾞﾚｲｸ
+
+Kind:|Slash|
+Dialog:Merlin0a:切り払い
+
+Kind:|Counter|
+Dialog:Merlin0a:ｶｳﾝﾀｰ
+
+Kind:|Pichun|
+Dialog:Merlin0a:私だけの演奏じゃ、
+　満足できないのね
+
+Kind:|PichunMap|
+Dialog:Merlin0a:None
+

@@ -1,0 +1,49 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = " ﬂ¡≠ÿ∞";
+Char[u_id, s_id*7+0] = 99;
+Char[u_id, s_id*7+1] = 161;
+Char[u_id, s_id*7+2] = 184;
+Char[u_id, s_id*7+3] = 79;
+Char[u_id, s_id*7+4] = 150;
+Char[u_id, s_id*7+5] = 189;
+Char[u_id, s_id*7+6] = 40;
+Temper[u_id, s_id]   = "ó‚ê√";
+Type[u_id, s_id]     = "MGR_DEF";
+
+Pair[u_id, s_id]     = "|Koakuma|2|";
+Revenge[u_id, s_id]  = "|Koakuma|10|";
+
+if(check_flag("M29_Patchouli"))
+{
+    Pair[u_id, s_id]    += "Marisa|2|";
+    Revenge[u_id, s_id] += "Marisa|20|";
+}
+
+SPList[u_id, s_id]     = "|èWíÜ|ë_åÇ|ïKíÜ|ìSï«|óFèÓ|îMåå|";
+SPListLv[u_id, s_id]   = "|01|05|14|24|41|46|";
+SPListCost[u_id, s_id] = "|15|20|15|30|60|60|";
+
+NumSkills[u_id, s_id]    = 5;
+SkillID[u_id, s_id*10+0] = "MAHOU";
+SkillLv[u_id, s_id*10+0] = "|01|01|01|15|23|32|43|54|64|";
+
+SkillID[u_id, s_id*10+1] = "HAWAY_PATCHE";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "ENCHANT_AGNI";
+SkillLv[u_id, s_id*10+2] = "|18|";
+
+SkillID[u_id, s_id*10+3] = "M_SHIELD+_PATCHE";
+SkillLv[u_id, s_id*10+3] = "|16|25|35|47|";
+
+SkillID[u_id, s_id*10+4] = "LIBRARY";
+SkillLv[u_id, s_id*10+4] = "|20|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+5] = "KIAI";
+SkillLv[u_id, s_id*10+5] = "|01|";
+
+SkillID[u_id, s_id*10+6] = "NODIST";
+SkillLv[u_id, s_id*10+6] = "|01|";

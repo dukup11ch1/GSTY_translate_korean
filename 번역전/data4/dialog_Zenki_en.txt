@@ -1,0 +1,16 @@
+Kind:|Attack|cAttack|Hit|Guard|Evade|Graze|sAttack|sGuard|Barrier|SBreak|Slash|Counter|
+Dialog:Zenki0a:……
+
+Kind:|Attack|cAttack|Hit|Guard|Evade|Graze|sAttack|sGuard|Barrier|SBreak|Slash|Counter|
+Dialog:Zenki0a:……
+
+Kind:|Weapon|
+WepId:|0|1|2|-2|-4|
+Dialog:Zenki0a:……
+
+Kind:|aAttack|
+Dialog:Zenki0a:……！
+
+Kind:|Pichun|PichunMap|
+Dialog:Zenki0a:……！
+

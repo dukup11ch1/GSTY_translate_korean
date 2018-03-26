@@ -1,0 +1,27 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "—H";
+Char[u_id, s_id*7+0] = 155;
+Char[u_id, s_id*7+1] = 159;
+Char[u_id, s_id*7+2] = 188;
+Char[u_id, s_id*7+3] = 110;
+Char[u_id, s_id*7+4] = 106;
+Char[u_id, s_id*7+5] = 184;
+Char[u_id, s_id*7+6] = 55;
+Temper[u_id, s_id]   = "ÄŞS";
+Type[u_id, s_id]     = "ALL_MGR";
+
+Pair[u_id, s_id]     = "|Elliy|2|Kurumi|2|";
+Revenge[u_id, s_id]  = "|Elliy|30|Kurumi|30|Alice|10|";
+
+SPList[u_id, s_id]     = "|‹C”—|•K’†|’¼Œ‚|íœÉ|Œƒ“¬|°|";
+SPListLv[u_id, s_id]   = "|01|05|10|100|100|100|";
+SPListCost[u_id, s_id] = "|30|15|15|20|65|80|";
+
+NumSkills[u_id, s_id]    = 2;
+SkillID[u_id, s_id*10+0] = "BLOCK";
+SkillLv[u_id, s_id*10+0] = "|01|01|15|22|29|36|43|";
+
+SkillID[u_id, s_id*10+1] = "SHIELD";
+SkillLv[u_id, s_id*10+1] = "|01|01|01|15|23|30|39|";

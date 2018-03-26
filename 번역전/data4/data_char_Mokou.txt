@@ -1,0 +1,37 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "妹紅";
+Char[u_id, s_id*7+0] = 146;
+Char[u_id, s_id*7+1] = 138;
+Char[u_id, s_id*7+2] = 172;
+Char[u_id, s_id*7+3] = 85;
+Char[u_id, s_id*7+4] = 170;
+Char[u_id, s_id*7+5] = 175;
+Char[u_id, s_id*7+6] = 40;
+Temper[u_id, s_id]   = "強気";
+Type[u_id, s_id]     = "ATP_PRY";
+
+Pair[u_id, s_id]     = "|Keine|1|";
+Revenge[u_id, s_id]  = "|Keine|50|";
+
+SPList[u_id, s_id]     = "|集中|直撃|必中|熱血|気迫|捨て身|";
+SPListLv[u_id, s_id]   = "|01|08|16|30|40|49|";
+SPListCost[u_id, s_id] = "|15|20|20|45|50|40|";
+
+NumSkills[u_id, s_id]    = 3;
+SkillID[u_id, s_id*10+0] = "REVITALIZE";
+SkillLv[u_id, s_id*10+0] = "|01|41|";
+
+SkillID[u_id, s_id*10+1] = "KISHIKAISEI";
+SkillLv[u_id, s_id*10+1] = "|14|";
+
+SkillID[u_id, s_id*10+2] = "KAMARI";
+SkillLv[u_id, s_id*10+2] = "|24|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+3] = "KIAI";
+SkillLv[u_id, s_id*10+3] = "|01|01|01|01|01|01|01|";
+
+SkillID[u_id, s_id*10+4] = "SOKO";
+SkillLv[u_id, s_id*10+4] = "|01|01|01|01|01|01|01|";

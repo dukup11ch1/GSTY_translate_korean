@@ -1,0 +1,43 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "•¶";
+Char[u_id, s_id*7+0] = 140;
+Char[u_id, s_id*7+1] = 137;
+Char[u_id, s_id*7+2] = 182;
+Char[u_id, s_id*7+3] = 80;
+Char[u_id, s_id*7+4] = 185;
+Char[u_id, s_id*7+5] = 172;
+Char[u_id, s_id*7+6] = 40;
+Temper[u_id, s_id]   = "’´‹­‹C";
+Type[u_id, s_id]     = "ATP_PRY";
+
+Pair[u_id, s_id]     = "|Momiji|1|";
+Revenge[u_id, s_id]  = "|Momiji|35|";
+
+SPList[u_id, s_id]     = "|’ãŽ@|‰Á‘¬|‘M‚«|’¼Š´|”MŒŒ|‚©‚­—|";
+SPListLv[u_id, s_id]   = "|01|01|14|25|39|47|";
+SPListCost[u_id, s_id] = "|01|10|15|25|65|80|";
+
+NumSkills[u_id, s_id]    = 4;
+SkillID[u_id, s_id*10+0] = "BLOCK";
+SkillLv[u_id, s_id*10+0] = "|01|14|21|36|52|";
+
+SkillID[u_id, s_id*10+1] = "FUJIN";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "OIKAZE";
+SkillLv[u_id, s_id*10+2] = "|01|";
+
+SkillID[u_id, s_id*10+3] = "SUPERFAST";
+SkillLv[u_id, s_id*10+3] = "|01|";
+
+if(sort == "player" || global.level > 0)
+{
+    NumSkills[u_id, s_id]   += 2;
+    SkillID[u_id, s_id*10+4] = "MIKIRI";
+    SkillLv[u_id, s_id*10+4] = "|01|";
+    
+    SkillID[u_id, s_id*10+5] = "P_GOTHIT";
+    SkillLv[u_id, s_id*10+5] = "|01|";
+}

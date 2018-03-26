@@ -1,0 +1,90 @@
+NumBullets = 4; if(global.stage_num != 32 && global.stage_num > 0) NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 3;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 20;
+BulMov[BulId, 0] = 1.0;
+BulID[BulId, 0]  = "ATP+_YOUMU";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 9000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "獄界剣「二百由旬の一閃」";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 0;
+BulShape[BulId] = "";
+BulSlots[BulId] = 2;
+
+BulDEF[BulId, 0] = 40;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 2;
+BulID[BulId,  0] = "";
+
+BulDEF[BulId, 1] = 25;
+BulPRY[BulId, 1] = 15;
+BulMov[BulId, 1] = 1;
+BulID[BulId,  1] = "NOENTER";
+
+BulHP[BulId]     = 19000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 12000;
+BulEXP[BulId]    = 220;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "yujun";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "天上剣「天人の五衰」";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 0;
+BulShape[BulId] = "";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 35;
+BulMov[BulId, 0] = 1.2;
+BulID[BulId,  0] = "ARMOR-_GOSUI";
+
+BulHP[BulId]     = 21000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 10000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "gosui";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "六道剣「一念無量劫」";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 0;
+BulShape[BulId] = "";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 25;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 0;
+BulID[BulId,  0] = "NOSUPPORT_ICHINEN";
+
+BulHP[BulId]     = 25000;
+BulTurns[BulId]  = -1;
+BulPoints[BulId] = 14000;
+BulEXP[BulId]    = 230;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "ichinen";
+BulUpdate[BulId] = 1;

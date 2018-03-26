@@ -1,0 +1,109 @@
+var u_id; u_id = argument0;
+
+//unit data-----------------------------
+Name[u_id]      = "鍵山　雛";
+NameShort[u_id] = "雛";
+Race[u_id]      = "神";
+
+Unit[u_id, 0]   = 4600;
+Unit[u_id, 1]   = 150;
+Unit[u_id, 2]   = 120;
+Unit[u_id, 3]   = 800;
+Unit[u_id, 4]   = 6;
+MovSlow[u_id]   = 0.5;
+Size[u_id]      = "M";
+Cost[u_id]      = 2.0;
+Tune[u_id]      = "|2000|100|50|400|";
+
+NumSlots[u_id]  = 3;
+Compat[u_id, 0] = "A";
+Compat[u_id, 1] = "A";
+Compat[u_id, 2] = "A";
+Compat[u_id, 3] = "A";
+
+NumSpecials[u_id] = 0;
+
+NumWeps[u_id]   = 3;
+WepTune[u_id]   = "C";
+
+NumBGM[u_id]    = 1;
+BGM[u_id, 0]    = "bgm_battle_Hina";
+NumPilots[u_id] = 1;
+Pilot[u_id, 0]  = "Hina";
+NumComb[u_id]   = 0;
+
+SprPichun[u_id] = "01";
+
+//--------------------------------------
+var WepId; WepId = 0;
+
+WepKind[WepId]      = 1;
+WepName[WepId]      = "厄神ｽﾋﾟﾝ";
+WepDemo[WepId]      = "combat_Hina";
+WepDamage[WepId]    = 1900;
+WepRMin[WepId]      = 1;
+WepRMax[WepId]      = 3;
+WepHit[WepId]       = 30;
+WepCrt[WepId]       = 35;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 1;
+WepSpecial[WepId]   = "なし";
+WepBMax[WepId]      = 0;
+WepMP[WepId]        = 0;
+WepPower[WepId]     = 0;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "A";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+
+WepId += 1;
+WepKind[WepId]      = 0;
+WepName[WepId]      = "ﾌﾞﾛｰｸﾝｱﾐｭﾚｯﾄ";
+WepDemo[WepId]      = "broken";
+WepDamage[WepId]    = 2000;
+WepRMin[WepId]      = 3;
+WepRMax[WepId]      = 5;
+WepHit[WepId]       = 15;
+WepCrt[WepId]       = 20;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "なし";
+WepBMax[WepId]      = 15;
+WepMP[WepId]        = 0;
+WepPower[WepId]     = 0;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "B";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+
+WepId += 1;
+WepKind[WepId]      = 0;
+WepName[WepId]      = "ﾍﾟｲﾝﾌﾛｰ";
+WepDemo[WepId]      = "pflow";
+WepDamage[WepId]    = 2750;
+WepRMin[WepId]      = 3;
+WepRMax[WepId]      = 6;
+WepHit[WepId]       = 15;
+WepCrt[WepId]       = 30;
+WepL[WepId]         = 0;
+WepP[WepId]         = 0;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "なし";
+WepBMax[WepId]      = 8;
+WepMP[WepId]        = 0;
+WepPower[WepId]     = 115;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "A";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";

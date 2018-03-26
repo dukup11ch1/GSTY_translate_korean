@@ -1,0 +1,42 @@
+NumBullets = 2; if(global.stage_num != 21 && global.stage_num > 0) NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 4;
+BulShape[BulId] = "square";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 12;
+BulMov[BulId, 0] = 1;
+BulID[BulId, 0]  = "PROB+_SHIELD";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 6500;
+BulEXP[BulId]    = 180;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+BulId += 1;
+BulName[BulId]  = "ãÁïÑÅu⁄≤Àﬁ∞Ωﬁ ﬁ≤ƒÅv";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 4;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 35;
+BulPRY[BulId, 0] = 25;
+BulMov[BulId, 0] = 1.25;
+BulID[BulId, 0]  = "GUARD_BREAK_BITE";
+
+BulHP[BulId]     = 14500;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 9000;
+BulEXP[BulId]    = 220;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "bite";
+BulUpdate[BulId] = 1;

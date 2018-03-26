@@ -1,0 +1,40 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "Ÿ≈";
+Char[u_id, s_id*7+0] = 121;
+Char[u_id, s_id*7+1] = 132;
+Char[u_id, s_id*7+2] = 156;
+Char[u_id, s_id*7+3] = 93;
+Char[u_id, s_id*7+4] = 158;
+Char[u_id, s_id*7+5] = 169;
+Char[u_id, s_id*7+6] = 52;
+Temper[u_id, s_id]   = "êTèd";
+Type[u_id, s_id]     = "ALL_MGR";
+
+Pair[u_id, s_id]     = "|Star|2|Sunny|2|";
+Revenge[u_id, s_id]  = "|Star|35|Sunny|35|";
+
+SPList[u_id, s_id]     = "|èWíÜ|ìSï«|ïKíÜ|ìwóÕ|êMóä|â¡ë¨|";
+SPListLv[u_id, s_id]   = "|01|08|15|23|31|40|";
+SPListCost[u_id, s_id] = "|15|25|15|25|30|20|";
+
+NumSkills[u_id, s_id]    = 4;
+SkillID[u_id, s_id*10+0] = "SGUARD";
+SkillLv[u_id, s_id*10+0] = "|01|";
+
+SkillID[u_id, s_id*10+1] = "LUNA_FAIRY";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "THREE_FAIRIES_LUNA";
+SkillLv[u_id, s_id*10+2] = "|01|13|26|41|";
+
+SkillID[u_id, s_id*10+3] = "SILENCE";
+SkillLv[u_id, s_id*10+3] = "|01|23|36|48|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+4] = "USO";
+SkillLv[u_id, s_id*10+4] = "|01|";
+
+SkillID[u_id, s_id*10+5] = "P_HIT";
+SkillLv[u_id, s_id*10+5] = "|01|";

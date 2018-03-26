@@ -1,0 +1,61 @@
+var u_id; u_id = argument0;
+
+//unit data-----------------------------
+Name[u_id]      = "上海人形";
+NameShort[u_id] = "ｼｬﾝﾊｲ";
+Race[u_id]      = "人形";
+
+Unit[u_id, 0]   = 2800;
+Unit[u_id, 1]   = 80;
+Unit[u_id, 2]   = 90;
+Unit[u_id, 3]   = 650;
+Unit[u_id, 4]   = 5;
+MovSlow[u_id]   = 0.5;
+Size[u_id]      = "SS";
+Cost[u_id]      = 0;
+Tune[u_id]      = "|1500|100|40|400|";
+
+NumSlots[u_id]  = 2;
+Compat[u_id, 0] = "A";
+Compat[u_id, 1] = "B";
+Compat[u_id, 2] = "C";
+Compat[u_id, 3] = "A";
+
+NumSpecials[u_id] = 0;
+
+NumWeps[u_id]   = 1;
+WepTune[u_id]   = "D";
+
+NumBGM[u_id]    = 1;
+BGM[u_id, 0]    = "bgm_battle_Shanghai";
+NumPilots[u_id] = 1;
+Pilot[u_id, 0]  = "Shanghai";
+
+SprPichun[u_id] = "01";
+
+//--------------------------------------
+var WepId; WepId = 0;
+
+WepKind[WepId]      = 0;
+WepName[WepId]      = "ﾚｰｻﾞｰ";
+WepDemo[WepId]      = "laser_Shanghai";
+WepDamage[WepId]    = 2300;
+WepRMin[WepId]      = 3;
+WepRMax[WepId]      = 7;
+WepHit[WepId]       = 15;
+WepCrt[WepId]       = 15;
+WepL[WepId]         = 1;
+WepP[WepId]         = 0;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "なし";
+WepBMax[WepId]      = 0;
+WepMP[WepId]        = 10;
+WepPower[WepId]     = 0;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "B";
+WepWater[WepId]     = "C";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+

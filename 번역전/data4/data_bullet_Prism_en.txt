@@ -1,0 +1,116 @@
+NumBullets = 3;
+
+//--------------------------------------
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 2;
+BulRMax[BulId]  = 5;
+BulShape[BulId] = "circle";
+BulSlots[BulId]   = 1;
+
+BulDEF[BulId, 0] = 0;
+BulPRY[BulId, 0] = 0;
+BulMov[BulId, 0] = 0;
+BulID[BulId, 0]  = "";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 0;
+BulEXP[BulId]    = 0;
+BulPP[BulId]     = 0;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "合葬「ﾌﾟﾘｽﾞﾑｺﾝﾁｪﾙﾄ」";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 0;
+BulShape[BulId] = "";
+BulSlots[BulId] = 3;
+
+BulHP[BulId]     = 19000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 12500;
+BulEXP[BulId]    = 220;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "concerto";
+BulUpdate[BulId] = 1;
+
+BulDEF[BulId, 0] = 0;
+BulPRY[BulId, 0] = 0;
+BulMov[BulId, 0] = 0;
+BulID[BulId,  0] = "";
+
+BulDEF[BulId, 1] = 12;
+BulPRY[BulId, 1] = 12;
+BulMov[BulId, 1] = 0;
+BulID[BulId,  1] = "";
+
+BulDEF[BulId, 2] = 12;
+BulPRY[BulId, 2] = 12;
+BulMov[BulId, 2] = 0;
+BulID[BulId,  2] = "";
+
+if(check_flag("C30_Lunasa"))     
+{
+    BulDEF[BulId, 0] = 24;
+    BulPRY[BulId, 0] = 24;
+    BulMov[BulId, 0] = 0.5;
+
+    BulID[BulId, 0] = "WEPPOW+_LUNASA";
+    BulID[BulId, 1] = "HIT+_LYRICA";
+    BulID[BulId, 2] = "POW+_MERLIN";
+}
+else if(check_flag("C30_Merlin"))
+{
+    BulDEF[BulId, 0] = 35;
+    BulPRY[BulId, 0] = 0;
+    BulMov[BulId, 0] = 0.75;
+
+    BulID[BulId, 0] = "MAXPOW+_MERLIN";
+    BulID[BulId, 1] = "POW-_LUNASA";
+    BulID[BulId, 2] = "HIT+_LYRICA";
+}
+else
+{
+    BulDEF[BulId, 0] = 0;
+    BulPRY[BulId, 0] = 35;
+    BulMov[BulId, 0] = 0.33;
+
+    BulID[BulId, 0] = "CONSUME+_BUL_LYRICA";
+    BulID[BulId, 1] = "POW+_MERLIN";
+    BulID[BulId, 2] = "POW-_LUNASA";
+}
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "大合葬「霊車ｺﾝﾁｪﾙﾄｸﾞﾛｯｿ」";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 0;
+BulShape[BulId] = "";
+BulSlots[BulId] = 3;
+
+BulHP[BulId]     = 23000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 16000;
+BulEXP[BulId]    = 250;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "grosso";
+BulUpdate[BulId] = 0;
+
+BulDEF[BulId, 0] = 30;
+BulPRY[BulId, 0] = 5;
+BulMov[BulId, 0] = 0.5;
+BulID[BulId,  0] = "ELEMENT";
+
+BulDEF[BulId, 1] = 0;
+BulPRY[BulId, 1] = 15;
+BulMov[BulId, 1] = 2;
+BulID[BulId,  1] = "";
+
+BulDEF[BulId, 2] = 30;
+BulPRY[BulId, 2] = 0;
+BulMov[BulId, 2] = 1;
+BulID[BulId,  2] = "";

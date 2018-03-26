@@ -1,0 +1,22 @@
+NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 7;
+BulShape[BulId] = "circle";
+BulSlots[BulId]   = 1;
+
+BulDEF[BulId, 0] = 5;
+BulPRY[BulId, 0] = 5;
+BulMov[BulId, 0] = 0.1;
+BulID[BulId, 0]  = "HIT+_LYRICA";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 6500;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;

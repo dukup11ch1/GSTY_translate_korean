@@ -1,0 +1,54 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "Ç…Ç∆ÇË";
+Char[u_id, s_id*7+0] = 129;
+Char[u_id, s_id*7+1] = 135;
+Char[u_id, s_id*7+2] = 164;
+Char[u_id, s_id*7+3] = 104;
+Char[u_id, s_id*7+4] = 118;
+Char[u_id, s_id*7+5] = 172;
+Char[u_id, s_id*7+6] = 60;
+Temper[u_id, s_id]   = "ã≠ãC";
+Type[u_id, s_id]     = "ALL_MGR";
+
+Pair[u_id, s_id]     = "|Hina|2|Momiji|2|Alice|2|";
+Revenge[u_id, s_id]  = "|Hina|35|Momiji|20|Alice|10|";
+
+val = 1;
+if(check_flag("Nitori_pursuade")) val += 1;
+if(check_flag("M29_Nitori"))      val += 1;
+Pair[u_id, s_id] += "Marisa|" + string(val) + "|";
+
+SPList[u_id, s_id]     = "|í„é@|ìSï«|èWíÜ|óFèÓ|ë_åÇ|ï‚ãã|";
+SPListLv[u_id, s_id]   = "|01|05|13|19|27|43|";
+SPListCost[u_id, s_id] = "|01|20|15|50|20|60|";
+
+NumSkills[u_id, s_id]    = 8;
+SkillID[u_id, s_id*10+0] = "SATTACK";
+SkillLv[u_id, s_id*10+0] = "|01|25|";
+
+SkillID[u_id, s_id*10+1] = "SGUARD";
+SkillLv[u_id, s_id*10+1] = "|01|29|";
+
+SkillID[u_id, s_id*10+2] = "N_ARM+";
+SkillLv[u_id, s_id*10+2] = "|01|";
+
+SkillID[u_id, s_id*10+3] = "SATTACK_HIT+";
+SkillLv[u_id, s_id*10+3] = "|12|";
+
+SkillID[u_id, s_id*10+4] = "SP_COST-_NITORI";
+SkillLv[u_id, s_id*10+4] = "|19|";
+
+SkillID[u_id, s_id*10+5] = "OPTICAL";
+SkillLv[u_id, s_id*10+5] = "|20|";
+
+SkillID[u_id, s_id*10+6] = "CARPET";
+SkillLv[u_id, s_id*10+6] = "|41|50|";
+
+SkillID[u_id, s_id*10+7] = "BACKPACK";
+SkillLv[u_id, s_id*10+7] = "|29|";
+
+NumSkills[u_id, s_id]   += 1;
+SkillID[u_id, s_id*10+8] = "P_GOTHIT";
+SkillLv[u_id, s_id*10+8] = "|01|";

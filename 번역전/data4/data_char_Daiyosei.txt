@@ -1,0 +1,40 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "‘å—d¸";
+Char[u_id, s_id*7+0] = 110;
+Char[u_id, s_id*7+1] = 130;
+Char[u_id, s_id*7+2] = 162;
+Char[u_id, s_id*7+3] = 95;
+Char[u_id, s_id*7+4] = 165;
+Char[u_id, s_id*7+5] = 160;
+Char[u_id, s_id*7+6] = 50;
+Temper[u_id, s_id]   = "ã‹C";
+Type[u_id, s_id]     = "SP_PRY";
+
+Pair[u_id, s_id]     = "|Cirno|3|";
+Revenge[u_id, s_id]  = "|Cirno|50|";
+
+SPList[u_id, s_id]     = "|M—Š|‰‰‡|‘M‚«|j•Ÿ|—Fî|Ä“®|";
+SPListLv[u_id, s_id]   = "|1|11|18|26|38|100|";
+SPListCost[u_id, s_id] = "|15|30|15|50|50|70|";
+
+NumSkills[u_id, s_id]    = 5;
+SkillID[u_id, s_id*10+0] = "SGUARD";
+SkillLv[u_id, s_id*10+0] = "|01|16|32|";
+
+SkillID[u_id, s_id*10+1] = "KENAGE";
+SkillLv[u_id, s_id*10+1] = "|01|17|29|";
+
+SkillID[u_id, s_id*10+2] = "IYASHI";
+SkillLv[u_id, s_id*10+2] = "|11|";
+
+SkillID[u_id, s_id*10+3] = "PAIRTO_CIRNO";
+SkillLv[u_id, s_id*10+3] = "|01|19|33|";
+
+SkillID[u_id, s_id*10+4] = "GANBARIYA";
+SkillLv[u_id, s_id*10+4] = "|19|29|60|";
+
+NumSkills[u_id, s_id]    += 1;
+SkillID[u_id, s_id*10+5] = "KIAI";
+SkillLv[u_id, s_id*10+5] = "|01|01|01|";

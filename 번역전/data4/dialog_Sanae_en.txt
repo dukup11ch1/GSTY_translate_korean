@@ -1,0 +1,599 @@
+Kind:|Attack|cAttack|
+aCon:|argument0.bullet_id <= 1|
+StageId:|22|
+Dialog:Sanae0a:守矢神社の信仰の力、
+　お見せいたしましょう
+
+Kind:|Attack|cAttack|
+aCon:|argument0.bullet_id <= 1|
+EnId:|Reimu|
+StageId:|22|
+Dialog:Sanae0a:勝負です、霊夢さん！
+
+Kind:|Attack|cAttack|
+aCon:|argument0.bullet_id <= 1|
+EnId:|Reimu|
+StageId:|22|
+Dialog:Sanae0a:博麗神社は、
+　私たち守矢神社がいただきます！
+
+Kind:|Attack|cAttack|
+aCon:|argument0.bullet_id <= 1|
+StageId:|22|
+Dialog:Sanae0a:以前のようには参りませんよ！
+
+Kind:|Attack|cAttack|
+aCon:|argument0.bullet_id > 1|
+EnId:|Reimu|
+StageId:|22|
+Dialog:Sanae1a:あなたがそんなことだから、
+　神様は信仰を失います！
+
+Kind:|Attack|cAttack|
+EnId:|Reimu|
+StageId:|22|
+Dialog:Sanae5c:霊夢さんにはわかりません！
+
+Kind:|Attack|cAttack|
+aCon:|argument0.bullet_id > 1|
+StageId:|22|
+Dialog:Sanae1a:八坂様のご加護があれば、
+　私は負けません！
+
+Kind:|Attack|cAttack|
+aCon:|argument0.bullet_id > 1|
+StageId:|22|
+Dialog:Sanae5a:やはり、天狗の方々は…
+
+Kind:|Attack|cAttack|
+StageId:|22|
+Dialog:Sanae1a:こうなることも、覚悟の上です！
+
+Kind:|Attack|
+WepId:|3|
+Dialog:Sanae0a:一子相伝の秘術をお見せしましょう
+
+Kind:|Attack|
+StageId:|13|
+Dialog:Sanae0a:何度やっても同じですよ
+
+Kind:|Attack|
+StageId:|13|
+Dialog:Sanae0a:どちらが幻想郷の巫女に
+　相応しいか、はっきりさせましょう
+
+Kind:|Attack|
+StageId:|13|
+Dialog:Sanae0a:前回の結果を忘れたんですか？
+
+Kind:|Attack|
+StageId:|13|
+Dialog:Sanae0a:あなたを倒して、
+　博麗神社は営業停止です！
+
+Kind:|Attack|
+Cond:|isHPLow|
+StageId:|13|
+Dialog:Sanae0a:調子がおかしい…
+　なんて、気のせいです
+
+Kind:|Attack|
+Cond:|isHPLow|
+StageId:|13|
+Dialog:Sanae0a:きっと、集中力が足りないんです
+
+Kind:|Attack|
+Cond:|isHPLow|
+StageId:|13|
+Dialog:Sanae2a:…八坂様、洩矢様…
+
+Kind:|Attack|
+StageId:|13|
+WepId:|3|
+EventId:|1|
+Dialog:Sanae0a:八坂様…
+　もう一度だけ、奇跡の力を下さい
+
+Kind:|cAttack|
+EnId:|Reimu|
+StageId:|7|
+Dialog:Sanae0a:まだやりたいのなら、仕方ないですね
+
+Kind:|cAttack|
+WepId:|3|
+Dialog:Sanae0a:一子相伝の秘術をお見せしましょう
+
+Kind:|cAttack|
+EnId:|Reimu|
+StageId:|7|
+Dialog:Sanae0a:何度やっても同じだと思いますよ
+
+Kind:|cAttack|
+Cond:|isEnHPLow|
+StageId:|7|
+Dialog:Sanae0a:これ以上やるのも罪悪感ですけど
+
+Kind:|cAttack|
+StageId:|7|
+Dialog:Sanae0a:あんまりのんびりしてると、
+　さっきの天狗の人が怒りそうです
+
+Kind:|cAttack|
+EnId:|Reimu|
+StageId:|7|
+WepId:|3|
+Dialog:Sanae0a:同じ事を繰り返したいようですね
+
+Kind:|cAttack|
+EnId:|Reimu|
+StageId:|7|
+WepId:|3|
+Dialog:Sanae0a:さっきの女の人の言うことを
+　聞いておいた方が良かったですよ
+
+Kind:|cAttack|
+Cond:|isEnHPLow|
+EnId:|Reimu|
+StageId:|7|
+Dialog:Sanae0a:引導を渡すつもりまでは
+　ないんですが…
+
+Kind:|cAttack|
+StageId:|7|
+Dialog:Sanae0a:私には、
+　あなたと戦う理由がありません
+
+Kind:|cAttack|
+StageId:|7|
+Dialog:Sanae0a:追うのはやめてもらえませんか？
+
+Kind:|cAttack|
+StageId:|7|
+Dialog:Sanae1a:そっちから始めたんですよ！
+
+Kind:|cAttack|
+StageId:|7|
+EventId:|0|
+Dialog:Sanae0a:巫女は神を祀る存在。
+　神の力を借りるという意味を、
+　あなたにお見せしましょう
+
+Kind:|cAttack|
+StageId:|13|
+Dialog:Sanae1a:説得が通じないのでは、
+　仕方がありません
+
+Kind:|cAttack|
+StageId:|13|
+Dialog:Sanae0a:挑戦なら、
+　いつでも受け付けますよ
+
+Kind:|cAttack|
+StageId:|13|
+Dialog:Sanae1a:あなたのような不良巫女に、
+　私が負けるわけありません！
+
+Kind:|cAttack|
+StageId:|13|
+Dialog:Sanae1a:あなたを倒して、
+　博麗神社は営業停止です！
+
+Kind:|cAttack|
+StageId:|13|
+Dialog:Sanae0a:境内に妖怪を許すことは、
+　結果として祭神への冒涜となります
+
+Kind:|cAttack|
+Cond:|isHPLow|
+StageId:|13|
+Dialog:Sanae0a:調子がおかしい…
+　なんて、気のせいです
+
+Kind:|cAttack|
+Cond:|isHPLow|
+StageId:|13|
+Dialog:Sanae0a:…八坂様、洩矢様…
+
+Kind:|cAttack|
+Cond:|isHPLow|
+StageId:|13|
+Dialog:Sanae0a:…集中力が足りないんです。
+　何もおかしいことなんて…
+
+Kind:|Weapon|
+StageId:|7|
+WepId:|0|
+Dialog:Sanae1a:そこをどいていただきます！
+
+Kind:|Weapon|
+StageId:|7|
+WepId:|0|
+Dialog:Sanae0a:あんまり痛くしないつもりです
+
+Kind:|Weapon|
+StageId:|7|
+WepId:|0|
+Dialog:Sanae0a:私には敵いませんよ！
+
+Kind:|Weapon|
+StageId:|7|13|22|
+WepId:|0|1|2|
+Dialog:Sanae1a:そこです！
+
+Kind:|Weapon|
+StageId:|7|13|22|
+WepId:|0|1|
+Dialog:Sanae1a:見えています！
+
+Kind:|Weapon|
+StageId:|7|13|22|
+WepId:|1|
+Dialog:Sanae1a:ｼｭｰﾄｰ！
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|2|
+Dialog:Sanae0a:白昼に瞬く星の光よ！
+
+Kind:|Weapon|
+StageId:|7|
+WepId:|3|
+Dialog:Sanae1a:秘術・ｸﾞﾚｲｿｰﾏﾀｰｼﾞ！
+
+Kind:|Weapon|
+StageId:|7|22|
+WepId:|3|
+Dialog:Sanae0a:掛けまくも畏き――　
+　諏訪の御湖に神留まります、
+　建御名方神…
+Dialog:Sanae0a:もろもろの禍事罪穢あらんをば、
+　祓え給い、清め給えと白す事を
+　聞しめせと
+Dialog:Sanae0a:恐み恐も白す――
+
+Kind:|Weapon|
+StageId:|7|22|
+WepId:|3|
+Dialog:Sanae0a:掛けまくも畏き――　
+　諏訪の御湖に神留まります、
+　建御名方神…
+Dialog:Sanae0a:もろもろの禍事罪穢あらんをば、
+　祓え給い、清め給えと白す事を
+　聞しめせと
+Dialog:Sanae0a:恐み恐も白す――
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|4|
+Dialog:Sanae1a:海を割るﾓｰｾﾞの奇跡よ！
+Dialog:Sanae1a:はっ！
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|5|
+Dialog:Sanae0a:…八坂様、お力をお貸しください
+Dialog:Sanae1a:建御名方、招来ッ！
+Dialog:Sanae1a:風よ…
+Dialog:Sanae1a:導いてください！
+Dialog:Sanae1a:はああああ…！
+Dialog:Sanae1a:私は負けません！
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|5|
+Dialog:Sanae0a:…八坂様、共に参ります
+Dialog:Sanae1a:建御名方、招来ッ！
+Dialog:Sanae1a:風の導きさえあれば…
+Dialog:Sanae1a:私は負けません！
+Dialog:Sanae1a:はああああ…！
+Dialog:Sanae1a:これが、八坂様のお力です！
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|5|
+Dialog:Sanae1a:私には、
+　八坂様がいらっしゃいます！
+Dialog:Sanae1a:来たれ、乾神の風！
+Dialog:Sanae1a:たとえ何があろうとも…
+Dialog:Sanae1a:この風と共に在ります！
+Dialog:Sanae1a:風よ！
+Dialog:Sanae1a:私は決して負けません！
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|6|
+Dialog:Sanae1a:神風よ、吹け！
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|6|
+Dialog:Sanae1a:八坂の風よ…
+　導きと信仰のひとなぎを！
+
+Kind:|Weapon|
+StageId:|7|
+WepId:|-2|
+Dialog:Sanae0a:今は、戦っている場合ではないんです
+
+Kind:|Weapon|
+StageId:|13|
+WepId:|-2|
+Dialog:Sanae0a:届かないのでは、仕方がないですね
+
+Kind:|Weapon|
+Cond:|isHPLow|
+StageId:|13|
+WepId:|-2|
+Dialog:Sanae0a:…今は、これも仕方がありません
+
+Kind:|Weapon|
+StageId:|7|
+WepId:|-4|
+Dialog:Sanae1a:そんなところから、卑怯です！
+
+Kind:|Weapon|
+StageId:|13|
+WepId:|-4|
+Dialog:Sanae0a:怖気づきましたか、霊夢さん？
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|-4|
+Dialog:Sanae0a:届かないのでは、仕方ありません
+
+Kind:|Weapon|
+aCon:|argument0.bullet_id > 1|
+StageId:|22|
+WepId:|-4|
+Dialog:Sanae5a:あんなところから…
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|-2|
+Dialog:Sanae0a:受けてばかりでは、
+　勝利は得られませんね
+
+Kind:|Weapon|
+aCon:|argument0.bullet_id > 1|
+StageId:|22|
+WepId:|-2|
+Dialog:Sanae5a:あんなに大勢で…
+
+Kind:|Weapon|
+Cond:|isHPLow|
+StageId:|13|
+WepId:|-4|
+Dialog:Sanae0a:…今は、これも仕方がありません
+
+Kind:|Weapon|
+StageId:|13|
+WepId:|3|
+EventId:|0|
+Dialog:Sanae0a:掛けまくも畏き――　
+　諏訪の御湖に神留まります、
+　建御名方神…
+Dialog:Sanae0a:もろもろの禍事罪穢あらんをば、
+　祓え給い、清め給えと白す事を
+　聞しめせと
+Dialog:Sanae0a:恐み恐も、白す――！
+
+Kind:|Hit|
+StageId:|7|22|
+Dialog:Sanae2a:…油断しました！
+
+Kind:|Hit|
+StageId:|7|
+Dialog:Sanae2a:痛っ！　当たっちゃいました
+
+Kind:|Hit|
+StageId:|7|
+Dialog:Sanae2a:思ったより当たっていますね
+
+Kind:|Hit|
+StageId:|7|
+Dialog:Sanae2a:これが『弾幕戦』というものですか
+
+Kind:|Hit|
+StageId:|7|22|
+Dialog:Sanae2a:いけません。集中、集中…
+
+Kind:|Hit|
+Cond:|isDamageHigh|
+StageId:|7|
+Dialog:Sanae2a:こんな物騒な攻撃もするんですね
+
+Kind:|Hit|
+Cond:|isHPLow|
+StageId:|7|
+Dialog:Sanae2a:…もしかして本気でやっていますか？
+
+Kind:|Hit|
+EnId:|Reimu|
+StageId:|7|
+EnWep:|5|
+Dialog:Sanae2a:…！　さっきかわしたと思って、
+　少し油断しましたね
+
+Kind:|Hit|
+StageId:|13|22|
+Dialog:Sanae2a:くっ、油断しました
+
+Kind:|Hit|
+StageId:|13|22|
+Dialog:Sanae2a:…当たってしまいました！
+
+Kind:|Hit|
+StageId:|13|22|
+Dialog:Sanae2a:これくらい何でもありません
+
+Kind:|Hit|
+Cond:|isHPLow|
+StageId:|13|
+Dialog:Sanae2a:…どうしてです？　どうして私が…
+
+Kind:|Hit|
+Cond:|isHPLow,|
+StageId:|13|22|
+Dialog:Sanae2a:…これ以上は…
+
+Kind:|Guard|
+StageId:|7|22|
+Dialog:Sanae0a:このくらい、防ぎようはあります
+
+Kind:|Guard|
+Cond:|isHPLow,|
+StageId:|7|22|
+Dialog:Sanae2a:…少しきつくなってきました
+
+Kind:|Evade|
+Dialog:Sanae1a:当たりません！
+
+Kind:|Evade|
+Dialog:Sanae0a:そこではありません
+
+Kind:|Evade|
+Dialog:Sanae1a:こっちです！
+
+Kind:|Evade|
+StageId:|7|
+EventId:|0|
+Dialog:Sanae0a:ふふ…こっちです！
+
+Kind:|Evade|
+StageId:|13|
+Dialog:Sanae0a:ご覧なさい、前回と一緒です
+
+Kind:|Evade|
+EnId:|Reimu|
+StageId:|13|22|
+Dialog:Sanae1a:当たりませんよ、霊夢さん！
+
+Kind:|Evade|
+StageId:|13|
+Dialog:Sanae0a:こっちです。どうしました？
+
+Kind:|Evade|
+Cond:|isHPLow|
+StageId:|13|
+Dialog:Sanae0a:ほら、いつも通りです。
+　問題なんてあるはずが…
+
+Kind:|Graze|
+Dialog:Sanae0a:ｸﾞﾚｲｽﾞ
+
+Kind:|sAttack|
+Dialog:Sanae0a:援護攻撃
+
+Kind:|sGuard|
+Dialog:Sanae0a:援護防御
+
+Kind:|Barrier|
+StageId:|7|
+Dialog:Sanae0a:むなしい攻撃です
+
+Kind:|Barrier|
+StageId:|7|
+Dialog:Sanae0a:…当たると思いましたか？
+
+Kind:|Barrier|
+StageId:|7|
+Dialog:Sanae0a:その程度の攻撃では、
+　この結界を越えられません
+
+Kind:|Barrier|
+StageId:|7|
+Dialog:Sanae0a:あの方が、私を守ってくださいます
+
+Kind:|Barrier|
+StageId:|22|
+Dialog:Sanae0a:八坂様が、
+　私を守ってくださいます！
+
+Kind:|Barrier|
+StageId:|22|
+Dialog:Sanae0a:効きません！
+
+Kind:|Slash|
+Dialog:Sanae0a:切り払いました！
+
+Kind:|Counter|
+Dialog:Sanae0a:先手はいただきます
+
+Kind:|Pichun|
+StageId:|7|
+Dialog:Sanae2a:相手は女の子なのに、
+　そういう戦い方するんですね！
+
+Kind:|Pichun|
+StageId:|7|
+Dialog:Sanae2a:…頑張ったことは認めましょう
+
+Kind:|Pichun|
+StageId:|13|
+Dialog:Sanae2a:…どうして、どうして私が…
+
+Kind:|Pichun|
+StageId:|22|
+Dialog:Sanae5b:…八坂様、ごめんなさい…
+
+Kind:|PichunMap|
+Dialog:Sanae0a:None
+
+Kind:|BBreak|
+StageId:|7|
+Dialog:Sanae2a:っ！　力押しですか！
+
+Kind:|BBreak|
+StageId:|7|
+Dialog:Sanae2a:結構本気じゃないですか
+
+Kind:|BBreak|
+StageId:|7|
+Dialog:Sanae2a:集中力を乱したようです
+
+Kind:|SBreak|
+aCon:|argument0.bullet_id == 0|
+StageId:|22|
+Dialog:Sanae0a:奇跡の力は、まだこれからですよ
+
+Kind:|SBreak|
+aCon:|argument0.bullet_id == 1|
+StageId:|22|
+Dialog:Sanae0a:…なかなかやるようですね
+
+Kind:|SBreak|
+aCon:|argument0.bullet_id == 2|
+StageId:|22|
+Dialog:Sanae5c:私は、一人でも…
+
+Kind:|Hit|Guard|
+Cond:|isHPLow,|
+aCon:|argument0.bullet_id > 1|
+StageId:|22|
+Dialog:Sanae5c:私は、不安なんかじゃ…
+
+Kind:|Weapon|Hit|Guard|
+StageId:|22|
+EventId:|0|
+Dialog:Sanae2a:水の攻撃…どこから？！
+
+Kind:|Weapon|
+StageId:|22|
+WepId:|-4|
+EventId:|0|
+Dialog:Sanae3a:どうして河童の方が…
+
+Kind:|cAttack|
+EventId:|1|
+Dialog:Sanae0a:私たちの手にした力、
+　お見せして差し上げましょう
+
+Kind:|Evade|
+EventId:|1|
+Dialog:Sanae0a:こっちですよ、霊夢さん！
+
+Kind:|Weapon|
+WepId:|2|
+EventId:|1|
+Dialog:Sanae1a:白昼にきらめく客星よ！
+

@@ -1,0 +1,148 @@
+var u_id; u_id = argument0;
+
+//unit data-----------------------------
+Name[u_id]      = "”ª‰_@—•";
+NameShort[u_id] = "—•";
+Race[u_id]      = "—db";
+
+Unit[u_id, 0]   = 22000;
+Unit[u_id, 1]   = 320;
+Unit[u_id, 2]   = 120;
+Unit[u_id, 3]   = 1250;
+Unit[u_id, 4]   = 6;
+MovSlow[u_id]   = 0.5;
+Size[u_id]      = "L";
+Cost[u_id]      = 3.5;
+Tune[u_id]      = "|14000|200|80|800|";
+
+NumSlots[u_id]  = 1;
+Compat[u_id, 0] = "A";
+Compat[u_id, 1] = "S";
+Compat[u_id, 2] = "D";
+Compat[u_id, 3] = "A";
+
+NumSpecials[u_id] = 2;
+Special[u_id, 0]  = "BUNSHIN_RAN";
+Special[u_id, 1]  = "MBLOCK";
+
+NumWeps[u_id]   = 2;
+WepTune[u_id]   = "A";
+
+NumBGM[u_id]    = 1;
+BGM[u_id, 0]    = "bgm_battle_Ran";
+NumPilots[u_id] = 1;
+Pilot[u_id, 0]  = "Ran";
+
+SprPichun[u_id] = "03"; 
+
+if(global.stage_num != 31) SprPichun[u_id] = "04";
+if(global.stage_num != 31 && global.stage_num > 0)
+{
+    if(global.stage_num == 34) NumWeps[u_id] += 2;
+
+    if(global.level < 1) Special[u_id, 0] = "SHIKI_YUKARI";
+    else
+    {
+        NumSpecials[u_id] += 1;
+        Special[u_id, 2]   = "SHIKI_YUKARI";
+    }
+}
+
+//weapon--------------------------------
+var WepId; WepId = 0;
+
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "”òãÄ–ð¬Šp";
+WepDemo[u_id, WepId]    = "odunu";
+WepDamage[u_id, WepId]  = 2300;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 4;
+WepHit[u_id, WepId]     = 20;
+WepCrt[u_id, WepId]     = 35;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "‚È‚µ";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 5;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "S";
+WepWater[u_id, WepId]   = "C";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 0;
+WepName[u_id, WepId]    = "ŒÏ’K—d‰öÚ°»Þ°";
+WepDemo[u_id, WepId]    = "kori";
+WepDamage[u_id, WepId]  = 2450;
+WepRMin[u_id, WepId]    = 3;
+WepRMax[u_id, WepId]    = 6;
+WepHit[u_id, WepId]     = 15;
+WepCrt[u_id, WepId]     = 10;
+WepL[u_id, WepId]       = 1;
+WepP[u_id, WepId]       = 0;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "‚È‚µ";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 5;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "C";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 0;
+WepName[u_id, WepId]    = "±ÙÃ¨Ò¯ÄÌÞÃÞ¨½Ä";
+WepDemo[u_id, WepId]    = "buddhist";
+WepDamage[u_id, WepId]  = 2600;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 4;
+WepHit[u_id, WepId]     = 15;
+WepCrt[u_id, WepId]     = 20;
+WepL[u_id, WepId]       = 1;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "Ž©‹@’†SŒ^";
+WepBMax[u_id, WepId]    = 5;
+WepMP[u_id, WepId]      = 0;
+WepPower[u_id, WepId]   = 100;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "C";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "*circle";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "ŒÏ‹ç’K‚³‚ñ‚ÌŒ_–ñ";
+WepDemo[u_id, WepId]    = "kokkuri";
+WepDamage[u_id, WepId]  = 3200;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 3;
+WepHit[u_id, WepId]     = 25;
+WepCrt[u_id, WepId]     = 30;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "‚È‚µ";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 15;
+WepPower[u_id, WepId]   = 100;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "S";
+WepWater[u_id, WepId]   = "A";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+

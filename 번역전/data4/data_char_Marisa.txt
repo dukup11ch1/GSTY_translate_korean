@@ -1,0 +1,66 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "ñÇóùçπ";
+Char[u_id, s_id*7+0] = 135;
+Char[u_id, s_id*7+1] = 154;
+Char[u_id, s_id*7+2] = 165;
+Char[u_id, s_id*7+3] = 90;
+Char[u_id, s_id*7+4] = 173;
+Char[u_id, s_id*7+5] = 178;
+Char[u_id, s_id*7+6] = 44;
+Temper[u_id, s_id]   = "ã≠ãC";
+Type[u_id, s_id]     = "MGR_PRY";
+
+Pair[u_id, s_id]     = "|Reimu|1|"; 
+Revenge[u_id, s_id]  = "|Reimu|25|";
+
+//determine pair level
+var val; 
+
+val = 1;
+if(check_flag("Alice_pursuade")) val += 1;
+if(check_flag("M29_Alice"))      val += 1;
+Pair[u_id, s_id]   += "Alice|" + string(val) + "|";
+Revenge[u_id, s_id] = "Alice|" + string(10+val*15) + "|";
+
+val = 1;
+if(check_flag("Nitori_pursuade")) val += 1;
+if(check_flag("M29_Nitori"))      val += 1;
+Pair[u_id, s_id]   += "Nitori|" + string(val) + "|";
+Revenge[u_id, s_id] = "Nitori|" + string(10+val*20) + "|";
+
+val = 0;
+if(check_flag("M29_Patchouli")) val += 2;
+Pair[u_id, s_id]   += "Patchouli|" + string(val) + "|";
+Revenge[u_id, s_id] = "Patchouli|" + string(10+val*20) + "|";
+
+SPList[u_id, s_id]     = "|ìwóÕ|â¡ë¨|ëMÇ´|îMåå|ïKíÜ|óEãC|";
+SPListLv[u_id, s_id]   = "|01|07|10|23|28|44|";
+SPListCost[u_id, s_id] = "|20|15|15|45|20|70|";
+
+NumSkills[u_id, s_id]   = 6;
+SkillID[u_id, s_id*10+0] = "MAHOU";
+SkillLv[u_id, s_id*10+0] = "|01|08|16|24|33|44|55|";
+
+SkillID[u_id, s_id*10+1] = "D_POWER";
+SkillLv[u_id, s_id*10+1] = "|01|17|42|";
+
+SkillID[u_id, s_id*10+2] = "H_WORKER";
+SkillLv[u_id, s_id*10+2] = "|01|";
+
+SkillID[u_id, s_id*10+3] = "M_SHIELD+";
+SkillLv[u_id, s_id*10+3] = "|20|30|40|";
+
+SkillID[u_id, s_id*10+4] = "M_THRUSTER";
+SkillLv[u_id, s_id*10+4] = "|09|34|";
+
+SkillID[u_id, s_id*10+5] = "S_STAR";
+SkillLv[u_id, s_id*10+5] = "|25|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+6] = "KIAI";
+SkillLv[u_id, s_id*10+6] = "|01|01|01|01|01|01|";
+
+SkillID[u_id, s_id*10+7] = "P_HIT";
+SkillLv[u_id, s_id*10+7] = "|01|";

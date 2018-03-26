@@ -1,0 +1,31 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "–Ñ‹Ê";
+Char[u_id, s_id*7+0] = 132;
+Char[u_id, s_id*7+1] = 120;
+Char[u_id, s_id*7+2] = 153;
+Char[u_id, s_id*7+3] = 94;
+Char[u_id, s_id*7+4] = 125;
+Char[u_id, s_id*7+5] = 133;
+Char[u_id, s_id*7+6] = 60;
+Temper[u_id, s_id]   = "‹­‹C";
+Type[u_id, s_id]     = "ATP_PRY";
+
+Pair[u_id, s_id]     = "|";
+Revenge[u_id, s_id]  = "|";
+
+SPList[u_id, s_id]     = "|ª«|ª«|ª«|ª«|ª«|ª«|";
+SPListLv[u_id, s_id]   = "|1|100|100|100|100|100|";
+SPListCost[u_id, s_id] = "|25|35|30|45|25|70|";
+
+NumSkills[u_id, s_id]       = 0;
+
+USkill[u_id, s_id*3+0]      = "MITEI";
+USkillLv[u_id, s_id*3+0]    = "|01|20|30|";
+
+USkill[u_id, s_id*3+0]      = "MITEI";
+USkillLv[u_id, s_id*3+0]    = "|05|25|35|";
+
+USkill[u_id, s_id*3+0]      = "MITEI";
+USkillLv[u_id, s_id*3+0]    = "|10|30|40|";

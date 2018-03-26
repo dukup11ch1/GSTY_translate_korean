@@ -1,0 +1,44 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "ÁÙÉ";
+Char[u_id, s_id*7+0] = 112;
+Char[u_id, s_id*7+1] = 140;
+Char[u_id, s_id*7+2] = 145;
+Char[u_id, s_id*7+3] = 85;
+Char[u_id, s_id*7+4] = 167;
+Char[u_id, s_id*7+5] = 168;
+Char[u_id, s_id*7+6] = 45;
+Temper[u_id, s_id]   = "’´‹­‹C";
+Type[u_id, s_id]     = "MGR_PRY";
+
+Pair[u_id, s_id]     = "|Daiyosei|3|";
+Revenge[u_id, s_id]  = "|Daiyosei|50|";
+
+SPList[u_id, s_id]     = "|•s‹ü|ÄÞª«|•K’†|”MŒŒ|—Fî|ª«|";
+SPListLv[u_id, s_id]   = "|01|08|16|25|38|50|";
+SPListCost[u_id, s_id] = "|15|35|20|40|50|70|";
+
+NumSkills[u_id, s_id]    = 3;
+SkillID[u_id, s_id*10+0] = "FREEZE";
+SkillLv[u_id, s_id*10+0] = "|01|";
+
+SkillID[u_id, s_id*10+1] = "PAIR_DAICHIRU";
+SkillLv[u_id, s_id*10+1] = "|11|26|42|";
+
+SkillID[u_id, s_id*10+2] = "NOSIZE_CIRNO";
+SkillLv[u_id, s_id*10+2] = "|22|";
+
+NumSkills[u_id, s_id]   += 3;
+SkillID[u_id, s_id*10+3] = "USO";
+SkillLv[u_id, s_id*10+3] = "|01|";
+
+SkillID[u_id, s_id*10+4] = "KIAI";
+SkillLv[u_id, s_id*10+4] = "|01|01|01|01|01|01|";
+
+SkillID[u_id, s_id*10+5] = "P_HIT";
+SkillLv[u_id, s_id*10+5] = "|01|";
+
+NumSkills[u_id, s_id]   += 1*(global.stage_num > 24 || global.isTest);
+SkillID[u_id, s_id*10+6] = "I_BARRIER+";
+SkillLv[u_id, s_id*10+6] = "|01|29|45|";

@@ -1,0 +1,31 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "—HXq";
+Char[u_id, s_id*7+0] = 138;
+Char[u_id, s_id*7+1] = 157;
+Char[u_id, s_id*7+2] = 188;
+Char[u_id, s_id*7+3] = 106;
+Char[u_id, s_id*7+4] = 120;
+Char[u_id, s_id*7+5] = 180;
+Char[u_id, s_id*7+6] = 60;
+Temper[u_id, s_id]   = "‘å•¨";
+Type[u_id, s_id]     = "ALL_MGR";
+
+Pair[u_id, s_id]     = "|";
+Revenge[u_id, s_id]  = "|";
+
+SPList[u_id, s_id]     = "|“S•Ç|è‰ÁŒ¸|’¼Š´|‘_Œ‚|ŒÛ•‘|Ä“®|";
+SPListLv[u_id, s_id]   = "|01|01|06|18|35|42|";
+SPListCost[u_id, s_id] = "|15|05|20|20|60|70|";
+
+NumSkills[u_id, s_id]    = 1;
+SkillID[u_id, s_id*10+0] = "SHIELD";
+SkillLv[u_id, s_id*10+0] = "|01|01|"; //08|15|23|30|40|51|65|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+1] = "NODIST";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "SAVE_MP";
+SkillLv[u_id, s_id*10+2] = "|01|";

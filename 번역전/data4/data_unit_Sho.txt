@@ -1,0 +1,108 @@
+var u_id; u_id = argument0;
+
+//unit data-----------------------------
+Name[u_id]      = "寅丸　星";
+NameShort[u_id] = "星";
+Race[u_id]      = "妖怪";
+
+Unit[u_id, 0]   = 5100;
+Unit[u_id, 1]   = 150;
+Unit[u_id, 2]   = 110;
+Unit[u_id, 3]   = 1050;
+Unit[u_id, 4]   = 6;
+MovSlow[u_id]   = 0.4;
+Size[u_id]      = "M";
+Cost[u_id]      = 2.0;
+Tune[u_id]      = "|2000|100|50|500|";
+
+NumSlots[u_id]  = 2;
+Compat[u_id, 0] = "A";
+Compat[u_id, 1] = "A";
+Compat[u_id, 2] = "B";
+Compat[u_id, 3] = "A";
+
+NumSpecials[u_id] = 0;
+
+NumWeps[u_id]   = 3;
+WepTune[u_id]   = "B";
+
+NumBGM[u_id]    = 1;
+BGM[u_id, 0]    = "bgm_battle_Sho";
+NumPilots[u_id] = 1;
+Pilot[u_id, 0]  = "Sho";
+
+SprPichun[u_id] = "01";
+
+//--------------------------------------
+var WepId; WepId = 0;
+
+WepKind[WepId]      = 1;
+WepName[WepId]      = "槍";
+WepDemo[WepId]      = "combat_Sho";
+WepDamage[WepId]    = 2100;
+WepRMin[WepId]      = 1;
+WepRMax[WepId]      = 2;
+WepHit[WepId]       = 20;
+WepCrt[WepId]       = 35;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 1;
+WepSpecial[WepId]   = "なし";
+WepBMax[WepId]      = 0;
+WepMP[WepId]        = 5;
+WepPower[WepId]     = 0;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "A";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+
+WepId += 1;
+WepKind[WepId]      = 1;
+WepName[WepId]      = "至宝の独鈷杵";
+WepDemo[WepId]      = "vajra";
+WepDamage[WepId]    = 2250;
+WepRMin[WepId]      = 2;
+WepRMax[WepId]      = 4;
+WepHit[WepId]       = 15;
+WepCrt[WepId]       = 25;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "なし";
+WepBMax[WepId]      = 12;
+WepMP[WepId]        = 0;
+WepPower[WepId]     = 0;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "B";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+
+WepId += 1;
+WepKind[WepId]      = 1;
+WepName[WepId]      = "槍（連続）";
+WepDemo[WepId]      = "giacobini";
+WepDamage[WepId]    = 2900;
+WepRMin[WepId]      = 1;
+WepRMax[WepId]      = 2;
+WepHit[WepId]       = 20;
+WepCrt[WepId]       = 20;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "なし";
+WepBMax[WepId]      = 0;
+WepMP[WepId]        = 35;
+WepPower[WepId]     = 110;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "A";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";

@@ -1,0 +1,28 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "ÔÏÒ";
+Char[u_id, s_id*7+0] = 136;
+Char[u_id, s_id*7+1] = 127;
+Char[u_id, s_id*7+2] = 168;
+Char[u_id, s_id*7+3] = 102;
+Char[u_id, s_id*7+4] = 146;
+Char[u_id, s_id*7+5] = 168;
+Char[u_id, s_id*7+6] = 57;
+Temper[u_id, s_id]   = "‹­‹C";
+Type[u_id, s_id]     = "ATP_DEF";
+
+Pair[u_id, s_id]     = "|Kisume|2|"; 
+Revenge[u_id, s_id]  = "|Kisume|25|";
+
+SPList[u_id, s_id]     = "|ª«|•s‹ü|•K’†|—Fî|’E—Í|ŒÛ•‘|";
+SPListLv[u_id, s_id]   = "|01|12|20|39|99|99|";
+SPListCost[u_id, s_id] = "|20|15|20|60|30|70|";
+
+NumSkills[u_id, s_id]    = 0;
+SkillID[u_id, s_id*10+0] = "SATTACK";
+SkillLv[u_id, s_id*10+0] = "|01|25|";
+
+NumSkills[u_id, s_id]   += 1;
+SkillID[u_id, s_id*10+0] = "SLOW";
+SkillLv[u_id, s_id*10+0] = "|01|";

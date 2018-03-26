@@ -1,0 +1,308 @@
+﻿//Item Data
+
+ItemID   = "NONE"
+ItemName = "--------"
+ItemEF   = "|未取得のｱｲﾃﾑ||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+//MOV-----------------------------------
+ItemID   = "MOV+"
+ItemName = "天狗の団扇"
+ItemEF   = "|移動力+1||"
+ItemVal  = "|0|0|0|0|1|"
+ItemKind = 0
+
+ItemID   = "MOV++"
+ItemName = "天狗の羽"
+ItemEF   = "|移動力+2||"
+ItemVal  = "|0|0|0|0|2|"
+ItemKind = 0
+
+ItemID   = "MOV+MOTION+"
+ItemName = "天狗の高下駄"
+ItemEF   = "|移動力+1|運動性+5|"
+ItemVal  = "|0|0|5|0|1|"
+ItemKind = 0
+
+//MOTION--------------------------------
+ItemID   = "MOTION+"
+ItemName = "妖鼠の尾"
+ItemEF   = "|運動性+5||"
+ItemVal  = "|0|0|5|0|0|"
+ItemKind = 0
+
+ItemID   = "MOTION++"
+ItemName = "化猫の尾"
+ItemEF   = "|運動性+10||"
+ItemVal  = "|0|0|10|0|0|"
+ItemKind = 0
+
+ItemID   = "MOTION+++"
+ItemName = "妖狐の尾"
+ItemEF   = "|運動性+20||"
+ItemVal  = "|0|0|20|0|0|"
+ItemKind = 0
+
+//ARMOR---------------------------------
+ItemID   = "ARMOR+"
+ItemName = "鬼の爪"
+ItemEF   = "|最大HP+500|装甲+50|"
+ItemVal  = "|500|0|0|50|0|"
+ItemKind = 0
+
+ItemID   = "ARMOR++"
+ItemName = "鬼の牙"
+ItemEF   = "|最大HP+800|装甲+80|"
+ItemVal  = "|800|0|0|80|0|"
+ItemKind = 0
+
+ItemID   = "ARMOR+++"
+ItemName = "鬼の角"
+ItemEF   = "|最大HP+1200|装甲+120|"
+ItemVal  = "|1200|0|0|120|0|"
+ItemKind = 0
+
+//MAXMP---------------------------------
+ItemID   = "MAXMP+"
+ItemName = "ｸﾞﾘﾓﾜｰﾙ"
+ItemEF   = "|最大MP+70||"
+ItemVal  = "|0|70|0|0|0|"
+ItemKind = 0
+
+ItemID   = "MAXMP++"
+ItemName = "こんなｱｲﾃﾑないよ"
+ItemEF   = "|うおおおおおお！！　俺は文字数の限界を突破するッ！！|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+//HIT-----------------------------------
+ItemID   = "HIT+"
+ItemName = "Eｼｭｰﾀｰ"
+ItemEF   = "|命中率+10％||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "HIT++"
+ItemName = "Nｼｭｰﾀｰ"
+ItemEF   = "|命中率+15％||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "HIT+++"
+ItemName = "なんのことやら"
+ItemEF   = "|へけけっ、|って何のﾈﾀだっけ？|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "HIT++++"
+ItemName = "このｱｲﾃﾑは"
+ItemEF   = "|果たして手に入るのかしらね…||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+//RANGE---------------------------------
+ItemID   = "RANGE+"
+ItemName = "ｴﾈﾐｰﾏｰｶｰ"
+ItemEF   = "|ﾏｯﾌﾟ攻撃、最大射程1の|攻撃以外の射程+1|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "CRT+"
+ItemName = "まみむめぼ"
+ItemEF   = "|僕はﾊﾞｲｷﾝﾏﾝちゃん！||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+//COMPAT--------------------------------
+ItemID   = "AIR+"
+ItemName = "飛仙の術符"
+ItemEF   = "|適応「空」をAにする||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "GROUND+"
+ItemName = "名もなき骨"
+ItemEF   = "|適応「陸」をAにする||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "WATER+"
+ItemName = "五色の甲羅"
+ItemEF   = "|適応「水」をAにする||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "NIGHT+"
+ItemName = "蛍火の珠"
+ItemEF   = "|適応「夜」をAにする||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "ALL+"
+ItemName = "虹のかけら"
+ItemEF   = "|全地形適応をAにする||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "ALL++"
+ItemName = "未定"
+ItemEF   = "|特にﾈﾀはない…||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+//HP------------------------------------
+ItemID   = "CURE_HP"
+ItemName = "吟醸"
+ItemEF   = "|HP2000回復|各ｽﾃｰｼﾞごとに\n1回だけ使用可|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 2
+
+ItemID   = "CURE_HP+"
+ItemName = "純米吟醸"
+ItemEF   = "|HP全回復|各ｽﾃｰｼﾞごとに\n1回だけ使用可|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 2
+
+ItemID   = "CURE_HP_SUIKA"
+ItemName = "伊吹瓢"
+ItemEF   = "|毎ﾀｰﾝHP10％回復|最大HP+400|"
+ItemVal  = "|400|0|0|0|0|"
+ItemKind = 0
+
+//MP------------------------------------
+ItemID   = "CURE_MP"
+ItemName = "麦酒"
+ItemEF   = "|MP100回復|各ｽﾃｰｼﾞごとに\n1回だけ使用可|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 2
+
+ItemID   = "CURE_MP+"
+ItemName = "生麦酒"
+ItemEF   = "|MP全回復|各ｽﾃｰｼﾞごとに\n1回だけ使用可|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 2
+
+ItemID   = "CURE_MP_YUKA"
+ItemName = "太陽の花"
+ItemEF   = "|毎ﾀｰﾝMP10％回復||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+//ETC------------------------------------
+ItemID   = "CURE_BUL+"
+ItemName = "予備弾倉"
+ItemEF   = "|弾数全回復|各ｽﾃｰｼﾞごとに\n1回だけ使用可|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 2
+
+ItemID   = "CURE_SP"
+ItemName = "咲夜の紅茶"
+ItemEF   = "|SP30回復|各ｽﾃｰｼﾞごとに\n1回だけ使用可|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 2
+
+ItemID   = "CURE_SP_IMO"
+ItemName = "おいも"
+ItemEF   = "|SP10回復|各ｽﾃｰｼﾞごとに\n1回だけ使用可|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 2
+
+ItemID   = "CURE_HP_KOISHI"
+ItemName = "おでかけｾｯﾄ"
+ItemEF   = "|HP1000回復||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 2
+
+ItemID   = "CURE_ALL"
+ItemName = "未定"
+ItemEF   = "|未定||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 2
+
+//MISC------------------------------------
+ItemID   = "POWER+"
+ItemName = "ｶｴﾙの氷漬け"
+ItemEF   = "|出撃時のﾊﾟﾜｰ+5||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "POWER++"
+ItemName = "ﾗｲﾌﾞﾁｹｯﾄ"
+ItemEF   = "|出撃時のﾊﾟﾜｰ+10||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+//UNIQUE------------------------------------
+ItemID   = "AIR++"
+ItemName = "乾神の加護"
+ItemEF   = "|適応「空」をSにする|移動時のMP消費が0になる|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "GROUND++"
+ItemName = "坤神の加護"
+ItemEF   = "|すわさなが|世界の答えになる|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "OMB"
+ItemName = "ｵﾝﾊﾞｼﾗ"
+ItemEF   = "|装甲+100|命中率+20％|"
+ItemVal  = "|0|0|0|100|0|"
+ItemKind = 0
+
+ItemID   = "COST+"
+ItemName = "おしらさま"
+ItemEF   = "|ｺｽﾄを+1して攻撃力をｱｯﾌﾟ|効果はｺｽﾄに依存|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "AGEHA"
+ItemName = "鳳蝶紋の扇子"
+ItemEF   = "|射程+1|ｸﾘﾃｨｶﾙ率+15％|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "ADD_BARRIER"
+ItemName = "携帯式ｽｷﾏ"
+ItemEF   = "|特殊能力「歪曲結界」|を追加する|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+ItemID   = "ONMYO"
+ItemName = "陰陽玉"
+ItemEF   = "|移動力+1|運動性+20\n命中率+20％|"
+ItemVal  = "|0|0|20|0|1|"
+ItemKind = 0
+
+ItemID   = "KURENAI"
+ItemName = "紅の魂"
+ItemEF   = "|ﾊﾟﾜｰ120以上のとき|最終ﾀﾞﾒｰｼﾞ1.1倍|"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 0
+
+//POINT------------------------------------
+ItemID   = "POINT5000"
+ItemName = "点符5000"
+ItemEF   = "|5000点獲得||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 3
+
+ItemID   = "POINT10000"
+ItemName = "点符10000"
+ItemEF   = "|10000点獲得||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 3
+
+ItemID   = "POINT15000"
+ItemName = "点符15000"
+ItemEF   = "|15000点獲得||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 3
+
+ItemID   = "POINT20000"
+ItemName = "点符20000"
+ItemEF   = "|20000点獲得||"
+ItemVal  = "|0|0|0|0|0|"
+ItemKind = 3

@@ -1,0 +1,46 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "î¸óÈ";
+Char[u_id, s_id*7+0] = 155;
+Char[u_id, s_id*7+1] = 108;
+Char[u_id, s_id*7+2] = 173;
+Char[u_id, s_id*7+3] = 110;
+Char[u_id, s_id*7+4] = 121;
+Char[u_id, s_id*7+5] = 172;
+Char[u_id, s_id*7+6] = 50;
+Temper[u_id, s_id]   = "ã≠ãC";
+Type[u_id, s_id]     = "ATP_DEF";
+
+Pair[u_id, s_id]     = "|Sakuya|2|";
+Revenge[u_id, s_id]  = "|Sakuya|40|";
+
+SPList[u_id, s_id]     = "|ƒﬁç™ê´|ìSï«|ïKíÜ|ãCçá|íºåÇ|îMåå|";
+SPListLv[u_id, s_id]   = "|01|05|15|23|34|41|";
+SPListCost[u_id, s_id] = "|40|25|20|30|25|41|";
+
+NumSkills[u_id, s_id]    = 6;
+SkillID[u_id, s_id*10+0] = "SGUARD";
+SkillLv[u_id, s_id*10+0] = "|13|23|";
+
+SkillID[u_id, s_id*10+1] = "HAISUI";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "G_KEEPER";
+SkillLv[u_id, s_id*10+2] = "|08|20|41|";
+
+SkillID[u_id, s_id*10+3] = "KOUKIKOU";
+SkillLv[u_id, s_id*10+3] = "|17|31|45|";
+
+SkillID[u_id, s_id*10+4] = "SHUKIHOU";
+SkillLv[u_id, s_id*10+4] = "|34|";
+
+SkillID[u_id, s_id*10+5] = "SHINKYAKU";
+SkillLv[u_id, s_id*10+5] = "|26|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+6] = "SOKO";
+SkillLv[u_id, s_id*10+6] = "|01|01|01|01|01|01|";
+
+SkillID[u_id, s_id*10+7] = "P_GOTHIT";
+SkillLv[u_id, s_id*10+7] = "|01|";

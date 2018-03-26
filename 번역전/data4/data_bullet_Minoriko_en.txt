@@ -1,0 +1,42 @@
+NumBullets = 2; if(global.stage_num >= 19) NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 4;
+BulShape[BulId] = "circle";
+BulSlots[BulId]  = 1;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 0.20;
+BulID[BulId, 0]  = "";
+
+BulHP[BulId]     = 9200;
+BulTurns[BulId]  = 5;
+BulPoints[BulId] = 3000;
+BulEXP[BulId]    = 160;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+BulId += 1;
+BulName[BulId]  = "èƒàÅuΩ≤∞ƒŒﬂ√ƒŸ∞—Åv";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 4;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 20;
+BulMov[BulId, 0] = 0.60;
+BulID[BulId, 0]  = "POW-_GOTHIT_POTATO";
+
+BulHP[BulId]     = 12400;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 5000;
+BulEXP[BulId]    = 170;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "potato";
+BulUpdate[BulId] = 1;

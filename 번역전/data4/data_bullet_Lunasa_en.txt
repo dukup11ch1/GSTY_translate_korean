@@ -1,0 +1,22 @@
+NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 2;
+BulRMax[BulId]  = 5;
+BulShape[BulId] = "circle";
+BulSlots[BulId]   = 1;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.40;
+BulID[BulId, 0]  = "POW-_LUNASA";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 7000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;

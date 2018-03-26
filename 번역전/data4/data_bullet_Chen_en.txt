@@ -1,0 +1,43 @@
+NumBullets = 2; if(global.stage_num >= 31) NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 3;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 25;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 0.9;
+BulID[BulId, 0]  = "";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 8500;
+BulEXP[BulId]    = 180;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "spiral";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "âªîLÅuûÚÅv";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 18;
+BulPRY[BulId, 0] = 30;
+BulMov[BulId, 0] = 1.0;
+BulID[BulId, 0]  = "BUNSHIN_CHEN";
+
+BulHP[BulId]     = 18000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 12500;
+BulEXP[BulId]    = 220;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "Chen";
+BulUpdate[BulId] = 0;

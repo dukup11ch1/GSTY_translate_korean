@@ -1,0 +1,525 @@
+﻿
+BulID   = ""
+BulEF   = "NONE"
+BulText = ""
+BulVal1 = "|"
+BulVal2 = "|"
+
+//02-----------------------------------
+BulID   = "N_BIRD"
+BulEF   = "N_BIRD"
+BulText = "射撃攻撃の命中率を元の<VAL1>％の値にする"
+BulVal1 = "|65|50|35|20|"
+BulVal2 = "|"
+
+BulID   = "HIDE_SUNNY"
+BulEF   = "HIDE"
+BulText = "[敵軍] 攻撃対象にされない"
+BulVal1 = "|"
+BulVal2 = "|"
+
+BulID   = "HIT+_LUNA"
+BulEF   = "HIT+"
+BulText = "[敵軍] 命中率+<VAL1>％"
+BulVal1 = "|10|15|20|25|"
+BulVal2 = "|"
+
+BulID   = "PRY+_STAR"
+BulEF   = "PRY+"
+BulText = "[敵軍] 回避率+<VAL1>％"
+BulVal1 = "|8|12|16|20|"
+BulVal2 = "|"
+
+//03-----------------------------------
+BulID   = "NO_PATTACK"
+BulEF   = "NO_PATTACK"
+BulText = "移動後攻撃不能"
+BulVal1 = "|||||"
+BulVal2 = "|"
+
+//04-----------------------------------
+BulID   = "NO_COMMAND"
+BulEF   = "NO_COMMAND"
+BulText = "行動不能"
+BulVal1 = "|||||"
+BulVal2 = "|"
+
+//06-----------------------------------
+BulID   = "NO_MOVE"
+BulEF   = "NO_MOVE"
+BulText = "移動不能"
+BulVal1 = "|||||"
+BulVal2 = "|"
+
+//07-----------------------------------
+BulID   = "PROB+_SHIELD"
+BulEF   = "PROB+_SHIELD"
+BulText = "[敵軍] ｼｰﾙﾄﾞ防御発生率+<VAL1>％"
+BulVal1 = "|10|15|25|30|"
+BulVal2 = "|"
+
+//08-----------------------------------
+BulID   = "DAM-_FURIN"
+BulEF   = "DAM-"
+BulText = "[敵軍] 被ﾀﾞﾒｰｼﾞを<VAL1>％減少"
+BulVal1 = "|15|20|25|30|"
+BulVal2 = "|"
+
+//09-----------------------------------
+BulID   = "MP-_KOA"
+BulEF   = "MP-"
+BulText = "毎ﾀｰﾝMP-<VAL1>"
+BulVal1 = "|3|5|7|10|"
+BulVal2 = "|"
+
+BulID   = "DAM+_GRAZE_BLAZE"
+BulEF   = "DAM+_GRAZE"
+BulText = "ｸﾞﾚｲｽﾞ時の最終ﾀﾞﾒｰｼﾞ+<VAL1>％"
+BulVal1 = "|15|20|25|30|"
+BulVal2 = "|"
+
+//10-----------------------------------
+BulID   = "PRY-_DEF-_DOLL"
+BulEF   = "PRY-_DEF-"
+BulText = "回避率-<VAL1>％、被ﾀﾞﾒｰｼﾞ+<VAL2>％"
+BulVal1 = "|10|15|20|25|"
+BulVal2 = "|10|15|20|25|"
+
+BulID   = "WORLD"
+BulEF   = "WORLD"
+BulText = "[咲夜] 必ずｶｳﾝﾀｰを発動する"
+BulVal1 = "|"
+BulVal2 = "|"
+
+BulID   = "ALLGRAZE"
+BulEF   = "ALLGRAZE"
+BulText = "高速ﾓｰﾄﾞでもｸﾞﾚｲｽﾞが発生する"
+BulVal1 = "|"
+BulVal2 = "|"
+
+//11-----------------------------------
+BulID   = "MEEK"
+BulEF   = "MEEK"
+BulText = "[咲夜] 残存HP率の<VAL1>％だけ与えるﾀﾞﾒｰｼﾞが上昇"
+BulVal1 = "|15|30|50|75|"
+BulVal2 = "|"
+
+BulID   = "PRY-_SLOW_SSHOOT"
+BulEF   = "PRY-_SLOW"
+BulText = "[味方] 低速時の回避率-<VAL1>％"
+BulVal1 = "|10|15|20|25|"
+BulVal2 = "|"
+
+BulID   = "MP-_DAVID"
+BulEF   = "MP-"
+BulText = "毎ﾀｰﾝMP-<VAL1>"
+BulVal1 = "|3|5|7|10|"
+BulVal2 = "|"
+
+BulID   = "PARAM-_PRY_AKAIRO"
+BulEF   = "PARAM-_PRY"
+BulText = "回避のｽﾃｰﾀｽ-<VAL1>"
+BulVal1 = "|2.5|5|7.5|10|"
+BulVal2 = "|"
+
+//14-----------------------------------
+BulID   = "MOV-_FLARE"
+BulEF   = "MOV-"
+BulText = "移動力-<VAL1>"
+BulVal1 = "|1|1|1|1|"
+BulVal2 = "|"
+
+//15-----------------------------------
+BulID   = "LEVATEIN"
+BulEF   = "VAL+_DAM"
+BulText = "[敵軍] 最終ﾀﾞﾒｰｼﾞ+<VAL1>"
+BulVal1 = "|750|1000|1250|1500|"
+BulVal2 = "|"
+
+BulID   = "FOK"
+BulEF   = "FOK"
+BulText = "[ﾌﾗﾝ] 分身の数*<VAL1>％だけ命中率上昇"
+BulVal1 = "|3|5|10|15|"
+BulVal2 = "|"
+
+BulID   = "PARAM-_DEF_QED"
+BulEF   = "PARAM-_DEF"
+BulText = "防御のｽﾃｰﾀｽ-<VAL1>"
+BulVal1 = "|5|10|15|20|"
+BulVal2 = "|"
+
+//17-----------------------------------
+BulID   = "POW-_GOTHIT_POTATO"
+BulEF   = "POW-_GOTHIT"
+BulText = "[自軍] 被弾時にﾊﾟﾜｰ-<VAL1>"
+BulVal1 = "|3|5|7|9|"
+BulVal2 = "|"
+
+//20-----------------------------------
+BulID   = "CRT+_PFLOW"
+BulEF   = "CRT+"
+BulText = "[自軍] 被弾した攻撃がすべてｸﾘﾃｨｶﾙになる"
+BulVal1 = "|100|100|100|100|"
+BulVal2 = "||"
+
+BulID   = "LAND_WATER_PORORO"
+BulEF   = "LAND_WATER"
+BulText = "ﾕﾆｯﾄのいる地形を「<VAL1>」にする"
+BulVal1 = "|水|"
+BulVal2 = "||"
+
+//21------------------------------------
+BulID   = "GUARD_BREAK_BITE"
+BulEF   = "GUARD_BREAK"
+BulText = "「防御」および各種ﾊﾞﾘｱ無効"
+BulVal1 = "||"
+BulVal2 = "||"
+
+BulID   = "PRY+_AYA"
+BulEF   = "PRY+"
+BulText = "[敵軍] 回避率+<VAL1>％"
+BulVal1 = "|8|10|12|15|"
+BulVal2 = "||"
+
+BulID   = "PRY-_OROSHI"
+BulEF   = "PRY-"
+BulText = "[自軍] 回避率-<VAL1>％"
+BulVal1 = "|15|20|25|30|"
+BulVal2 = "||"
+
+BulID   = "FUBI"
+BulEF   = "FUBI"
+BulText = "[文] 運動性+<VAL1>、移動力+<VAL2>"
+BulVal1 = "|30|40|50|60|"
+BulVal2 = "|1|2|2|3|"
+
+//22------------------------------------
+BulID   = "WARERU"
+BulEF   = "FORCE_COMPAT_WEP"
+BulText = "[自軍] 攻撃時、武器の地形適応が「<VAL1>」で計算される"
+BulVal1 = "|水|"
+BulVal2 = "|Water|"
+
+BulID   = "ADD_SPIRIT_SANAE"
+BulEF   = "ADD_SPIRIT"
+BulText = "[早苗] ﾀｰﾝ開始時に「集中」がかかる"
+BulVal1 = "|SHUCHU|"
+BulVal2 = "|Sanae_en|"
+
+BulID   = "HIT+_SANAE"
+BulEF   = "HIT+"
+BulText = "[敵軍] 命中率+<VAL1>％"
+BulVal1 = "|10|20|25|30|"
+BulVal2 = "|"
+
+BulID   = "RANGE-_KAZE"
+BulEF   = "RANGE-"
+BulText = "最大射程-<VAL1>"
+BulVal1 = "|1|1|1|2|"
+BulVal2 = "|"
+
+BulID   = "CURE_SP_KAZE"
+BulEF   = "CURE_SP"
+BulText = "[早苗] ﾀｰﾝ開始時に「奇跡」がかかる"
+BulVal1 = "|"
+BulVal2 = "|Sanae_en|Sanae_en|Sanae_en|Sanae_en|"
+
+//23------------------------------------
+BulID   = "DAM+_KANAKO"
+BulEF   = "DAM+"
+BulText = "[自軍] 被ﾀﾞﾒｰｼﾞ+<VAL1>％"
+BulVal1 = "|10|10|14|18||"
+BulVal2 = "|"
+
+BulID   = "DAM+_EXOMB"
+BulEF   = "DAM+"
+BulText = "[自軍] 被ﾀﾞﾒｰｼﾞ+<VAL1>％"
+BulVal1 = "|10|20|25|30|"
+BulVal2 = "|"
+
+BulID   = "COMPAT-_KANAKO"
+BulEF   = "COMPAT-"
+BulText = "[自軍] 地形適応『空』が<VAL2>になる"
+BulVal1 = "|0|0|0|0|"
+BulVal2 = "|B|C|C|D|"
+
+BulID   = "SOKO_MOF"
+BulEF   = "SOKO"
+BulText = "[神奈子] HPが減るほど装甲・命中率が上昇"
+BulVal1 = "|6|7|8|9|"
+BulVal2 = "|Kanako_en|Kanako_en|Kanako_en|Kanako_en|"
+
+BulID   = "PRY-_MOF"
+BulEF   = "PRY-"
+BulText = "[自軍] 回避率-<VAL1>％"
+BulVal1 = "|10|15|20|25|"
+BulVal2 = "||"
+
+BulID   = "PRY-_SUWAKO"
+BulEF   = "PRY-"
+BulText = "[自軍] 回避率-<VAL1>％"
+BulVal1 = "|8|10|12|15|"
+BulVal2 = "||"
+
+BulID   = "NOENTER"
+BulEF   = "NOENTER"
+BulText = "[自軍] 通行不可"
+BulVal1 = "||"
+BulVal2 = "||"
+
+BulID   = "COMPAT-_SUWAKO"
+BulEF   = "COMPAT-"
+BulText = "[自軍] 地形適応『水』が<VAL2>になる"
+BulVal1 = "|2|2|2|2|"
+BulVal2 = "|B|C|C|D|"
+
+BulID   = "MISHAGUJISAMA"
+BulEF   = "MPSP-_RATE"
+BulText = "[自軍] ﾀｰﾝ開始時にSP、MP-<VAL1>％"
+BulVal1 = "|15|20|25|30|"
+BulVal2 = "||"
+
+//24------------------------------------
+BulID   = "HIT+_SUIKA"
+BulEF   = "HIT+"
+BulText = "[敵軍] 命中率+<VAL1>％"
+BulVal1 = "|10|15|20|25|"
+BulVal2 = "||"
+
+BulID   = "SIZE+_MPOWER"
+BulEF   = "SIZE+"
+BulText = "[萃香] ｻｲｽﾞが<VAL1>になる"
+BulVal1 = "|LL|LL|LL|3L|"
+BulVal2 = "|"
+
+//25------------------------------------
+BulID   = "HIT-_NAZRIN"
+BulEF   = "HIT-"
+BulText = "[自軍] 命中率-<VAL1>％"
+BulVal1 = "|15|25|30|35|"
+BulVal2 = "||"
+
+//26------------------------------------
+BulID   = "MOTION-_LETTY"
+BulEF   = "MOTION-"
+BulText = "[自軍] 運動性-<VAL1>"
+BulVal1 = "|30|40|50|60|"
+BulVal2 = "|2|2|2|2|"
+
+//27------------------------------------
+BulID   = "ATP+_YOUMU"
+BulEF   = "DAM+_ATP"
+BulText = "[敵軍] 格闘攻撃のﾀﾞﾒｰｼﾞ+<VAL1>％"
+BulVal1 = "|15|20|25|30|"
+BulVal2 = "|"
+
+//28------------------------------------
+BulID   = "POW-_LUNASA"
+BulEF   = "POW-"
+BulText = "[自軍] ﾀｰﾝ開始時にﾊﾟﾜｰ-<VAL1>"
+BulVal1 = "|3|4|5|6|"
+BulVal2 = "|"
+
+BulID   = "DAM-_KISUME"
+BulEF   = "DAM-"
+BulText = "[敵軍] 被ﾀﾞﾒｰｼﾞ-<VAL1>％"
+BulVal1 = "|15|20|25|30|"
+BulVal2 = "|"
+
+BulID   = "PARAM-_ALL_YAMAME"
+BulEF   = "PARAM-_ALL"
+BulText = "[自軍] 全ｽﾃｰﾀｽ-<VAL1>"
+BulVal1 = "|20|25|30|40|"
+BulVal2 = "|"
+
+//29------------------------------------
+BulID   = "BUNSHIN_CHEN"
+BulEF   = "BUNSHIN"
+BulText = "[橙] <VAL1>％の確率で「分身」が発生"
+BulVal1 = "|40|50|60|70|"
+BulVal2 = "|"
+
+//30------------------------------------
+BulID   = "POW+_MERLIN"
+BulEF   = "POW+"
+BulText = "[敵軍] ﾀｰﾝ開始時にﾊﾟﾜｰ+<VAL1>"
+BulVal1 = "|3|4|5|6|"
+BulVal2 = "|"
+
+BulID   = "HIT+_LYRICA"
+BulEF   = "HIT+"
+BulText = "[敵軍] 命中率+<VAL1>％"
+BulVal1 = "|10|15|20|25|"
+BulVal2 = "|"
+
+BulID   = "WEPPOW+_LUNASA"
+BulEF   = "WEPPOW+"
+BulText = "[自軍] 全武器の必要ﾊﾟﾜｰ+<VAL1>"
+BulVal1 = "|5|10|15|20|"
+BulVal2 = "|"
+
+BulID   = "MAXPOW+_MERLIN"
+BulEF   = "MAXPOW+"
+BulText = "[敵軍] ﾊﾟﾜｰの上限値に+<VAL1>"
+BulVal1 = "|10|25|35|50|"
+BulVal2 = "|"
+
+BulID   = "CONSUME+_BUL_LYRICA"
+BulEF   = "CONSUME+_BUL"
+BulText = "[自軍] 弾数の消費が2倍になる"
+BulVal1 = "|||||"
+BulVal2 = "|"
+
+BulID   = "ELEMENT"
+BulEF   = "ELEMENT"
+BulText = "[三姉妹] 各ｽﾃｰﾀｽが三人で最も高い\n         ｷｬﾗｸﾀｰのものに入れ替わる"
+BulVal1 = "|"
+BulVal2 = "|"
+
+//31------------------------------------
+BulID   = "PARAM+_ALL_RAN"
+BulEF   = "PARAM+_ALL"
+BulText = "[藍] 全ｽﾃｰﾀｽ+<VAL1>"
+BulVal1 = "|20|30|35|40|"
+BulVal2 = "|Ran_en|"
+
+BulID   = "PRY-_RAN"
+BulEF   = "PRY-"
+BulText = "[自軍] 回避率-<VAL1>％"
+BulVal1 = "|15|25|30|35|"
+BulVal2 = "|"
+
+//32------------------------------------
+BulID   = "ARMOR-_GOSUI"
+BulEF   = "ARMOR-"
+BulText = "[自軍] 装甲-<VAL1>"
+BulVal1 = "|250|350|400|450|"
+BulVal2 = "|3|3|3|3|"
+
+BulID   = "UNIT-_GOSUI"
+BulEF   = "ARMOR-"
+BulText = "[自軍] 装甲-<VAL1>"
+BulVal1 = "|250|350|400|450|"
+BulVal2 = "|3|3|3|3|"
+
+BulID   = "NOSUPPORT_ICHINEN"
+BulEF   = "NOSUPPORT"
+BulText = "[自軍] 援護不可"
+BulVal1 = "|"
+BulVal2 = "|"
+
+//33------------------------------------
+BulID   = "FPRY-_YUYUKO"
+BulEF   = "FPRY-"
+BulText = "[自軍] 最終回避率-<VAL1>％"
+BulVal1 = "|10|15|20|25|"
+BulVal2 = "|"
+
+BulID   = "MOV-_YUYUKO"
+BulEF   = "MOV-"
+BulText = "[自軍] 移動力-<VAL1>"
+BulVal1 = "|2|2|2|2|"
+BulVal2 = "|"
+
+BulID   = "CURE_HALF"
+BulEF   = "CURE_HALF"
+BulText = "[自軍] すべてのHP回復効果が半減"
+BulVal1 = "|50|50|50|50|"
+BulVal2 = "|"
+
+BulID   = "CURE-"
+BulEF   = "CURE-"
+BulText = "[自軍] すべてのHP回復効果-<VAL1>％"
+BulVal1 = "|60|70|80|85|"
+BulVal2 = "|"
+
+BulID   = "NOCURE"
+BulEF   = "NOCURE"
+BulText = "[自軍] すべてのHP回復効果が無効"
+BulVal1 = "|"
+BulVal2 = "|"
+
+BulID   = "CURE_INVERT"
+BulEF   = "CURE_INVERT"
+BulText = "[自軍] すべてのHP回復効果が逆転"
+BulVal1 = "|"
+BulVal2 = "|"
+
+//34------------------------------------
+BulID   = "HIT+_YUKARI"
+BulEF   = "HIT+"
+BulText = "[敵軍] 命中率+<VAL1>％"
+BulVal1 = "|15|20|25|30|"
+BulVal2 = "|"
+
+BulID   = "COST+_SP_YUKARI"
+BulEF   = "COST+_SP"
+BulText = "[自軍] 消費SP+<VAL1>"
+BulVal1 = "|5|5|5|5|"
+BulVal2 = "|"
+
+BulID   = "YUME"
+BulEF   = "YUME"
+BulText = "[紫] 弾幕内にいる全ﾕﾆｯﾄの精神ｺﾏﾝﾄﾞを\n     使用できる。(最大 <VAL1> 回)"
+BulVal1 = "|3|5|7|10|"
+BulVal2 = "|"
+
+BulID   = "FDAM+_GRAZE_YUKARI"
+BulEF   = "FDAM+_GRAZE"
+BulText = "[自軍] 最終ｸﾞﾚｲｽﾞﾀﾞﾒｰｼﾞ+<VAL1>"
+BulVal1 = "|300|500|600|700|"
+BulVal2 = "|"
+
+BulID   = "HIT+_YOKAI"
+BulEF   = "HIT+_YOKAI"
+BulText = "種族「人間」以外、回避率-<VAL1>％"
+BulVal1 = "|15|25|30|35|"
+BulVal2 = "|"
+
+BulID   = "HIT+_NINGEN"
+BulEF   = "HIT+_NINGEN"
+BulText = "種族「人間」のみ回避率-<VAL1>％"
+BulVal1 = "|15|25|30|35|"
+BulVal2 = "|"
+
+BulID   = "KANMU"
+BulEF   = "KANMU"
+BulText = "[紫] 隣接したﾕﾆｯﾄ以外からの攻撃を無効化"
+BulVal1 = "|"
+BulVal2 = "|"
+
+BulID   = "KANMU2"
+BulEF   = "KANMU2"
+BulText = "[自軍] 隣接しないと紫にﾀﾞﾒｰｼﾞを与えられない"
+BulVal1 = "|"
+BulVal2 = "|"
+
+BulID   = "RANGE-_BOMB_YUKARI"
+BulEF   = "RANGE-_BOMB"
+BulText = "[自軍] ﾎﾞﾑの射程-<VAL1>"
+BulVal1 = "|1|1|2|2|"
+BulVal2 = "|"
+
+BulID   = "MOV-_YUKARI"
+BulEF   = "MOV-"
+BulText = "[自軍] 移動力-<VAL1>"
+BulVal1 = "|1|1|1|1|"
+BulVal2 = "||"
+
+BulID   = "SOKO_YUKARI"
+BulEF   = "SOKO"
+BulText = "[紫] HPが減るほど装甲・命中率が上昇"
+BulVal1 = "|5|6|7|8|"
+BulVal2 = "|Yukari_en|Yukari_en|Yukari_en|Yukari_en|"
+
+BulID   = "KEKKAI"
+BulEF   = "KEKKAI"
+BulText = "[自軍] 弾幕内にいると、紫の行動回数が増え\n     　敵ﾀｰﾝで必ず攻撃対象になる"
+BulVal1 = "|"
+BulVal2 = "|"
+
+BulID   = "OVERHIT_YUKARI"
+BulEF   = "OVERHIT"
+BulText = "[紫] 命中率が100％を突破\n     (100％を超えた分は攻撃力への補正になる)"
+BulVal1 = "|20|30|40|50|"
+BulVal2 = "|"

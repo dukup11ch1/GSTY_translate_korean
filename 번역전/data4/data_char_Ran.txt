@@ -1,0 +1,45 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "—•";
+Char[u_id, s_id*7+0] = 150;
+Char[u_id, s_id*7+1] = 145;
+Char[u_id, s_id*7+2] = 183;
+Char[u_id, s_id*7+3] = 105;
+Char[u_id, s_id*7+4] = 165;
+Char[u_id, s_id*7+5] = 173;
+Char[u_id, s_id*7+6] = 50;
+Temper[u_id, s_id]   = "‹­‹C";
+Type[u_id, s_id]     = "ALL_ATP";
+
+Pair[u_id, s_id]     = "|Chen|2|Yukari|3|";
+Revenge[u_id, s_id]  = "|Chen|100|";
+
+SPList[u_id, s_id]     = "|Žè‰ÁŒ¸|‰Á‘¬|W’†|“S•Ç|’¼Œ‚|Œƒ“¬|";
+SPListLv[u_id, s_id]   = "|01|05|18|24|99|99|";
+SPListCost[u_id, s_id] = "|05|15|15|30|10|50|";
+
+NumSkills[u_id, s_id]    = 2;
+if(global.level > 0)
+{
+    SkillID[u_id, s_id*10+0] = "SATTACK";
+    SkillLv[u_id, s_id*10+0] = "|01|25|";
+
+    SkillID[u_id, s_id*10+1] = "SGUARD";
+    SkillLv[u_id, s_id*10+1] = "|01|25|";
+}
+else
+{
+    SkillID[u_id, s_id*10+0] = "SATTACK";
+    SkillLv[u_id, s_id*10+0] = "|01|25|";
+
+    SkillID[u_id, s_id*10+1] = "SGUARD";
+    SkillLv[u_id, s_id*10+1] = "|01|";
+}
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+2] = "FAST";
+SkillLv[u_id, s_id*10+2] = "|01|";
+
+SkillID[u_id, s_id*10+3] = "SAVE_BUL";
+SkillLv[u_id, s_id*10+3] = "|01|";

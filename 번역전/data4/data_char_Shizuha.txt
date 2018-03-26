@@ -1,0 +1,43 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "ê√ót";
+Char[u_id, s_id*7+0] = 120;
+Char[u_id, s_id*7+1] = 137;
+Char[u_id, s_id*7+2] = 170;
+Char[u_id, s_id*7+3] = 94;
+Char[u_id, s_id*7+4] = 164;
+Char[u_id, s_id*7+5] = 171;
+Char[u_id, s_id*7+6] = 49;
+Temper[u_id, s_id]   = "ó‚ê√";
+Type[u_id, s_id]     = "MGR_PRY";
+
+Pair[u_id, s_id]     = "|Minoriko|2|";
+Revenge[u_id, s_id]  = "|Minoriko|35|";
+
+SPList[u_id, s_id]     = "|ëMÇ´|êMóä|èWíÜ|ä¥âû|éËâ¡å∏|åÉó„|";
+SPListLv[u_id, s_id]   = "|01|08|14|21|34|46|";
+SPListCost[u_id, s_id] = "|15|25|15|30|10|60|";
+
+NumSkills[u_id, s_id]    = 4;
+SkillID[u_id, s_id*10+0] = "SATTACK";
+SkillLv[u_id, s_id*10+0] = "|01|29|";
+
+SkillID[u_id, s_id*10+1] = "SABI";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "AKI_SHIZUHA";
+SkillLv[u_id, s_id*10+2] = "|10|";
+
+SkillID[u_id, s_id*10+3] = "PAIR+_SHIZUHA";
+SkillLv[u_id, s_id*10+3] = "|14|25|35|";
+
+if(sort == "player")
+{
+    NumSkills[u_id, s_id]   += 2;
+    SkillID[u_id, s_id*10+4] = "GRAZE";
+    SkillLv[u_id, s_id*10+4] = "|01|";
+
+    SkillID[u_id, s_id*10+5] = "P_EVADE";
+    SkillLv[u_id, s_id*10+5] = "|01|";
+}

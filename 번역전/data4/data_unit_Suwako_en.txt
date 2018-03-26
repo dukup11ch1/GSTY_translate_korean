@@ -1,0 +1,159 @@
+var u_id; u_id = argument0;
+
+//unit data-----------------------------
+Name[u_id]      = "âkñÓÅ@êzñKéq";
+NameShort[u_id] = "êzñKéq";
+Race[u_id]      = "ê_";
+
+Unit[u_id, 0]   = 15800;
+Unit[u_id, 1]   = 320;
+Unit[u_id, 2]   = 125;
+Unit[u_id, 3]   = 1100;
+Unit[u_id, 4]   = 6;
+MovSlow[u_id]   = 0.65;
+Size[u_id]      = "S";
+Cost[u_id]      = 3.5;
+Tune[u_id]      = "|12000|300|80|800|";
+
+NumSlots[u_id]  = 1;
+Compat[u_id, 0] = "A";
+Compat[u_id, 1] = "A";
+Compat[u_id, 2] = "S";
+Compat[u_id, 3] = "A";
+
+NumSpecials[u_id] = 2;
+Special[u_id, 0]  = "RAIN_KEKKAI";
+Special[u_id, 1]  = "MBLOCK";
+
+NumWeps[u_id]   = 2;
+WepTune[u_id]   = "A";
+
+NumBGM[u_id]    = 1;
+BGM[u_id, 0]    = "bgm_battle_Suwako";
+NumPilots[u_id] = 1;
+Pilot[u_id, 0]  = "Suwako";
+
+SprPichun[u_id] = "03";
+
+//weapon data---------------------------
+var WepId; WepId = 0;
+
+WepKind[u_id, WepId]    = 0;
+WepName[u_id, WepId]    = "âkñÓÇÃìSÇÃó÷";
+WepDemo[u_id, WepId]    = "tetsu";
+WepDamage[u_id, WepId]  = 2350;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 4;
+WepHit[u_id, WepId]     = 25;
+WepCrt[u_id, WepId]     = 10;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "Ç»Çµ";
+WepBMax[u_id, WepId]    = 30;
+WepMP[u_id, WepId]      = 0;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "A";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "ìÒîqìÒîèàÍîq";
+WepDemo[u_id, WepId]    = "nihai";
+WepDamage[u_id, WepId]  = 2400;
+WepRMin[u_id, WepId]    = 2;
+WepRMax[u_id, WepId]    = 6;
+WepHit[u_id, WepId]     = 15;
+WepCrt[u_id, WepId]     = 30;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 0;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "Ç»Çµ";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 5;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "B";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "éËí∑ë´í∑Ç≥Ç‹";
+WepDemo[u_id, WepId]    = "tenaga";
+WepDamage[u_id, WepId]  = 2650;
+WepRMin[u_id, WepId]    = 3;
+WepRMax[u_id, WepId]    = 7;
+WepHit[u_id, WepId]     = 20;
+WepCrt[u_id, WepId]     = 20;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "Ç»Çµ";
+WepBMax[u_id, WepId]    = 20;
+WepMP[u_id, WepId]      = 0;
+WepPower[u_id, WepId]   = 100;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "A";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 0;
+WepName[u_id, WepId]    = "êzñKëÂêÌ";
+WepDemo[u_id, WepId]    = "suwa";
+WepDamage[u_id, WepId]  = 2900;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 6;
+WepHit[u_id, WepId]     = 10;
+WepCrt[u_id, WepId]     = 30;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 0;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "ïKóvÅFê_ìﬁéq";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 10;
+WepPower[u_id, WepId]   = 100;
+WepAir[u_id, WepId]     = "B";
+WepGround[u_id, WepId]  = "S";
+WepWater[u_id, WepId]   = "S";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "Kanako_en|";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 0;
+WepName[u_id, WepId]    = "–º¨∏ﬁºﬁÇ≥Ç‹";
+WepDemo[u_id, WepId]    = "mishagujisama";
+WepDamage[u_id, WepId]  = 3200;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 9;
+WepHit[u_id, WepId]     = 30;
+WepCrt[u_id, WepId]     = 20;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 0;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "Ç»Çµ";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 15;
+WepPower[u_id, WepId]   = 100;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "B";
+WepWater[u_id, WepId]   = "S";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+

@@ -1,0 +1,24 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "Ç±Ç¢Çµ";
+Char[u_id, s_id*7+0] = 137;
+Char[u_id, s_id*7+1] = 137;
+Char[u_id, s_id*7+2] = 172;
+Char[u_id, s_id*7+3] = 89;
+Char[u_id, s_id*7+4] = 174;
+Char[u_id, s_id*7+5] = 176;
+Char[u_id, s_id*7+6] = 40;
+Temper[u_id, s_id]   = "ÅHÅH";
+Type[u_id, s_id]     = "ALL_MGR";
+
+Pair[u_id, s_id]     = "|Satori|5|";
+Revenge[u_id, s_id]  = "|";
+
+SPList[u_id, s_id]     = "|íºä¥|íºåÇ|íºåÇ|íºåÇ|åÉì¨|à§|";
+SPListLv[u_id, s_id]   = "|01|01|100|100|100|100|";
+SPListCost[u_id, s_id] = "|20|20|15|20|65|80|";
+
+NumSkills[u_id, s_id]    = 0;
+SkillID[u_id, s_id*10+0] = "MUISHIKI";
+SkillLv[u_id, s_id*10+0] = "|01|";

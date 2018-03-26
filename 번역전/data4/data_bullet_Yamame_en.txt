@@ -1,0 +1,43 @@
+NumBullets = 2;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 4;
+BulShape[BulId] = "net";
+BulSlots[BulId]  = 1;
+
+BulDEF[BulId, 0] = 5;
+BulPRY[BulId, 0] = 40;
+BulMov[BulId, 0] = 1;
+BulID[BulId, 0]  = "";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 7000;
+BulEXP[BulId]    = 180;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "·èïÑÅuÃ®Ÿƒﬁ–±ΩﬁœÅv";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId]  = 1;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.90;
+BulID[BulId, 0]  = "PARAM-_ALL_YAMAME";
+
+BulHP[BulId]     = 16000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 11000;
+BulEXP[BulId]    = 210;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "filled";
+BulUpdate[BulId] = 1;

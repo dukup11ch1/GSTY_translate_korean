@@ -1,0 +1,111 @@
+NumBullets = 5;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 7;
+BulShape[BulId] = "fan_Yuyuko";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 10;
+BulPRY[BulId, 0] = 25;
+BulMov[BulId, 0] = 0.35;
+BulID[BulId, 0]  = "FPRY-_YUYUKO";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 8000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "亡郷「亡我郷」";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 0;
+BulShape[BulId] = "";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 0;
+BulPRY[BulId, 0] = 35;
+BulMov[BulId, 0] = 0.25;
+BulID[BulId, 0]  = "MOV-_YUYUKO";
+
+BulHP[BulId]     = 16000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 8500;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "bouga";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "亡舞「生者必滅の理」";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 0;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 40;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 0.8;
+BulID[BulId, 0]  = "CURE_HALF";
+
+BulHP[BulId]     = 18000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 10000;
+BulEXP[BulId]    = 220;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "shouja";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "華霊「ｽﾜﾛｰﾃｲﾙﾊﾞﾀﾌﾗｲ」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 2;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 20;
+BulMov[BulId, 0] = 0.75;
+BulID[BulId, 0]  = "CURE-";
+
+BulDEF[BulId, 1] = 5;
+BulPRY[BulId, 1] = 5;
+BulMov[BulId, 1] = 1;
+BulID[BulId, 1]  = "NOENTER";
+
+BulHP[BulId]     = 18800;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 12000;
+BulEXP[BulId]    = 250;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "swallow";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "桜符「完全なる墨染の桜」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 35;
+BulPRY[BulId, 0] = 25;
+BulMov[BulId, 0] = 0.35;
+BulID[BulId, 0]  = "NOCURE";
+
+BulHP[BulId]     = 25600;
+BulTurns[BulId]  = -1;
+BulPoints[BulId] = 17500;
+BulEXP[BulId]    = 300;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "sumizome";
+BulUpdate[BulId] = 1;

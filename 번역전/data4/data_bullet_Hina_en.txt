@@ -1,0 +1,42 @@
+NumBullets = 2;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 5;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 20;
+BulMov[BulId, 0] = 0.20;
+BulID[BulId, 0]  = "";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 4500;
+BulEXP[BulId]    = 140;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "doll";
+BulUpdate[BulId] = 0;
+
+BulId += 1;
+BulName[BulId]  = "ënïÑÅuÕﬂ≤›Ã€∞Åv";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 7;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 10;
+BulPRY[BulId, 0] = 35;
+BulMov[BulId, 0] = 0.50;
+BulID[BulId, 0]  = "CRT+_PFLOW";
+
+BulHP[BulId]     = 16000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 8500;
+BulEXP[BulId]    = 175;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "pflow";
+BulUpdate[BulId] = 0;

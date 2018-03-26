@@ -1,0 +1,132 @@
+var u_id; u_id = argument0;
+
+//unit data-----------------------------
+Name[u_id]      = "小野塚　小町";
+NameShort[u_id] = "小町";
+Race[u_id]      = "死神";
+
+Unit[u_id, 0]   = 5800;
+Unit[u_id, 1]   = 160;
+Unit[u_id, 2]   = 80;
+Unit[u_id, 3]   = 1000;
+Unit[u_id, 4]   = 5;
+MovSlow[u_id]   = 0.5;
+Size[u_id]      = "L";
+Cost[u_id]      = 2.5;
+Tune[u_id]      = "|2500|100|40|500|";
+
+NumSlots[u_id]  = 2;
+Compat[u_id, 0] = "A";
+Compat[u_id, 1] = "A";
+Compat[u_id, 2] = "A";
+Compat[u_id, 3] = "A";
+
+NumSpecials[u_id] = 0;
+
+NumWeps[u_id]   = 4;
+WepTune[u_id]   = "A";
+
+NumBGM[u_id]    = 1;
+BGM[u_id, 0]    = "bgm_battle_Komachi";
+NumPilots[u_id] = 1;
+Pilot[u_id, 0]  = "Komachi";
+
+SprPichun[u_id] = "01";
+
+//--------------------------------------
+var WepId; WepId = 0;
+
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "鎌";
+WepDemo[u_id, WepId]    = "scythe";
+WepDamage[u_id, WepId]  = 1950;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 2;
+WepHit[u_id, WepId]     = 30;
+WepCrt[u_id, WepId]     = 30;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 1;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 5;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "B";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "死神の大鎌";
+WepDemo[u_id, WepId]    = "ogama";
+WepDamage[u_id, WepId]  = 2250;
+WepRMin[u_id, WepId]    = 2;
+WepRMax[u_id, WepId]    = 3;
+WepHit[u_id, WepId]     = 10;
+WepCrt[u_id, WepId]     = 25;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 15;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "B";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "お迎え体験版";
+WepDemo[u_id, WepId]    = "scythe_dist";
+WepDamage[u_id, WepId]  = 2400;
+WepRMin[u_id, WepId]    = 2;
+WepRMax[u_id, WepId]    = 6;
+WepHit[u_id, WepId]     = 15;
+WepCrt[u_id, WepId]     = 20;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 0;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 20;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "B";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "八重霧の渡し";
+WepDemo[u_id, WepId]    = "watashi";
+WepDamage[u_id, WepId]  = 3150;
+WepRMin[u_id, WepId]    = 2;
+WepRMax[u_id, WepId]    = 4;
+WepHit[u_id, WepId]     = 20;
+WepCrt[u_id, WepId]     = 25;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 55;
+WepPower[u_id, WepId]   = 120;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "S";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";

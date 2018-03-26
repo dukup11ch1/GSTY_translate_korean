@@ -1,0 +1,69 @@
+NumBullets = 3; if(global.stage_num != 21 && global.stage_num > 0) NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 4;
+BulShape[BulId] = "*pondering";
+BulSlots[BulId]  = 1;
+
+BulDEF[BulId, 0] = 10;
+BulPRY[BulId, 0] = 25;
+BulMov[BulId, 0] = 0.65;
+BulID[BulId, 0]  = "PRY+_AYA";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 6000;
+BulEXP[BulId]    = 180;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "風神「天狗颪」";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 4;
+BulShape[BulId] = "circle";
+BulSlots[BulId]  = 1;
+
+BulDEF[BulId, 0] = 35;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 1.80;
+BulID[BulId, 0]  = "PRY-_OROSHI";
+
+BulHP[BulId]     = 13500;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 8000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "oroshi";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "「幻想風靡」";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 4;
+BulShape[BulId] = "circle";
+BulSlots[BulId]  = 2;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 2.0;
+BulID[BulId, 0]  = "";
+
+BulDEF[BulId, 1] = 12;
+BulPRY[BulId, 1] = 20;
+BulMov[BulId, 1] = 0.80;
+BulID[BulId, 1]  = "FUBI";
+
+BulHP[BulId]     = 16000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 10000;
+BulEXP[BulId]    = 260;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "fubi";
+BulUpdate[BulId] = 1;

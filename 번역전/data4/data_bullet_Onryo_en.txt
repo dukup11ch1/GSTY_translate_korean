@@ -1,0 +1,22 @@
+NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "’e–‹";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 10;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 0.25;
+BulID[BulId, 0]  = "";
+
+BulHP[BulId]     = 9200;
+BulTurns[BulId]  = 5;
+BulPoints[BulId] = 1800;
+BulEXP[BulId]    = 120;
+BulPP[BulId]     = 7;
+BulAnime[BulId]  = "spiral";
+BulUpdate[BulId] = 0;

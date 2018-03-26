@@ -1,0 +1,22 @@
+NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 2;
+BulRMax[BulId]  = 8;
+BulShape[BulId] = "square";
+BulSlots[BulId]   = 1;
+
+BulDEF[BulId, 0] = 30;
+BulPRY[BulId, 0] = 5;
+BulMov[BulId, 0] = 0.40;
+BulID[BulId, 0]  = "POW+_MERLIN";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 8000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;

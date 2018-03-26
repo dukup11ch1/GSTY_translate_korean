@@ -1,0 +1,236 @@
+Kind:|Attack|cAttack|
+WepId:|0|1|
+Dialog:Yukari0a:この戦いが意義あるものに
+　なりますように
+
+Kind:|Attack|cAttack|
+WepId:|0|1|
+Dialog:Yukari0a:もちろん、加減はしませんからね
+
+Kind:|Attack|cAttack|
+WepId:|0|1|
+Dialog:Yukari0a:見せてちょうだい、
+　貴方たちの弾幕を…
+
+Kind:|Attack|cAttack|
+WepId:|2|
+Dialog:Yukari0a:まだまだ話は始まったばかりよ
+
+Kind:|Attack|cAttack|
+WepId:|2|
+Dialog:Yukari0a:このお話に観客席はありません
+
+Kind:|Attack|cAttack|
+WepId:|2|
+Dialog:Yukari0a:休む間など、ありはしませんわ
+
+Kind:|Attack|cAttack|
+WepId:|4|
+Dialog:Yukari0a:ちゃんと付いて来れたかしら？
+
+Kind:|Attack|cAttack|
+WepId:|4|
+Dialog:Yukari0a:少女と妖怪の話は、
+　これでいったん幕引きですわ
+
+Kind:|Attack|cAttack|
+WepId:|4|
+Dialog:Yukari0a:私の話を憶えておく必要はありません、
+　それは私の役目ですから
+
+Kind:|Attack|cAttack|
+WepId:|4|
+Dialog:Yukari0a:良くここまで持ったものね
+
+Kind:|Attack|cAttack|
+WepId:|5|
+Dialog:Yukari0a:さあ、最後の語らいといきましょう
+
+Kind:|Attack|cAttack|
+WepId:|5|
+Dialog:Yukari0a:これこそ幻想郷の境界…
+
+Kind:|Attack|cAttack|
+WepId:|5|
+Dialog:Yukari0a:私の話を憶えておく必要はありません、
+　それは私の役目ですから
+
+Kind:|Attack|cAttack|
+WepId:|5|
+Dialog:Yukari0a:見せてちょうだい、
+　貴方たちの弾幕を…
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:Yukari0a:これくらい見切って欲しいけど
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:Yukari0a:ほんの小手調べですわ
+
+Kind:|Weapon|
+WepId:|0|
+Dialog:Yukari0a:こういうのはどうかしら
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:Yukari0a:現とは、とても不確かなものよ
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:Yukari0a:夢と消えなさい…
+
+Kind:|Weapon|
+WepId:|1|
+Dialog:Yukari0a:それは夢とも現とも知れぬ物語…
+
+Kind:|Weapon|
+WepId:|2|
+Dialog:Yukari0a:死蝶の舞は貴方の目にどう映るかしら
+Dialog:Yukari0a:美しい？　それとも禍々しい？
+
+Kind:|Weapon|
+WepId:|2|
+Dialog:Yukari0a:常に死蝶は暗く静かに舞う…
+Dialog:Yukari0a:常に死蝶は暗く静かに舞う…
+
+Kind:|Weapon|
+WepId:|2|
+Dialog:Yukari0a:私の死蝶は、罪だけ背負えばいい
+Dialog:Yukari0a:舞いなさい
+
+Kind:|Weapon|
+WepId:|3|
+Dialog:Yukari0a:None
+
+Kind:|Weapon|
+WepId:|4|
+Dialog:Yukari0a:それは終わりにして始まり…
+
+Kind:|Weapon|
+WepId:|4|
+Dialog:Yukari0a:これがもっとも残酷な境界
+
+Kind:|Weapon|
+WepId:|5|
+Dialog:Yukari0a:あなたはこの境界を
+　辿ることができるかしら
+Dialog:Yukari0a:弾幕を弾幕として形作る
+Dialog:Yukari0a:極限の弾幕の境界線…
+Dialog:Yukari0a:すなわち、奥義――
+Dialog:Yukari0a:『弾幕結界』
+
+Kind:|Weapon|
+WepId:|5|
+Dialog:Yukari0a:あなたに見せてあげましょう
+Dialog:Yukari0a:弾幕を弾幕として形作る
+Dialog:Yukari0a:極限の弾幕の境界線…
+Dialog:Yukari0a:すなわち、奥義――
+Dialog:Yukari0a:『弾幕結界』
+
+Kind:|Weapon|
+WepId:|-2|
+Dialog:Yukari0a:詰めが甘かったですわね
+
+Kind:|Weapon|
+WepId:|-4|
+Dialog:Yukari0a:よく考えたものね
+
+Kind:|aAttack|
+Dialog:Yukari0a:ﾘﾍﾞﾝｼﾞ
+
+Kind:|sAttack|
+Dialog:Yukari0a:援護攻撃
+
+Kind:|sGuard|
+Dialog:Yukari0a:援護防御
+
+Kind:|Hit|Guard|
+Cond:|isHPHigh,|
+Dialog:Yukari0a:貴方たちの力、
+　そんなものではないはず
+
+Kind:|Hit|Guard|
+Cond:|isHPHigh,|
+Dialog:Yukari0a:良い弾幕ね、まだ浅いけれど
+
+Kind:|Hit|Guard|
+Cond:|isHPHigh,|
+Dialog:Yukari0a:覚悟だけの攻撃では、
+　私に勝つことはできないわよ
+
+Kind:|Hit|Guard|
+Dialog:Yukari0a:幾多の戦いが、
+　貴方たちを鍛えたのね
+
+Kind:|Hit|Guard|
+Dialog:Yukari0a:私が予期したより鋭い…
+　どのような要素によるものかしら
+
+Kind:|Hit|Guard|
+Dialog:Yukari0a:そうでなければ、
+　こちらも語り甲斐がないわ
+
+Kind:|Hit|Guard|
+Dialog:Yukari0a:攻め手を休めたら、
+　すぐにこちらの番よ。
+　私は話好きなの
+
+Kind:|Hit|Guard|
+Dialog:Yukari0a:これが貴方たちの弾幕…
+
+Kind:|Evade|
+Dialog:Yukari0a:今ので私を倒そうと？
+　それは無謀と言うものよ
+
+Kind:|Evade|
+Dialog:Yukari0a:そんな攻撃では、
+　また冬眠したくなってしまうわ
+
+Kind:|Graze|
+Dialog:Yukari0a:ｸﾞﾚｲｽﾞ
+
+Kind:|Barrier|
+Dialog:Yukari1a:そんな攻撃では、
+　また冬眠したくなってしまうわ
+
+Kind:|Barrier|
+Dialog:Yukari0a:今ので私を倒そうと？
+　それは無謀と言うものよ
+
+Kind:|SBreak|
+Dialog:Yukari0a:もっと、
+　貴方達の弾幕を見せてちょうだい
+
+Kind:|SBreak|
+Dialog:Yukari1a:まだ少し語り足りないわね
+
+Kind:|SBreak|
+aCon:|argument0.bullet_id == 4|
+Dialog:Yukari1a:少女と妖怪の話は、
+　これでいったん幕引きですわ
+
+Kind:|Slash|
+Dialog:Yukari0a:切り払い
+
+Kind:|Counter|
+Dialog:Yukari0a:ｶｳﾝﾀｰ
+
+Kind:|Pichun|
+Dialog:Yukari1a:私の話はこれで終わり、
+　実に有意義な時間でしたわ
+
+Kind:|PichunMap|
+Dialog:Yukari0a:None
+
+Kind:|aAttack|
+EnId:|Ran_en|
+Dialog:Yukari0a:式に土をつけること、
+　それは主に対するそれと同じことよ
+
+Kind:|aAttack|
+EnId:|Chen_en|
+Dialog:Yukari0a:藍、しっかりして欲しいわね
+
+Kind:|aAttack|
+Dialog:Yukari0a:庇われてしまうとはね

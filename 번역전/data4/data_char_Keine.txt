@@ -1,0 +1,44 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "Œd‰¹";
+Char[u_id, s_id*7+0] = 142;
+Char[u_id, s_id*7+1] = 121;
+Char[u_id, s_id*7+2] = 178;
+Char[u_id, s_id*7+3] = 109;
+Char[u_id, s_id*7+4] = 120;
+Char[u_id, s_id*7+5] = 170;
+Char[u_id, s_id*7+6] = 48;
+Temper[u_id, s_id]   = "‹­‹C";
+Type[u_id, s_id]     = "ATP_DEF";
+
+Pair[u_id, s_id]     = "|Mokou|2|";
+Revenge[u_id, s_id]  = "|Mokou|20|";
+
+SPList[u_id, s_id]     = "|M—Š|•K’†|“S•Ç|Œƒ—ã|”MŒŒ|ˆ¤|";
+SPListLv[u_id, s_id]   = "|01|08|17|27|39|50|";
+SPListCost[u_id, s_id] = "|20|20|25|50|45|70|";
+
+NumSkills[u_id, s_id]    = 4;
+SkillID[u_id, s_id*10+0] = "BLOCK";
+SkillLv[u_id, s_id*10+0] = "|01|12|20|28|38|49|";
+
+SkillID[u_id, s_id*10+1] = "SATTACK";
+SkillLv[u_id, s_id*10+1] = "|01|26|";
+
+SkillID[u_id, s_id*10+2] = "TEACHER";
+SkillLv[u_id, s_id*10+2] = "|01|27|";
+
+SkillID[u_id, s_id*10+3] = "TOSSHIN";
+SkillLv[u_id, s_id*10+3] = "|16|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+4] = "SOKO";
+SkillLv[u_id, s_id*10+4] = "|01|01|01|01|";
+
+SkillID[u_id, s_id*10+5] = "SHINNEN";
+SkillLv[u_id, s_id*10+5] = "|01|";
+
+NumSkills[u_id, s_id]   += 1*(global.stage_num > 18 || global.isTest);
+SkillID[u_id, s_id*10+6] = "PAIRTO_MOKOU";
+SkillLv[u_id, s_id*10+6] = "|01|23|40|";
