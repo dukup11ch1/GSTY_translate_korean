@@ -1,0 +1,95 @@
+NumBullets = 4;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 2;
+BulRMax[BulId]  = 5;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 0.6;
+BulID[BulId, 0]  = "PRY-_SUWAKO";
+
+BulHP[BulId]     = 9200;
+BulTurns[BulId]  = 5;
+BulPoints[BulId] = 6000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "spiral";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "토착신「테나가아시나가 님」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 2;
+
+BulDEF[BulId, 0] = 30;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 2;
+BulID[BulId, 0]  = "NOENTER";
+
+BulDEF[BulId, 1] = 15;
+BulPRY[BulId, 1] = 15;
+BulMov[BulId, 1] = 0.7;
+BulID[BulId, 1]  = "NOENTER";
+
+BulHP[BulId]     = 16500;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 11000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "tenaga";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "스와대전~토착신화vs중앙신화";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 10;
+BulPRY[BulId, 0] = 40;
+BulMov[BulId, 0] = 0.6;
+BulID[BulId, 0]  = "COMPAT-_SUWAKO";
+
+BulHP[BulId]     = 15000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 10000;
+BulEXP[BulId]    = 220;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "suwa_Suwako";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "수부「미샤구지 님」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 2;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.5;
+BulID[BulId, 0]  = "MISHAGUJISAMA";
+
+BulDEF[BulId, 1] = 12;
+BulPRY[BulId, 1] = 24;
+BulMov[BulId, 1] = 1.0;
+BulID[BulId, 1]  = "MISHAGUJISAMA";
+
+BulHP[BulId]     = 26000;
+BulTurns[BulId]  = -1;
+BulPoints[BulId] = 15000;
+BulEXP[BulId]    = 280;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "mishagujisama";
+BulUpdate[BulId] = 1;

@@ -1,0 +1,43 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "≈Ωﬁ∞ÿ›";
+Char[u_id, s_id*7+0] = 136;
+Char[u_id, s_id*7+1] = 133;
+Char[u_id, s_id*7+2] = 168;
+Char[u_id, s_id*7+3] = 89;
+Char[u_id, s_id*7+4] = 170;
+Char[u_id, s_id*7+5] = 168;
+Char[u_id, s_id*7+6] = 42;
+Temper[u_id, s_id]   = "êTèd";
+Type[u_id, s_id]     = "ATP_PRY";
+
+Pair[u_id, s_id]     = "|Sho|2|";
+Revenge[u_id, s_id]  = "|Sho|30|";
+
+SPList[u_id, s_id]     = "|í„é@|èWíÜ|ëMÇ´|êMóä|äÔèP|äoê¡|";
+SPListLv[u_id, s_id]   = "|01|10|15|25|99|99|";
+SPListCost[u_id, s_id] = "|01|15|15|25|20|70|";
+
+NumSkills[u_id, s_id]    = 5;
+SkillID[u_id, s_id*10+0] = "BLOCK";
+SkillLv[u_id, s_id*10+0] = "|01|12|24|35|45|56|";
+
+SkillID[u_id, s_id*10+1] = "SATTACK";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "NEZUMI";
+SkillLv[u_id, s_id*10+2] = "|01|";
+
+SkillID[u_id, s_id*10+3] = "SP_COST-_ALL_NAZRIN";
+SkillLv[u_id, s_id*10+3] = "|23|37|51|";
+
+SkillID[u_id, s_id*10+4] = "NOSIZE_NAZRIN";
+SkillLv[u_id, s_id*10+4] = "|28|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+5] = "GRAZE";
+SkillLv[u_id, s_id*10+5] = "|01|";
+
+SkillID[u_id, s_id*10+6] = "MIKIRI";
+SkillLv[u_id, s_id*10+6] = "|01|";

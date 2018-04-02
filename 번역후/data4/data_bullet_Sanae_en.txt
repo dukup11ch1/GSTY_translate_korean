@@ -1,0 +1,100 @@
+NumBullets = 4; if(global.stage_num != 22 && global.stage_num > 0) NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 25;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 0.7;
+BulID[BulId, 0]  = "";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 5500;
+BulEXP[BulId]    = 180;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "spiral";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "개해「바다가 갈라지는 날」";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 25;
+BulPRY[BulId, 0] = 25;
+BulMov[BulId, 0] = 1.0;
+BulID[BulId, 0]  = "WARERU";
+
+BulHP[BulId]     = 15600;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 7500;
+BulEXP[BulId]    = 180;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "wareru";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "준비「서몬 타케미나카타」";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 2;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.4;
+BulID[BulId, 0]  = "ADD_SPIRIT_SANAE";
+
+BulDEF[BulId, 1] = 15;
+BulPRY[BulId, 1] = 20;
+BulMov[BulId, 1] = 1;
+BulID[BulId, 1]  = "HIT+_SANAE";
+
+BulHP[BulId]     = 17000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 9000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "kanako";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "기적「신의 바람」";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 3;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.5;
+BulID[BulId,  0] = "RANGE-_KAZE";
+
+BulDEF[BulId, 1] = 30;
+BulPRY[BulId, 1] = 10;
+BulMov[BulId, 1] = 1.2;
+BulID[BulId,  1] = "RANGE-_KAZE";
+
+BulDEF[BulId, 2] = 15;
+BulPRY[BulId, 2] = 15;
+BulMov[BulId, 2] = 1;
+BulID[BulId,  2] = "CURE_SP_KAZE";
+
+BulHP[BulId]     = 11000;
+BulTurns[BulId]  = -1;
+BulPoints[BulId] = 12500;
+BulEXP[BulId]    = 240;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "kaze";
+BulUpdate[BulId] = 0;

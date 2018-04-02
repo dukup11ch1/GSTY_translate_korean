@@ -1,0 +1,167 @@
+NumBullets = 6; if(global.stage_num != 34 && global.stage_num > 0) NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 10;
+BulShape[BulId] = "sukima";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.5;
+BulID[BulId, 0]  = "HIT+_YUKARI";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 7000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "결계「꿈과 현실의 저주」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 2;
+
+BulDEF[BulId, 0] = 5;
+BulPRY[BulId, 0] = 5;
+BulMov[BulId, 0] = 0.20;
+BulID[BulId,  0] = "YUME";
+
+BulDEF[BulId, 1] = 30;
+BulPRY[BulId, 1] = 25;
+BulMov[BulId, 1] = 1;
+BulID[BulId,  1] = "YUME";
+
+BulHP[BulId]     = 15500;
+BulTurns[BulId]  = 4;
+BulPoints[BulId] = 8000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "yume";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "망량「이중 흑사접」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 40;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 1.0;
+BulID[BulId,  0] = "FDAM+_GRAZE_YUKARI";
+
+BulHP[BulId]     = 17500;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 10000;
+BulEXP[BulId]    = 220;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "kokushi";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "「인간과 요괴의 경계」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 4;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.2;
+BulID[BulId,  0] = "HIT+_NINGEN";
+
+BulDEF[BulId, 1] = 15;
+BulPRY[BulId, 1] = 15;
+BulMov[BulId, 1] = 0.2;
+BulID[BulId,  1] = "HIT+_YOKAI";
+
+BulDEF[BulId, 2] = 10;
+BulPRY[BulId, 2] = 10;
+BulMov[BulId, 2] = 0;
+BulID[BulId,  2] = "NOENTER";
+
+BulDEF[BulId, 3] = 5;
+BulPRY[BulId, 3] = 5;
+BulMov[BulId, 3] = 0.3;
+BulID[BulId,  3] = "";
+
+BulHP[BulId]     = 1000;
+BulTurns[BulId]  = 5 + (global.level > 0);
+BulPoints[BulId] = 0;
+BulEXP[BulId]    = 250;
+BulPP[BulId]     = 0;
+BulAnime[BulId]  = "*jinyo";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "결계「생과 사의 경계」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 2;
+
+BulDEF[BulId, 0] = 15;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.35;
+BulID[BulId,  0] = "RANGE-_BOMB_YUKARI";
+
+BulDEF[BulId, 1] = 20;
+BulPRY[BulId, 1] = 15;
+BulMov[BulId, 1] = 0.5;
+BulID[BulId,  1] = "KANMU2";
+
+BulHP[BulId]     = 22000;
+BulTurns[BulId]  = 3 + (global.level == 2);
+BulPoints[BulId] = 12000;
+BulEXP[BulId]    = 250;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "seishi";
+BulUpdate[BulId] = 1;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "유카리 오의「탄막결계」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 4;
+
+BulDEF[BulId, 0] = 10;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.5;
+BulID[BulId,  0] = "KEKKAI";
+
+BulDEF[BulId, 1] = 30;
+BulPRY[BulId, 1] = 5;
+BulMov[BulId, 1] = 0.25;
+BulID[BulId,  1] = "SOKO_YUKARI";
+
+BulDEF[BulId, 2] = 30;
+BulPRY[BulId, 2] = 30;
+BulMov[BulId, 2] = 0.66;
+BulID[BulId,  2] = "KEKKAI";
+
+BulDEF[BulId, 3] = 50;
+BulPRY[BulId, 3] = 50;
+BulMov[BulId, 3] = 1;
+BulID[BulId,  3] = "KEKKAI";
+
+BulHP[BulId]     = 32000;
+BulTurns[BulId]  = 5;
+BulPoints[BulId] = 30000;
+BulEXP[BulId]    = 350;
+BulPP[BulId]     = 30;
+BulAnime[BulId]  = "kekkai";
+BulUpdate[BulId] = 1;

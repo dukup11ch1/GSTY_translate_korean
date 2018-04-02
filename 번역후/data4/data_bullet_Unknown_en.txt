@@ -1,0 +1,43 @@
+NumBullets = 2;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 7;
+BulShape[BulId] = "";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 10;
+BulPRY[BulId, 0] = 25;
+BulMov[BulId, 0] = 0.35;
+BulID[BulId, 0]  = "";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 0;
+BulEXP[BulId]    = 0;
+BulPP[BulId]     = 0;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "¡¸¹ÝÈ¥Á¢¡¹";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 0;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 20;
+BulMov[BulId, 0] = 0.75;
+BulID[BulId, 0]  = "CURE_INVERT";
+
+BulHP[BulId]     = 1000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 20000;
+BulEXP[BulId]    = 0;
+BulPP[BulId]     = 0;
+BulAnime[BulId]  = "*hangoncho";
+BulUpdate[BulId] = 1;

@@ -1,0 +1,157 @@
+var u_id; u_id = argument0;
+
+//unit data-----------------------------
+Name[u_id]      = "河城　にとり（FA）";
+NameShort[u_id] = "FAにとり";
+Race[u_id]      = "妖怪";
+
+Unit[u_id, 0]   = 5500;
+Unit[u_id, 1]   = 170;
+Unit[u_id, 2]   = 80;
+Unit[u_id, 3]   = 1150;
+Unit[u_id, 4]   = 6;
+MovSlow[u_id]   = 0.45;
+Size[u_id]      = "M";
+Cost[u_id]      = 2.5;
+Tune[u_id]      = "|2500|100|40|500|";
+
+NumSlots[u_id]  = 2;
+Compat[u_id, 0] = "A";
+Compat[u_id, 1] = "A";
+Compat[u_id, 2] = "S";
+Compat[u_id, 3] = "A";
+
+NumSpecials[u_id] = 1;
+Special[u_id, 0]  = "NOBIRU";
+
+NumWeps[u_id]   = 5;
+WepTune[u_id]   = "B";
+
+NumBGM[u_id]    = 1;
+BGM[u_id, 0]    = "bgm_battle_Nitori_FA";
+NumPilots[u_id] = 1;
+Pilot[u_id, 0]  = "Nitori";
+
+SprPichun[u_id] = "01";
+
+//--------------------------------------
+var WepId; WepId = 0;
+
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "きゅうり";
+WepDemo[u_id, WepId]    = "kyuri";
+WepDamage[u_id, WepId]  = 2000;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 2;
+WepHit[u_id, WepId]     = 25;
+WepCrt[u_id, WepId]     = 35;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 5;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "A";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "のびーるｱｰﾑ";
+WepDemo[u_id, WepId]    = "nobiru";
+WepDamage[u_id, WepId]  = 2200;
+WepRMin[u_id, WepId]    = 3;
+WepRMax[u_id, WepId]    = 5;
+WepHit[u_id, WepId]     = 10;
+WepCrt[u_id, WepId]     = 10;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 15;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "A";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 1;
+WepName[u_id, WepId]    = "ﾊｲﾊﾟｰきゅうり";
+WepDemo[u_id, WepId]    = "hkyuri";
+WepDamage[u_id, WepId]  = 2500;
+WepRMin[u_id, WepId]    = 1;
+WepRMax[u_id, WepId]    = 2;
+WepHit[u_id, WepId]     = 15;
+WepCrt[u_id, WepId]     = 40;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 1;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 15;
+WepPower[u_id, WepId]   = 0;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "S";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 0;
+WepName[u_id, WepId]    = "お化けｷｭｰｶﾝﾊﾞｰ";
+WepDemo[u_id, WepId]    = "obaQ";
+WepDamage[u_id, WepId]  = 2450;
+WepRMin[u_id, WepId]    = 3;
+WepRMax[u_id, WepId]    = 6;
+WepHit[u_id, WepId]     = 15;
+WepCrt[u_id, WepId]     = 20;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 0;
+WepS[u_id, WepId]       = 1;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 15;
+WepMP[u_id, WepId]      = 0;
+WepPower[u_id, WepId]   = 105;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "A";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";
+
+WepId += 1;
+WepKind[u_id, WepId]    = 0;
+WepName[u_id, WepId]    = "河童のﾎﾟﾛﾛｯｶ";
+WepDemo[u_id, WepId]    = "pororo";
+WepDamage[u_id, WepId]  = 3100;
+WepRMin[u_id, WepId]    = 3;
+WepRMax[u_id, WepId]    = 7;
+WepHit[u_id, WepId]     = 25;
+WepCrt[u_id, WepId]     = 20;
+WepL[u_id, WepId]       = 0;
+WepP[u_id, WepId]       = 0;
+WepS[u_id, WepId]       = 0;
+WepSpecial[u_id, WepId] = "なし";
+WepBMax[u_id, WepId]    = 0;
+WepMP[u_id, WepId]      = 50;
+WepPower[u_id, WepId]   = 120;
+WepAir[u_id, WepId]     = "A";
+WepGround[u_id, WepId]  = "A";
+WepWater[u_id, WepId]   = "S";
+WepNight[u_id, WepId]   = "A";
+WepBGM[u_id, WepId]     = "";
+WepPartner[u_id, WepId] = "";
+WepShape[u_id, WepId]   = "";

@@ -1,0 +1,22 @@
+NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 0;
+BulRMax[BulId]  = 3;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 30;
+BulPRY[BulId, 0] = 30;
+BulMov[BulId, 0] = 1.5;
+BulID[BulId, 0]  = "DAM-_KISUME";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 8500;
+BulEXP[BulId]    = 170;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "spiral";
+BulUpdate[BulId] = 0;

@@ -1,0 +1,42 @@
+NumBullets = 2;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "square";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 15;
+BulMov[BulId, 0] = 0.35;
+BulID[BulId, 0]  = "HIT+_SUIKA";
+
+BulHP[BulId]     = 9200;
+BulTurns[BulId]  = 5;
+BulPoints[BulId] = 7000;
+BulEXP[BulId]    = 220;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "doll";
+BulUpdate[BulId] = 0;
+
+BulId += 1;
+BulName[BulId]  = "±ÍºÎ¡¸¹Ì½ÌÆÄ¿ö¡¹";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 1;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 30;
+BulPRY[BulId, 0] = 30;
+BulMov[BulId, 0] = 1.0;
+BulID[BulId, 0]  = "SIZE+_MPOWER";
+
+BulHP[BulId]        = 25500;
+BulTurns[BulId]     = 3;
+BulPoints[BulId]    = 13500;
+BulEXP[BulId]       = 260;
+BulPP[BulId]        = 10;
+BulAnime[BulId]     = "mpower";
+BulUpdate[BulId]    = 1;

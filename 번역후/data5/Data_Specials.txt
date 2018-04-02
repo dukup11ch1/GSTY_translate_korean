@@ -1,0 +1,266 @@
+﻿//Recovery------------------------------
+SpecialID   = "CURE_HP_S"
+SpecialEF   = "CURE_HP"
+SpecialName = "HP回復(小)"
+SpecialText = "ﾀｰﾝ開始時に、HPが最大値の<VAL1>％回復する。"
+SpecialVal1 = 10
+SpecialVal2 = 0
+
+SpecialID   = "CURE_HP_M"
+SpecialEF   = "CURE_HP"
+SpecialName = "HP回復(中)"
+SpecialText = "ﾀｰﾝ開始時に、HPが最大値の<VAL1>％回復する。"
+SpecialVal1 = 20
+SpecialVal2 = 0
+
+SpecialID   = "CURE_HP_L"
+SpecialEF   = "CURE_HP"
+SpecialName = "HP回復(大)"
+SpecialText = "ﾀｰﾝ開始時に、HPが最大値の<VAL1>％回復する。"
+SpecialVal1 = 30
+SpecialVal2 = 0
+
+SpecialID   = "CURE_MP_S"
+SpecialEF   = "CURE_MP"
+SpecialName = "MP回復(小)"
+SpecialText = "ﾀｰﾝ開始時に、MPが最大値の<VAL1>％回復する。"
+SpecialVal1 = 20
+SpecialVal2 = 0
+
+SpecialID   = "CURE_MP_M"
+SpecialEF   = "CURE_MP"
+SpecialName = "MP回復(中)"
+SpecialText = "ﾀｰﾝ開始時に、MPが最大値の<VAL1>％回復する。"
+SpecialVal1 = 20
+SpecialVal2 = 0
+
+SpecialID   = "CURE_MP_L"
+SpecialEF   = "CURE_MP"
+SpecialName = "MP回復(大)"
+SpecialText = "ﾀｰﾝ開始時に、MPが最大値の<VAL1>％回復する。"
+SpecialVal1 = 30
+SpecialVal2 = 0
+
+//Command-------------------------------
+SpecialID   = "COM_CURE_HP"
+SpecialEF   = "COM_CURE_HP"
+SpecialName = "治療能力"
+SpecialText = "「治療」ｺﾏﾝﾄﾞを使い、仲間のHPを\n回復させることができる。(消費MP<VAL1>)"
+SpecialVal1 = 10
+SpecialVal2 = 1
+
+SpecialID   = "COM_CURE_MP"
+SpecialEF   = "COM_CURE_MP"
+SpecialName = "補給能力"
+SpecialText = "「補給」ｺﾏﾝﾄﾞを使い、仲間のMPと弾数の半分を\n回復させることができる。(消費MP<VAL1>)"
+SpecialVal1 = 10
+SpecialVal2 = 1
+
+//Dodge(Bunshin)------------------------
+SpecialID   = "P_SQUARE"
+SpecialEF   = "P_SQUARE"
+SpecialName = "ﾌﾟﾗｲﾍﾞｰﾄｽｸｳｪｱ"
+SpecialText = "ﾊﾟﾜｰ<VAL2>以上のとき、\n<VAL1>％の確率で攻撃を回避する。"
+SpecialVal1 = 25
+SpecialVal2 = 120
+
+SpecialID   = "O_CAMO"
+SpecialEF   = "O_CAMO"
+SpecialName = "O・ｶﾓﾌﾗｰｼﾞｭ"
+SpecialText = "<VAL1>％の確率で攻撃を回避する。(消費MP<VAL2>)"
+SpecialVal1 = 25
+SpecialVal2 = 10
+
+SpecialID   = "BUNSHIN"
+SpecialEF   = "BUNSHIN"
+SpecialName = "分身"
+SpecialText = "ﾊﾟﾜｰ<VAL2>以上のとき、\n<VAL1>％の確率で攻撃を回避する。"
+SpecialVal1 = 50
+SpecialVal2 = 130
+
+SpecialID   = "BUNSHIN_RAN"
+SpecialEF   = "BUNSHIN"
+SpecialName = "分身(藍)"
+SpecialText = "ﾊﾟﾜｰ<VAL2>以上のとき、\n<VAL1>％の確率で攻撃を回避する。"
+SpecialVal1 = 25
+SpecialVal2 = 120
+
+//BARRIER_L-------------------------------
+SpecialID   = "YAMI"
+SpecialEF   = "BARRIER_L_DIS"
+SpecialName = "闇"
+SpecialText = "Ｌ攻撃のﾀﾞﾒｰｼﾞを<VAL1>軽減する。\n(消費MP<VAL2>)"
+SpecialVal1 = 1200
+SpecialVal2 = 5
+
+SpecialID   = "M_SHIELD"
+SpecialEF   = "BARRIER_L"
+SpecialName = "魔法障壁"
+SpecialText = "Ｌ攻撃のﾀﾞﾒｰｼﾞを<VAL1>まで無効化する。\n(消費MP<VAL2>)"
+SpecialVal1 = 1500
+SpecialVal2 = 10
+
+SpecialID   = "M_SHIELD+"
+SpecialEF   = "BARRIER_L_DIS"
+SpecialName = "魔法障壁+"
+SpecialText = "Ｌ攻撃のﾀﾞﾒｰｼﾞを<VAL1>軽減する。\n(消費MP<VAL2>)"
+SpecialVal1 = 1000
+SpecialVal2 = 10
+
+SpecialID   = "S_BARRIER"
+SpecialEF   = "BARRIER_L"
+SpecialName = "ｻﾆｰﾊﾞﾘｱｰ"
+SpecialText = "Ｌ攻撃のﾀﾞﾒｰｼﾞを<VAL1>まで無効化する。\n(消費MP<VAL2>)"
+SpecialVal1 = 1800
+SpecialVal2 = 5
+
+SpecialID   = "RAIN_KEKKAI"
+SpecialEF   = "BARRIER_L_DIS"
+SpecialName = "雨力結界"
+SpecialText = "Ｌ攻撃のﾀﾞﾒｰｼﾞを<VAL1>軽減する。(消費MP<VAL2>)"
+SpecialVal1 = 1000
+SpecialVal2 = 5
+
+//BARRIER_ALL---------------------------
+SpecialID   = "N_KEKKAI"
+SpecialEF   = "BARRIER_ALL_DIS"
+SpecialName = "二重結界"
+SpecialText = "全攻撃のﾀﾞﾒｰｼﾞを<VAL1>軽減する。\n(消費MP<VAL2>)"
+SpecialVal1 = 500
+SpecialVal2 = 10
+
+SpecialID   = "S_KEKKAI"
+SpecialEF   = "BARRIER_ALL_DIS"
+SpecialName = "四重結界"
+SpecialText = "全攻撃のﾀﾞﾒｰｼﾞを<VAL1>軽減する。\n(消費MP<VAL2>)"
+SpecialVal1 = 1000
+SpecialVal2 = 10
+
+SpecialID   = "BARRIER_SANAE"
+SpecialEF   = "BARRIER_ALL_DIS"
+SpecialName = "霊力障壁"
+SpecialText = "信仰ｹﾞｰｼﾞ20％以上で発動。\n全攻撃のﾀﾞﾒｰｼﾞを<VAL1>軽減する。(消費MP<VAL2>)"
+SpecialVal1 = 750
+SpecialVal2 = 10
+
+SpecialID   = "BARRIER_YUKARI"
+SpecialEF   = "BARRIER_ALL_DIS"
+SpecialName = "歪曲結界(紫)"
+SpecialText = "全攻撃のﾀﾞﾒｰｼﾞを<VAL1>軽減する。(消費MP<VAL2>)"
+SpecialVal1 = 700
+SpecialVal2 = 5
+
+SpecialID   = "BARRIER_YUKARI2"
+SpecialEF   = "BARRIER_ALL_DIS"
+SpecialName = "歪曲結界"
+SpecialText = "全攻撃のﾀﾞﾒｰｼﾞを<VAL1>軽減する。(消費MP<VAL2>)"
+SpecialVal1 = 500
+SpecialVal2 = 10
+
+SpecialID   = "M_SHIELD_PATCHE"
+SpecialEF   = "BARRIER_ALL"
+SpecialName = "魔法障壁(ﾊﾟﾁｪ)"
+SpecialText = "全攻撃のﾀﾞﾒｰｼﾞを<VAL1>まで無効化する。\n(消費MP<VAL2>)"
+SpecialVal1 = 1600
+SpecialVal2 = 10
+
+//BARRIER_ETC---------------------------
+SpecialID   = "I_BARRIER"
+SpecialEF   = "BARRIER_NOL"
+SpecialName = "ｱｲｽﾊﾞﾘｱ"
+SpecialText = "Ｌ攻撃以外のﾀﾞﾒｰｼﾞを<VAL1>まで無効化する。\n(消費MP<VAL2>)"
+SpecialVal1 = 1800
+SpecialVal2 = 20
+
+SpecialID   = "I_BARRIER_DIS"
+SpecialEF   = "BARRIER_NOL_DIS"
+SpecialName = "ｱｲｽﾊﾞﾘｱ+"
+SpecialText = "Ｌ攻撃以外のﾀﾞﾒｰｼﾞを<VAL1>軽減する。\n(消費MP<VAL2>)"
+SpecialVal1 = 1800
+SpecialVal2 = 20
+
+SpecialID   = "WIND_KEKKAI"
+SpecialEF   = "BARRIER_S_DIS"
+SpecialName = "風力結界"
+SpecialText = "Ｓ攻撃のﾀﾞﾒｰｼﾞを<VAL1>軽減する。(消費MP<VAL2>)"
+SpecialVal1 = 700
+SpecialVal2 = 5
+
+//Shiki----------------------------------
+SpecialID   = "SHIKI_RAN"
+SpecialEF   = "SHIKI"
+SpecialName = "式神"
+SpecialText = "距離<VAL1>ﾏｽ以内に藍がいる場合、\nﾀｰﾝ開始時にHP、MPが<VAL2>％回復"
+SpecialVal1 = 6
+SpecialVal2 = 20
+
+SpecialID   = "SHIKI_YUKARI"
+SpecialEF   = "SHIKI"
+SpecialName = "式神"
+SpecialText = "距離<VAL1>ﾏｽ以内に紫がいる場合、\nﾀｰﾝ開始時にHP、MPが<VAL2>％回復"
+SpecialVal1 = 10
+SpecialVal2 = 30
+
+//Misc----------------------------------
+SpecialID   = "NOBIRU"
+SpecialEF   = "RANGE+_ITEM"
+SpecialName = "のびーるｱｰﾑ"
+SpecialText = "距離<VAL1>ﾏｽ以内の味方ﾕﾆｯﾄにｱｲﾃﾑが使える。"
+SpecialVal1 = 1
+SpecialVal2 = 0
+
+SpecialID   = "KAZEHAFURI"
+SpecialEF   = "KAZEHAFURI"
+SpecialName = "風祝"
+SpecialText = "特定の行動によって信仰ｹﾞｰｼﾞが上昇する。\nｹﾞｰｼﾞに応じてﾀﾞﾒｰｼﾞ・命中率等が上がり\n必殺技も開放されるが、消費MPも増える。"
+SpecialVal1 = 0
+SpecialVal2 = 0
+
+SpecialID   = "TRESSPASS"
+SpecialEF   = "TRESSPASS"
+SpecialName = "認識のｽﾃﾙｽ"
+SpecialText = "すべてのﾕﾆｯﾄをすり抜けて移動できる。"
+SpecialVal1 = 0
+SpecialVal2 = 0
+
+SpecialID   = "COMBINE_FARIES"
+SpecialEF   = "COMBINE"
+SpecialName = "合体"
+SpecialText = "ｻﾆｰ、ｽﾀｰ、ﾙﾅがそれぞれ近くにいるとき\n「合体」ｺﾏﾝﾄﾞが使えるようになる。"
+SpecialVal1 = 0
+SpecialVal2 = 0
+
+SpecialID   = "COMBINE_PRISM"
+SpecialEF   = "COMBINE"
+SpecialName = "合体"
+SpecialText = "ﾙﾅｻ、ﾒﾙﾗﾝ、ﾘﾘｶがそれぞれ近くにいるとき\n「合体」ｺﾏﾝﾄﾞが使えるようになる。"
+SpecialVal1 = 0
+SpecialVal2 = 0
+
+SpecialID   = "APART_FARIES"
+SpecialEF   = "APART"
+SpecialName = "分離"
+SpecialText = "「分離」ｺﾏﾝﾄﾞを使って\nｻﾆｰ、ｽﾀｰ、ﾙﾅの三体に分かれることができる。"
+SpecialVal1 = 0
+SpecialVal2 = 0
+
+SpecialID   = "APART_PRISM"
+SpecialEF   = "APART"
+SpecialName = "分離"
+SpecialText = "「分離」ｺﾏﾝﾄﾞを使って\nﾙﾅｻ、ﾒﾙﾗﾝ、ﾘﾘｶの三体に分かれることができる。"
+SpecialVal1 = 0
+SpecialVal2 = 0
+
+SpecialID   = "MBLOCK"
+SpecialEF   = "MBLOCK"
+SpecialName = "特殊耐性"
+SpecialText = "ﾊﾟﾜｰが100より低くならない。"
+SpecialVal1 = 0
+SpecialVal2 = 0
+
+SpecialID   = "SUKIMA"
+SpecialEF   = "SUKIMA"
+SpecialName = "ｽｷﾏ"
+SpecialText = "ﾏｯﾌﾟ中の任意のﾏｽに移動できる。"
+SpecialVal1 = 0
+SpecialVal2 = 0

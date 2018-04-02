@@ -1,0 +1,42 @@
+﻿//Effective for one battle (Kind = 0)
+StateKind = 0
+StateID   = "HIT-"
+StateName = "命中率<VAL>％ﾀﾞｳﾝ"
+
+StateID   = "POW-_GOTHIT"
+StateName = "被弾時にﾊﾟﾜｰ<VAL>"
+StateKind = 0
+
+StateID   = "ALL_CRT"
+StateName = "被弾時ｸﾘﾃｨｶﾙ"
+StateKind = 0
+
+//For one turn (Kind = 1)
+StateID   = "PRY-"
+StateName = "回避率<VAL>％ﾀﾞｳﾝ"
+StateKind = 1
+
+StateID   = "NOMOVE"
+StateName = "移動不能"
+StateKind = 1
+
+StateID   = "NO_SELECT"
+StateName = "防御・回避不能"
+StateKind = 1
+
+StateID   = "NO_POWER"
+StateName = "ﾊﾟﾜｰ上昇封印"
+StateKind = 1
+
+StateID   = "NO_PROB"
+StateName = "確率発動封印"
+StateKind = 1
+
+StateID   = "DAM+"
+StateName = "被ﾀﾞﾒｰｼﾞ<VAL>％ｱｯﾌﾟ"
+StateKind = 1
+
+//For indefinite period (Kind = 3)
+StateID   = "MP+"
+StateName = "MP<VAL>％回復"
+StateKind = 3

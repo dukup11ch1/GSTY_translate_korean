@@ -1,0 +1,6 @@
+﻿Kind:|Attack|cAttack|Hit|Guard|Evade|Graze|sAttack|sGuard|Barrier|Slash|Pichun|Counter|SBreak|
+Dialog:Unknown0a:……
+
+Kind:|Weapon|PichunMap|
+Dialog:Unknown0a:None
+

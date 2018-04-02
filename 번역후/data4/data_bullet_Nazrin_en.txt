@@ -1,0 +1,22 @@
+NumBullets = 1;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 4;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 5;
+BulPRY[BulId, 0] = 30;
+BulMov[BulId, 0] = 0.75;
+BulID[BulId, 0]  = "HIT-_NAZRIN";
+
+BulHP[BulId]     = 9200;
+BulTurns[BulId]  = 5;
+BulPoints[BulId] = 100;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "spiral";
+BulUpdate[BulId] = 0;

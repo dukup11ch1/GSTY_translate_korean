@@ -1,0 +1,11 @@
+﻿Kind:|Attack|cAttack|Hit|Guard|Evade|Graze|sAttack|sGuard|Barrier|Slash|Pichun|Counter|SBreak|aAttack|
+Dialog:GhostL0a:……
+
+Kind:|Attack|cAttack|Hit|Guard|Evade|Graze|sAttack|sGuard|Barrier|Slash|Pichun|Counter|SBreak|aAttack|
+Dialog:GhostL0a:……
+
+Kind:|Weapon|
+Dialog:GhostL0a:……
+
+Kind:|PichunMap|
+Dialog:GhostL0a:None

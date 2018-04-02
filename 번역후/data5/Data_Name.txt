@@ -1,0 +1,330 @@
+﻿
+NameID = "Reimu"
+Name   = "霊夢"
+
+NameID = "Marisa"
+Name   = "魔理沙"
+
+NameID = "Keine"
+Name   = "慧音"
+
+NameID = "Alice"
+Name   = "ｱﾘｽ"
+
+NameID = "Nitori"
+Name   = "にとり"
+
+NameID = "Youmu"
+Name   = "妖夢"
+
+NameID = "Yousei1"
+Name   = "妖精"
+
+NameID = "Yousei2"
+Name   = "妖精"
+
+NameID = "Kedama"
+Name   = "毛玉"
+
+NameID = "Daiyosei"
+Name   = "大妖精"
+
+NameID = "Cirno"
+Name   = "ﾁﾙﾉ"
+
+NameID = "Sunny"
+Name   = "ｻﾆｰ"
+
+NameID = "Star"
+Name   = "ｽﾀｰ"
+
+NameID = "Luna"
+Name   = "ﾙﾅ"
+
+NameID = "Momiji"
+Name   = "椛"
+
+NameID = "Rumia"
+Name   = "ﾙｰﾐｱ"
+
+NameID = "Sakuya"
+Name   = "咲夜"
+
+NameID = "Meiling"
+Name   = "美鈴"
+
+NameID = "Yukari"
+Name   = "紫"
+
+NameID = "Ran"
+Name   = "藍"
+
+NameID = "Chen"
+Name   = "橙"
+
+NameID = "Aya"
+Name   = "文"
+
+NameID = "Koakuma"
+Name   = "小悪魔"
+
+NameID = "Patchouli"
+Name   = "ﾊﾟﾁｭﾘｰ
+
+NameID = "Yuka"
+Name   = "幽香"
+
+NameID = "Unknown"
+Name   = "？？"
+
+NameID = "Sanae"
+Name   = "早苗"
+
+NameID = "Kanako"
+Name   = "神奈子"
+
+NameID = "Suwako"
+Name   = "諏訪子"
+
+NameID = "Shanghai"
+Name   = "ｼｬﾝﾊｲ"
+
+NameID = "Hourai"
+Name   = "ﾎｰﾗｲ"
+
+NameID = "Remilia"
+Name   = "ﾚﾐﾘｱ"
+
+NameID = "KedamaW"
+Name   = "毛玉"
+
+NameID = "Shiro"
+Name   = "ｼﾛ"
+
+NameID = "KedamaB"
+Name   = "黒毛玉"
+
+NameID = "Bakebake"
+Name   = "ばけばけ"
+
+NameID = "Evileye"
+Name   = "ｲﾋﾞﾙｱｲ"
+
+NameID = "Grimoire"
+Name   = "ｸﾞﾘﾓﾜ"
+
+NameID = "Elliy"
+Name   = "ｴﾘｰ"
+
+NameID = "Kurumi"
+Name   = "くるみ"
+
+NameID = "Karasu"
+Name   = "妖怪烏"
+
+NameID = "MaidYousei"
+Name   = "妖精ﾒｲﾄﾞ"
+
+NameID = "Maid"
+Name   = "妖精ﾒｲﾄﾞ"
+
+NameID = "TileA"
+Name   = "床A"
+
+NameID = "TileB"
+Name   = "床B"
+
+NameID = "Tile"
+Name   = "床"
+
+NameID = "Flan"
+Name   = "ﾌﾗﾝ"
+
+NameID = "FlanA"
+Name   = "ﾌﾗﾝ(FOK)"
+
+NameID = "FlanB"
+Name   = "ﾌﾗﾝ(FOK)"
+
+NameID = "FlanP"
+Name   = "ﾌﾗﾝ"
+
+NameID = "FlanV"
+Name   = "ﾌﾗﾝ"
+
+NameID = "Yuyuko"
+Name   = "幽々子"
+
+NameID = "Mokou"
+Name   = "妹紅"
+
+NameID = "Tengu"
+Name   = "天狗"
+
+NameID = "TenguA"
+Name   = "天狗A"
+
+NameID = "TenguB"
+Name   = "天狗B"
+
+NameID = "Tenshu"
+Name   = "店主"
+
+NameID = "Bat"
+Name   = "ｺｳﾓﾘ"
+
+NameID = "Komachi"
+Name   = "小町"
+
+NameID = "HTengu"
+Name   = "天狗"
+
+NameID = "HTenguB"
+Name   = "天狗B"
+
+NameID = "Minoriko"
+Name   = "穣子"
+
+NameID = "Shizuha"
+Name   = "静葉"
+
+NameID = "Nitori_FA"
+Name   = "にとり"
+
+NameID = "KTengu"
+Name   = "天狗"
+
+NameID = "KTenguA"
+Name   = "天狗A"
+
+NameID = "Akyu"
+Name   = "阿求"
+
+NameID = "Korin"
+Name   = "霖之助"
+
+NameID = "Human"
+Name   = "人間"
+
+NameID = "HumanA"
+Name   = "人間A"
+
+NameID = "HumanB"
+Name   = "人間B"
+
+NameID = "HumanC"
+Name   = "人間C
+
+NameID = "LadyA"
+Name   = "老婆"
+
+NameID = "TP"
+Name   = "？？"
+
+NameID = "Kappa"
+Name   = "河童"
+
+NameID = "KappaC"
+Name   = "河童C"
+
+NameID = "Hina"
+Name   = "雛"
+
+NameID = "Noname"
+Name   = "？？"
+
+NameID = "HYousei"
+Name   = "妖精"
+
+NameID = "Suika"
+Name   = "萃香"
+
+NameID = "Zenki"
+Name   = "前鬼"
+
+NameID = "Goki"
+Name   = "後鬼"
+
+NameID = "Nazrin"
+Name   = "ﾅｽﾞｰﾘﾝ"
+
+NameID = "Sho"
+Name   = "星"
+
+NameID = "Koishi"
+Name   = "こいし"
+
+NameID = "Satori"
+Name   = "さとり"
+
+NameID = "Letty"
+Name   = "ﾚﾃｨ"
+
+NameID = "LilyW"
+Name   = "ﾘﾘｰ"
+
+NameID = "LilyW0"
+Name   = "ﾘﾘｰ"
+
+NameID = "LilyW_NS"
+Name   = "ﾘﾘｰ"
+
+NameID = "Lunasa"
+Name   = "ﾙﾅｻ"
+
+NameID = "Merlin"
+Name   = "ﾒﾙﾗﾝ"
+
+NameID = "Lyrica"
+Name   = "ﾘﾘｶ"
+
+NameID = "Yamame"
+Name   = "ﾔﾏﾒ"
+
+NameID = "Kisume"
+Name   = "ｷｽﾒ"
+
+NameID = "Orin"
+Name   = "お燐"
+
+NameID = "Utsuho"
+Name   = "空"
+
+NameID = "JKarasu"
+Name   = "地獄鴉"
+
+NameID = "Kaguya"
+Name   = "輝夜"
+
+NameID = "KKedama"
+Name   = "強毛玉"
+
+NameID = "GhostL"
+Name   = "幽霊L"
+
+NameID = "GhostS"
+Name   = "幽霊S"
+
+NameID = "OnryoR"
+Name   = "怨霊"
+
+NameID = "Onryo"
+Name   = "怨霊"
+
+NameID = "Mima"
+Name   = "魅魔"
+
+NameID = "MimaG"
+Name   = "ｺﾞｰｽﾄ"
+
+NameID = "Murasa"
+Name   = "村紗"
+
+NameID = "Ichirin"
+Name   = "一輪"
+
+NameID = "Prism"
+Name   = "三姉妹"
+
+NameID = "Faries"
+Name   = "三妖精"

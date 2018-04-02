@@ -1,0 +1,95 @@
+NumBullets = 4;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 2;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "*omb";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 18;
+BulPRY[BulId, 0] = 18;
+BulMov[BulId, 0] = 0.7;
+BulID[BulId, 0]  = "DAM+_KANAKO";
+
+BulHP[BulId]     = 9200;
+BulTurns[BulId]  = 5;
+BulPoints[BulId] = 5000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "*omb";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "신제「익스팬디드 온바시라」";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 2;
+
+BulDEF[BulId, 0] = 10;
+BulPRY[BulId, 0] = 20;
+BulMov[BulId, 0] = 1.5;
+BulID[BulId, 0]  = "DAM+_EXOMB";
+
+BulDEF[BulId, 1] = 8;
+BulPRY[BulId, 1] = 12;
+BulMov[BulId, 1] = 0.25;
+BulID[BulId, 1]  = "";
+
+BulHP[BulId]     = 14000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 8000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "EXOMB";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "스와대전~중앙신화vs토착신화";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 1;
+
+BulDEF[BulId, 0] = 40;
+BulPRY[BulId, 0] = 10;
+BulMov[BulId, 0] = 1.0;
+BulID[BulId, 0]  = "COMPAT-_KANAKO";
+
+BulHP[BulId]     = 12000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 10000;
+BulEXP[BulId]    = 220;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "suwa_Kanako";
+BulUpdate[BulId] = 0;
+
+//--------------------------------------
+BulId += 1;
+BulName[BulId]  = "마운틴 오브 페이스";
+BulRMin[BulId]  = 3;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId] = 2;
+
+BulDEF[BulId, 0] = 25;
+BulPRY[BulId, 0] = 20;
+BulMov[BulId, 0] = 1.0;
+BulID[BulId, 0]  = "SOKO_MOF";
+
+BulDEF[BulId, 1] = 15;
+BulPRY[BulId, 1] = 15;
+BulMov[BulId, 1] = 0.5;
+BulID[BulId, 1]  = "PRY-_MOF";
+
+BulHP[BulId]     = 21000;
+BulTurns[BulId]  = -1;
+BulPoints[BulId] = 15000;
+BulEXP[BulId]    = 300;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "MOF";
+BulUpdate[BulId] = 0;

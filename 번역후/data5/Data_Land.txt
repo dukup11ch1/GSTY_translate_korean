@@ -1,0 +1,368 @@
+﻿
+LandNAME = "森"
+LandPRY  = 10
+LandDEF  = 15
+LandMOV  = 0.15
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "博麗神社"
+LandPRY  = 0
+LandDEF  = 10
+LandMOV  = 0.5
+LandHP   = 20
+LandMP   = 10
+LandBG   = "bg_default"
+
+LandNAME = "土手"
+LandPRY  = -10
+LandDEF  = 25
+LandMOV  = 0.8
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "崖"
+LandPRY  = -20
+LandDEF  = 30
+LandMOV  = 2
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "家"
+LandPRY  = 5
+LandDEF  = 10
+LandMOV  = 0.25
+LandHP   = 5
+LandMP   = 5
+LandBG   = "bg_battle_village"
+
+LandNAME = "人間の里"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 0
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_battle_village"
+
+LandNAME = "ｱﾘｽの家"
+LandPRY  = 15
+LandDEF  = 10
+LandMOV  = 0.5
+LandHP   = 0
+LandMP   = 10
+LandBG   = "bg_default"
+
+LandNAME = "川"
+LandPRY  = 0
+LandDEF  = 20
+LandMOV  = 2
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_battle_water_river"
+
+LandNAME = "稗田邸"
+LandPRY  = 5
+LandDEF  = 15
+LandMOV  = 1.5
+LandHP   = 10
+LandMP   = 10
+LandBG   = "bg_battle_village"
+
+LandNAME = "香霖堂"
+LandPRY  = 20
+LandDEF  = 15
+LandMOV  = 2
+LandHP   = 10
+LandMP   = 15
+LandBG   = "bg_default"
+
+LandNAME = "氷の島"
+LandPRY  = 15
+LandDEF  = 15 
+LandMOV  = 0.5
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "霧の湖（陸地）"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 0
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "霧の湖"
+LandPRY  = 10
+LandDEF  = 10
+LandMOV  = 1
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_battle_water_lake"
+
+LandNAME = "岩"
+LandPRY  = -10
+LandDEF  = 20
+LandMOV  = 1
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "紅魔館正門"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 20
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "花壇"
+LandPRY  = 5
+LandDEF  = 5
+LandMOV  = 0
+LandHP   = 0
+LandMP   = 5
+LandBG   = "bg_default"
+
+LandNAME = "絨毯"
+LandPRY  = 5
+LandDEF  = 5
+LandMOV  = 0
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "階段"
+LandPRY  = -5
+LandDEF  = 10
+LandMOV  = 0
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "時計塔"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 1000
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "紅魔館屋上"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 1000
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "空"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 1000
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "休憩所"
+LandPRY  = 10
+LandDEF  = 10
+LandMOV  = 1
+LandHP   = 10
+LandMP   = 5
+LandBG   = "bg_default"
+
+LandNAME = "ﾊﾟｰﾃｨｰ会場"
+LandPRY  = -5
+LandDEF  = 0
+LandMOV  = 1.5
+LandHP   = 15
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "鯛焼き魔竜"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 5
+LandHP   = 0
+LandMP   = 20
+LandBG   = "bg_default"
+
+LandNAME = "石柱"
+LandPRY  = 5
+LandDEF  = 20
+LandMOV  = 1.5
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "沼"
+LandPRY  = -10
+LandDEF  = 20
+LandMOV  = 1.2
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_battle_water_pond"
+
+LandNAME = "樹海"
+LandPRY  = 10
+LandDEF  = 20
+LandMOV  = 0.5
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "祠"
+LandPRY  = 15
+LandDEF  = 15
+LandMOV  = 1.5
+LandHP   = 10
+LandMP   = 15
+LandBG   = "bg_default"
+
+LandNAME = "ｲﾓ畑"
+LandPRY  = 10
+LandDEF  = 10
+LandMOV  = 0.6
+LandHP   = 5
+LandMP   = 5
+LandBG   = "bg_default"
+
+LandNAME = "迷いの竹林"
+LandPRY  = 15
+LandDEF  = 15
+LandMOV  = 0.3
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "妹紅の家"
+LandPRY  = 10
+LandDEF  = 10
+LandMOV  = 0.8
+LandHP   = 5
+LandMP   = 5
+LandBG   = "bg_default"
+
+LandNAME = "河"
+LandPRY  = -10
+LandDEF  = 20
+LandMOV  = 1
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_battle_water_mountain"
+
+LandNAME = "樹海"
+LandPRY  = 10
+LandDEF  = 20
+LandMOV  = 0.35
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_battle_pond"
+
+LandNAME = "樹海（沼）"
+LandPRY  = -10
+LandDEF  = 20
+LandMOV  = 0.8
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_battle_water_pond"
+
+LandNAME = "陸地"
+LandPRY  = 0
+LandDEF  = 10
+LandMOV  = 0.25
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "滝"
+LandPRY  = -5
+LandDEF  = 20
+LandMOV  = 1
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_battle_water_mountain"
+
+LandNAME = "守矢神社"
+LandPRY  = 0
+LandDEF  = 20
+LandMOV  = 1
+LandHP   = 10
+LandMP   = 20
+LandBG   = "bg_default"
+
+LandNAME = "社務所"
+LandPRY  = 0
+LandDEF  = 15
+LandMOV  = 1
+LandHP   = 10
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "蔵"
+LandPRY  = 0
+LandDEF  = 20
+LandMOV  = 1
+LandHP   = 0
+LandMP   = 10
+LandBG   = "bg_default"
+
+LandNAME = "諏訪湖"
+LandPRY  = 10
+LandDEF  = 10
+LandMOV  = 1
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_battle_water_suwako"
+
+LandNAME = "酒樽"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 3
+LandHP   = 0
+LandMP   = 20
+LandBG   = "bg_default"
+
+LandNAME = "岩場"
+LandPRY  = 0
+LandDEF  = 10
+LandMOV  = 0.15
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "地底"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 1000
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "廃屋"
+LandPRY  = 5
+LandDEF  = 5
+LandMOV  = 0.25
+LandHP   = 5
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "桜"
+LandPRY  = 10
+LandDEF  = 10
+LandMOV  = 0.2
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"
+
+LandNAME = "西行妖"
+LandPRY  = 0
+LandDEF  = 0
+LandMOV  = 1000
+LandHP   = 0
+LandMP   = 0
+LandBG   = "bg_default"

@@ -1,0 +1,40 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "小町";
+Char[u_id, s_id*7+0] = 135;
+Char[u_id, s_id*7+1] = 134;
+Char[u_id, s_id*7+2] = 174;
+Char[u_id, s_id*7+3] = 101;
+Char[u_id, s_id*7+4] = 130;
+Char[u_id, s_id*7+5] = 169;
+Char[u_id, s_id*7+6] = 48;
+Temper[u_id, s_id]   = "楽天家";
+Type[u_id, s_id]     = "ALL_ATP";
+
+Pair[u_id, s_id]     = "|";
+Revenge[u_id, s_id]  = "|";
+
+SPList[u_id, s_id]     = "|必中|直撃|信頼|鉄壁|脱力|激闘|";
+SPListLv[u_id, s_id]   = "|01|08|15|23|36|100|";
+SPListCost[u_id, s_id] = "|20|20|25|30|45|60|";
+
+NumSkills[u_id, s_id]    = 4;
+SkillID[u_id, s_id*10+0] = "BLOCK";
+SkillLv[u_id, s_id*10+0] = "|01|13|24|35|45|55|";
+
+SkillID[u_id, s_id*10+1] = "MUGEN";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "TAKURAKU";
+SkillLv[u_id, s_id*10+2] = "|15|";
+
+SkillID[u_id, s_id*10+3] = "POINT+_KOMACHI";
+SkillLv[u_id, s_id*10+3] = "|20|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+4] = "SOKO";
+SkillLv[u_id, s_id*10+4] = "|01|01|01|01|";
+
+SkillID[u_id, s_id*10+5] = "MIKIRI";
+SkillLv[u_id, s_id*10+5] = "|01|";

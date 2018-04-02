@@ -1,0 +1,211 @@
+var u_id; u_id = argument0;
+
+//unit data-----------------------------
+Name[u_id]      = "ç∞ÈÆÅ@ódñ≤"
+NameShort[u_id] = "ódñ≤";
+Race[u_id]      = "îºóÏ";
+
+Unit[u_id, 0]   = 18800;
+Unit[u_id, 1]   = 300;
+Unit[u_id, 2]   = 125;
+Unit[u_id, 3]   = 1350;
+Unit[u_id, 4]   = 6;
+MovSlow[u_id]   = 0.5;
+Size[u_id]      = "M";
+Cost[u_id]      = 2.5;
+Tune[u_id]      = "|10000|200|50|500|";
+
+NumSlots[u_id]  = 1;
+Compat[u_id, 0] = "A";
+Compat[u_id, 1] = "A";
+Compat[u_id, 2] = "B";
+Compat[u_id, 3] = "B";
+
+NumSpecials[u_id] = 1;
+Special[u_id, 0]  = "MBLOCK";
+
+NumWeps[u_id]   = 4;
+WepTune[u_id]   = "A";
+
+NumBGM[u_id]    = 1;
+BGM[u_id, 0]    = "bgm_battle_Youmu2";
+NumPilots[u_id] = 1;
+Pilot[u_id, 0]  = "Youmu";
+
+SprPichun[u_id] = "04";
+
+if(global.stage_num == 32)
+{
+    //Unit[u_id, 0]   = 21800;
+    SprPichun[u_id] = "03";
+}
+
+//weapon--------------------------------
+var WepId; WepId = 0;
+
+WepKind[WepId]      = 1;
+WepName[WepId]      = "òOäœåï";
+WepDemo[WepId]      = "rokanken";
+WepDamage[WepId]    = 2400;
+WepRMin[WepId]      = 1;
+WepRMax[WepId]      = 2;
+WepHit[WepId]       = 35;
+WepCrt[WepId]       = 40;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "Ç»Çµ";
+WepBMax[WepId]      = 0;
+WepMP[WepId]        = 0;
+WepPower[WepId]     = 0;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "A";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+
+WepId += 1;
+WepKind[WepId]      = 1;
+WepName[WepId]      = "îºóÏ";
+WepDemo[WepId]      = "hanrei";
+WepDamage[WepId]    = 2500;
+WepRMin[WepId]      = 2;
+WepRMax[WepId]      = 5;
+WepHit[WepId]       = 20;
+WepCrt[WepId]       = 15;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "Ç»Çµ";
+WepBMax[WepId]      = 0;
+WepMP[WepId]        = 10;
+WepPower[WepId]     = 0;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "B";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+
+WepId += 1;
+WepKind[WepId]      = 1;
+WepName[WepId]      = "ç˜â‘ëMÅX";
+WepDemo[WepId]      = "ouka";
+WepDamage[WepId]    = 2650;
+WepRMin[WepId]      = 2;
+WepRMax[WepId]      = 4;
+WepHit[WepId]       = 15;
+WepCrt[WepId]       = 20;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "Ç»Çµ";
+WepBMax[WepId]      = 0;
+WepMP[WepId]        = 10;
+WepPower[WepId]     = 100;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "B";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+
+WepId += 1;
+WepKind[WepId]      = 1;
+WepName[WepId]      = "ñªëzéa";
+WepDemo[WepId]      = "danmeiken";
+WepDamage[WepId]    = 3200;
+WepRMin[WepId]      = 1;
+WepRMax[WepId]      = 1;
+WepHit[WepId]       = 20;
+WepCrt[WepId]       = 20;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "Ç»Çµ";
+WepBMax[WepId]      = 0;
+WepMP[WepId]        = 15;
+WepPower[WepId]     = 120;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "B";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+
+WepId += 1;
+WepKind[WepId]      = 1;
+WepName[WepId]      = "ìÒïSóRè{ÇÃàÍëM";
+WepDemo[WepId]      = "yujun_en";
+WepDamage[WepId]    = 2600;
+WepRMin[WepId]      = 1;
+WepRMax[WepId]      = 9;
+WepHit[WepId]       = 20;
+WepCrt[WepId]       = 25;
+WepL[WepId]         = 0;
+WepP[WepId]         = 0;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "à⁄ìÆå^(ì¡éÍ)";
+WepBMax[WepId]      = 5;
+WepMP[WepId]        = 0;
+WepPower[WepId]     = 0;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "B";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "*yujun_en";
+
+WepId += 1;
+WepKind[WepId]      = 1;
+WepName[WepId]      = "ìVêlÇÃå‹êä";
+WepDemo[WepId]      = "gosui";
+WepDamage[WepId]    = 2850;
+WepRMin[WepId]      = 2;
+WepRMax[WepId]      = 7;
+WepHit[WepId]       = 15;
+WepCrt[WepId]       = 10;
+WepL[WepId]         = 0;
+WepP[WepId]         = 0;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "Ç»Çµ";
+WepBMax[WepId]      = 30;
+WepMP[WepId]        = 0;
+WepPower[WepId]     = 100;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "B";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";
+
+WepId += 1;
+WepKind[WepId]      = 1;
+WepName[WepId]      = "àÍîOñ≥ó çÖ";
+WepDemo[WepId]      = "ichinen";
+WepDamage[WepId]    = 3400;
+WepRMin[WepId]      = 1;
+WepRMax[WepId]      = 2;
+WepHit[WepId]       = 30;
+WepCrt[WepId]       = 20;
+WepL[WepId]         = 0;
+WepP[WepId]         = 1;
+WepS[WepId]         = 0;
+WepSpecial[WepId]   = "Ç»Çµ";
+WepBMax[WepId]      = 0;
+WepMP[WepId]        = 20;
+WepPower[WepId]     = 100;
+WepAir[WepId]       = "A";
+WepGround[WepId]    = "A";
+WepWater[WepId]     = "A";
+WepNight[WepId]     = "A";
+WepBGM[WepId]       = "";
+WepPartner[WepId]   = "";
+WepShape[WepId]     = "";

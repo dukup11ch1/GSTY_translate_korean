@@ -1,0 +1,37 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "è¨à´ñÇ";
+Char[u_id, s_id*7+0] = 125;
+Char[u_id, s_id*7+1] = 138;
+Char[u_id, s_id*7+2] = 167;
+Char[u_id, s_id*7+3] = 93;
+Char[u_id, s_id*7+4] = 163;
+Char[u_id, s_id*7+5] = 167;
+Char[u_id, s_id*7+6] = 46;
+Temper[u_id, s_id]   = "ã≠ãC";
+Type[u_id, s_id]     = "MGR_DEF";
+
+Pair[u_id, s_id]     = "|Patchouli|2|";
+Revenge[u_id, s_id]  = "|Patchouli|30|";
+
+SPList[u_id, s_id]     = "|å£êg|ìwóÕ|èWíÜ|ëMÇ´|åÉó„|ï‚ãã|";
+SPListLv[u_id, s_id]   = "|01|05|13|24|35|42|";
+SPListCost[u_id, s_id] = "|25|20|15|15|50|60|";
+
+NumSkills[u_id, s_id]    = 3;
+SkillID[u_id, s_id*10+0] = "SATTACK";
+SkillLv[u_id, s_id*10+0] = "|01|27|39|";
+
+SkillID[u_id, s_id*10+1] = "K_BOOSTER";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "CONTRACT_KOA";
+SkillLv[u_id, s_id*10+2] = "|20|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+3] = "KIAI";
+SkillLv[u_id, s_id*10+3] = "|01|01|01|";
+
+SkillID[u_id, s_id*10+4] = "DAM+_SATTACK";
+SkillLv[u_id, s_id*10+4] = "|01|";

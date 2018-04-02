@@ -1,0 +1,46 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "咲夜";
+Char[u_id, s_id*7+0] = 140;
+Char[u_id, s_id*7+1] = 144;
+Char[u_id, s_id*7+2] = 180;
+Char[u_id, s_id*7+3] = 95;
+Char[u_id, s_id*7+4] = 169;
+Char[u_id, s_id*7+5] = 173;
+Char[u_id, s_id*7+6] = 45;
+Temper[u_id, s_id]   = "強気";
+Type[u_id, s_id]     = "ALL_ATP";
+
+Pair[u_id, s_id]     = "|Meiling|1|"; 
+Revenge[u_id, s_id]  = "|Meiling|25|";
+
+if(string_count("Sakuya", global.sys_clear[0]) > 0)
+{
+    Pair[u_id, s_id]    = "|Meiling|2|";
+    Revenge[u_id, s_id] = "|Meiling|35|";
+}
+
+SPList[u_id, s_id]     = "|献身|集中|突撃|必中|激闘|覚醒|";
+SPListLv[u_id, s_id]   = "|01|13|22|30|99|99|";
+SPListCost[u_id, s_id] = "|30|15|35|20|50|70|";
+
+NumSkills[u_id, s_id]    = 5;
+SkillID[u_id, s_id*10+0] = "SHOSYA";
+SkillLv[u_id, s_id*10+0] = "|01|";
+
+SkillID[u_id, s_id*10+1] = "BLOCK";
+SkillLv[u_id, s_id*10+1] = "|01|09|18|27|37|47|56|";
+
+SkillID[u_id, s_id*10+2] = "P_SQUARE+";
+SkillLv[u_id, s_id*10+2] = "|01|22|36|50|";
+
+SkillID[u_id, s_id*10+3] = "KNIFE_COLLECT";
+SkillLv[u_id, s_id*10+3] = "|20|";
+
+SkillID[u_id, s_id*10+4] = "MEIDOCHO";
+SkillLv[u_id, s_id*10+4] = "|15|";
+
+NumSkills[u_id, s_id]   += 1;
+SkillID[u_id, s_id*10+5] = "COUNTER";
+SkillLv[u_id, s_id*10+5] = "|01|01|01|01|01|";

@@ -1,0 +1,13 @@
+﻿Kind:|Attack|cAttack|Hit|Guard|Evade|Graze|sAttack|sGuard|Barrier|Slash|Pichun|Counter|SBreak|
+Dialog:MimaG0a:……
+
+Kind:|Attack|cAttack|Hit|Guard|Evade|Graze|sAttack|sGuard|Barrier|Slash|Pichun|Counter|SBreak|
+Dialog:MimaG0a:……
+
+Kind:|Weapon|
+WepId:|0|1|-2|-4|
+Dialog:MimaG0a:……
+
+Kind:|PichunMap|
+Dialog:MimaG0a:None
+

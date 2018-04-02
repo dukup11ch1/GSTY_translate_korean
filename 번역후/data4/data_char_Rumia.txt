@@ -1,0 +1,46 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "ﾙｰﾐｱ";
+Char[u_id, s_id*7+0] = 135;
+Char[u_id, s_id*7+1] = 130;
+Char[u_id, s_id*7+2] = 153;
+Char[u_id, s_id*7+3] = 100;
+Char[u_id, s_id*7+4] = 162;
+Char[u_id, s_id*7+5] = 168;
+Char[u_id, s_id*7+6] = 50;
+Temper[u_id, s_id]   = "楽天家";
+Type[u_id, s_id]     = "ATP_DEF";
+
+Pair[u_id, s_id]     = "|";
+Revenge[u_id, s_id]  = "|";
+
+SPList[u_id, s_id]     = "|根性|必中|直撃|脱力|隠れ身|覚醒|";
+SPListLv[u_id, s_id]   = "|01|09|16|23|41|54|";
+SPListCost[u_id, s_id] = "|20|20|25|40|15|60|";
+
+NumSkills[u_id, s_id]    = 5;
+SkillID[u_id, s_id*10+0] = "SGUARD";
+SkillLv[u_id, s_id*10+0] = "|09|24|";
+
+SkillID[u_id, s_id*10+1] = "YAMI+";
+SkillLv[u_id, s_id*10+1] = "|09|20|38|";
+
+SkillID[u_id, s_id*10+2] = "DARKNESS";
+SkillLv[u_id, s_id*10+2] = "|01|";
+
+SkillID[u_id, s_id*10+3] = "ZOC_NIGHT";
+SkillLv[u_id, s_id*10+3] = "|24|32|40|";
+
+SkillID[u_id, s_id*10+4] = "SONANOKA";
+SkillLv[u_id, s_id*10+4] = "|100|100|";
+
+NumSkills[u_id, s_id]   += 3;
+SkillID[u_id, s_id*10+5] = "SOKO";
+SkillLv[u_id, s_id*10+5] = "|01|01|01|";
+
+SkillID[u_id, s_id*10+6] = "P_TURN";
+SkillLv[u_id, s_id*10+6] = "|01|";
+
+SkillID[u_id, s_id*10+7] = "P_GOTHIT";
+SkillLv[u_id, s_id*10+7] = "|01|";

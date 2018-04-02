@@ -1,0 +1,40 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "—";
+Char[u_id, s_id*7+0] = 130;
+Char[u_id, s_id*7+1] = 130;
+Char[u_id, s_id*7+2] = 170;
+Char[u_id, s_id*7+3] = 87;
+Char[u_id, s_id*7+4] = 165;
+Char[u_id, s_id*7+5] = 169;
+Char[u_id, s_id*7+6] = 46;
+Temper[u_id, s_id]   = "—âÃ";
+Type[u_id, s_id]     = "MGR_PRY";
+
+Pair[u_id, s_id]     = "|Nitori|2|";
+Revenge[u_id, s_id]  = "|Nitori|20|";
+
+SPList[u_id, s_id]     = "|’¼Š´|Œ£g|“ËŒ‚|’¼Œ‚|W’†|Ä“®|";
+SPListLv[u_id, s_id]   = "|01|12|20|27|100|100|";
+SPListCost[u_id, s_id] = "|25|30|30|30|20|60|";
+
+NumSkills[u_id, s_id]    = 5;
+SkillID[u_id, s_id*10+0] = "SGUARD";
+SkillLv[u_id, s_id*10+0] = "|01|";
+
+SkillID[u_id, s_id*10+1] = "SPIN";
+SkillLv[u_id, s_id*10+1] = "|01|";
+
+SkillID[u_id, s_id*10+2] = "BAD_FORTUNE";
+SkillLv[u_id, s_id*10+2] = "|10|";
+
+SkillID[u_id, s_id*10+3] = "YAKU_FLOW";
+SkillLv[u_id, s_id*10+3] = "|22|";
+
+SkillID[u_id, s_id*10+4] = "YAKU_RETURN";
+SkillLv[u_id, s_id*10+4] = "|27|";
+
+NumSkills[u_id, s_id]   += 1*(global.stage_num > 23);
+SkillID[u_id, s_id*10+5] = "P_EVADE";
+SkillLv[u_id, s_id*10+5] = "|01|";

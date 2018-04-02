@@ -1,0 +1,40 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "穣子";
+Char[u_id, s_id*7+0] = 137;
+Char[u_id, s_id*7+1] = 124;
+Char[u_id, s_id*7+2] = 163;
+Char[u_id, s_id*7+3] = 100;
+Char[u_id, s_id*7+4] = 150;
+Char[u_id, s_id*7+5] = 167;
+Char[u_id, s_id*7+6] = 51;
+Temper[u_id, s_id]   = "強気";
+Type[u_id, s_id]     = "ATP_DEF";
+
+Pair[u_id, s_id]     = "|Shizuha|2|";
+Revenge[u_id, s_id]  = "|Shizuha|35|";
+
+SPList[u_id, s_id]     = "|ﾄﾞ根性|必中|不屈|気合|祝福|熱血|";
+SPListLv[u_id, s_id]   = "|01|08|17|25|36|43|";
+SPListCost[u_id, s_id] = "|35|20|15|30|50|40|";
+
+NumSkills[u_id, s_id]    = 4;
+SkillID[u_id, s_id*10+0] = "CROP";
+SkillLv[u_id, s_id*10+0] = "|01|";
+
+SkillID[u_id, s_id*10+1] = "IMO+";
+SkillLv[u_id, s_id*10+1] = "|17|";
+
+SkillID[u_id, s_id*10+2] = "BONUS_LVUP_AKI";
+SkillLv[u_id, s_id*10+2] = "|20|";
+
+SkillID[u_id, s_id*10+3] = "PAIR+_MINORIKO";
+SkillLv[u_id, s_id*10+3] = "|01|25|35|";
+
+NumSkills[u_id, s_id]   += 2;
+SkillID[u_id, s_id*10+4] = "SOKO";
+SkillLv[u_id, s_id*10+4] = "|01|01|01|01|01|";
+
+SkillID[u_id, s_id*10+5] = "P_GOTHIT";
+SkillLv[u_id, s_id*10+5] = "|01|";

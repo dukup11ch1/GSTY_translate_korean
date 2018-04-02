@@ -1,0 +1,1015 @@
+﻿//Common Skills-----------------------------------
+
+SkillKind  = -1
+SkillID    = "NONE"
+SkillName  = "--------"
+SkillText  = "ｽｷﾙを修得していません。"
+SkillPP    = 0
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "HOROYOI"
+SkillName  = "ほろ酔い"
+SkillText  = "出撃時のﾊﾟﾜｰ+5。"
+SkillPP    = 60
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "P_TURN"
+SkillName  = "気分高揚"
+SkillText  = "自軍ﾀｰﾝ開始時にﾊﾟﾜｰが3上昇する。"
+SkillPP    = 100
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "HARITSUKI"
+SkillName  = "張り付き"
+SkillText  = "敵に隣接した際、射撃武器の\n最終ﾀﾞﾒｰｼﾞが1.2倍になる。"
+SkillPP    = 180
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "SATTACK"
+SkillName  = "援護攻撃"
+SkillText  = "自機が未行動の際、同地形にいる\n隣接ﾕﾆｯﾄに対して援護攻撃を行う。"
+SkillPP    = 160
+SkillPPup  = 40
+SkillMaxLv = 2
+
+SkillKind  = 0
+SkillID    = "SGUARD"
+SkillName  = "援護防御"
+SkillText  = "同地形にいる隣接ﾕﾆｯﾄに対して\n援護防御を行う。"
+SkillPP    = 160
+SkillPPup  = 40
+SkillMaxLv = 2
+
+SkillKind  = 0
+SkillID    = "DAM+_SATTACK"
+SkillName  = "連携攻撃"
+SkillText  = "援護による攻撃が必ずｸﾘﾃｨｶﾙになる。"
+SkillPP    = 150
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "KIAI"
+SkillEF    = "KIAI"
+SkillName  = "気合避け"
+SkillText  = "残りHP量に応じて命中・回避に補正。\n効果はﾚﾍﾞﾙに依存。"
+SkillPP    = 50
+SkillPPup  = 15
+SkillMaxLv = 9
+
+SkillKind  = 0
+SkillID    = "SOKO"
+SkillName  = "底力"
+SkillText  = "残りHP量に応じて防御力・ｸﾘﾃｨｶﾙ率に補正。\n効果はﾚﾍﾞﾙに依存。"
+SkillPP    = 50
+SkillPPup  = 15
+SkillMaxLv = 9
+
+SkillKind  = 0
+SkillID    = "USO"
+SkillName  = "嘘避け"
+SkillText  = "一定確率で完全回避が発生。発動確率は\n技量差（低いほど有利）とｽｷﾙﾚﾍﾞﾙに依存。"
+SkillPP    = 100
+SkillPPup  = 50
+SkillMaxLv = 2
+
+SkillKind  = 0
+SkillID    = "GRAZE"
+SkillName  = "かすり"
+SkillText  = "ｸﾞﾚｲｽﾞﾀﾞﾒｰｼﾞを軽減。効果はﾚﾍﾞﾙに依存。"
+SkillPP    = 130
+SkillPPup  = 60
+SkillMaxLv = 2
+
+SkillKind  = 0
+SkillID    = "COUNTER"
+SkillName  = "ﾊﾟﾀｰﾝ化"
+SkillText  = "反撃時、ﾚﾍﾞﾙ/16の確率でｶｳﾝﾀｰが発動する。"
+SkillPP    = 60
+SkillPPup  = 15
+SkillMaxLv = 9
+
+SkillKind  = 0
+SkillID    = "FAST"
+SkillName  = "高速移動"
+SkillText  = "高速ﾓｰﾄﾞ時の移動力+1。"
+SkillPP    = 180
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "SLOW"
+SkillName  = "低速移動"
+SkillText  = "低速ﾓｰﾄﾞ時の移動力+1。"
+SkillPP    = 180
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "P_GOTHIT"
+SkillName  = "P回収(被弾)"
+SkillText  = "攻撃を被弾した時、ﾊﾟﾜｰが2上昇する。"
+SkillPP    = 60
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "P_HIT"
+SkillName  = "P回収(命中)"
+SkillText  = "攻撃を命中させた時、ﾊﾟﾜｰが1上昇する。"
+SkillPP    = 60
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "P_EVADE"
+SkillName  = "P回収(回避)"
+SkillText  = "攻撃を回避した時、ﾊﾟﾜｰが1上昇する。"
+SkillPP    = 60
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "P_BEAT"
+SkillName  = "P回収(撃破)"
+SkillText  = "味方ﾕﾆｯﾄが敵を撃墜した時、\nﾊﾟﾜｰが1上昇する。"
+SkillPP    = 80
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "MIKIRI"
+SkillName  = "見切り"
+SkillText  = "ﾊﾟﾜｰ130以上の時、命中・回避に+20。"
+SkillPP    = 140
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "SHINNEN"
+SkillName  = "信念"
+SkillText  = "ﾊﾟﾜｰ130以上の時、防御・技量に+20。"
+SkillPP    = 140
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "NODIST"
+SkillName  = "距離補正無視"
+SkillText  = "距離6以上で発生する\nﾀﾞﾒｰｼﾞ・命中率の減少を無効化。"
+SkillPP    = 140
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "SAVE_MP"
+SkillName  = "霊力節約"
+SkillText  = "消費MPを20％軽減する。"
+SkillPP    = 190
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "SAVE_BUL"
+SkillName  = "弾数節約"
+SkillText  = "最大弾数を1.5倍にする。(端数は切り捨て)"
+SkillPP    = 190
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 0
+SkillID    = "UP_ATP"
+SkillName  = "格闘補正"
+SkillText  = "「格闘」の値にﾚﾍﾞﾙx5の補正。"
+SkillPP    = 30
+SkillPPup  = 50
+SkillMaxLv = 9
+
+SkillKind  = 0
+SkillID    = "UP_MGR"
+SkillName  = "射撃補正"
+SkillText  = "「射撃」の値にﾚﾍﾞﾙx5の補正。"
+SkillPP    = 30
+SkillPPup  = 50
+SkillMaxLv = 9
+
+SkillKind  = 0
+SkillID    = "UP_CRT"
+SkillName  = "技量補正"
+SkillText  = "「技量」の値にﾚﾍﾞﾙx5の補正。"
+SkillPP    = 30
+SkillPPup  = 50
+SkillMaxLv = 9
+
+SkillKind  = 0
+SkillID    = "UP_DEF"
+SkillName  = "防御補正"
+SkillText  = "「防御」の値にﾚﾍﾞﾙx5の補正。"
+SkillPP    = 30
+SkillPPup  = 50
+SkillMaxLv = 9
+
+SkillKind  = 0
+SkillID    = "UP_PRY"
+SkillName  = "回避補正"
+SkillText  = "「回避」の値にﾚﾍﾞﾙx5の補正。"
+SkillPP    = 30
+SkillPPup  = 50
+SkillMaxLv = 9
+
+SkillKind  = 0
+SkillID    = "UP_HIT"
+SkillName  = "命中補正"
+SkillText  = "「命中」の値にﾚﾍﾞﾙx5の補正。"
+SkillPP    = 30
+SkillPPup  = 50
+SkillMaxLv = 9
+
+SkillKind  = 0
+SkillID    = "UP_SP"
+SkillName  = "SP補正"
+SkillText  = "最大SPにﾚﾍﾞﾙx5の補正。"
+SkillPP    = 30
+SkillPPup  = 50
+SkillMaxLv = 9
+
+//Intrinsic skills--------------------------------
+
+SkillKind  = 1
+SkillID    = "MIKO"
+SkillName  = "巫女"
+SkillText  = "ﾚﾍﾞﾙにより命中率・回避率に補正。"
+SkillPP    = 0
+SkillPPup  = 0
+SkillMaxLv = 9
+
+SkillKind  = 1
+SkillID    = "MAHOU"
+SkillName  = "魔法使い"
+SkillText  = "ﾚﾍﾞﾙにより武器の攻撃力、命中率、\nおよび「魔法障壁」の効果に補正。"
+SkillPP    = 0
+SkillPPup  = 0
+SkillMaxLv = 9
+
+SkillKind  = 1
+SkillID    = "SHIELD"
+SkillName  = "ｼｰﾙﾄﾞ防御"
+SkillText  = "被弾時に一定確率で防御を行う。"
+SkillPP    = 0
+SkillPPup  = 0
+SkillMaxLv = 9
+
+SkillKind  = 1
+SkillID    = "BLOCK"
+SkillName  = "切り払い"
+SkillText  = "Ｓ属性の攻撃を一定確率で切り払い、\n攻撃を無効化する。"
+SkillPP    = 0
+SkillPPup  = 0
+SkillMaxLv = 9
+
+SkillKind  = 1
+SkillID    = "SHOSYA"
+SkillName  = "瀟洒"
+SkillText  = "敵からｸﾘﾃｨｶﾙを受けない。"
+SkillPP    = 0
+SkillPPup  = 0
+SkillMaxLv = 0
+
+SkillKind  = 1
+SkillID    = "EICHI"
+SkillName  = "叡智"
+SkillText  = "ﾊﾟﾜｰ130以上の時、\n命中率・回避率に+30％、ｸﾘﾃｨｶﾙ率に+10％。"
+SkillPP    = 0
+SkillPPup  = 0
+SkillMaxLv = 0
+
+//Unique skills. Note that SkillPP, etc. are not defined-----------------------------------
+
+//Reimu-----------------------
+SkillKind  = 2
+SkillID    = "Y_BUSTER"
+SkillName  = "妖怪ﾊﾞｽﾀｰ"
+SkillText  = "種族「妖怪」へ与えるﾀﾞﾒｰｼﾞ+<VAL1>％。"
+SkillMaxLv = 2
+
+SkillKind  = 2
+SkillID    = "N_KEKKAI"
+SkillName  = "二重結界"
+SkillText  = "特殊能力「二重結界」を追加。\n全攻撃のﾀﾞﾒｰｼﾞを500軽減する。(消費MP10)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "INTUITION"
+SkillName  = "勘"
+SkillText  = "ｸﾘﾃｨｶﾙ率+<VAL1>％、命中率-<VAL2>％。"
+SkillMaxLv = 0
+
+//Marisa----------------------
+SkillKind  = 2
+SkillID    = "D_POWER"
+SkillName  = "弾幕はﾊﾟﾜｰ"
+SkillText  = "次の攻撃の消費MPを<VAL1>％増やし、\n与える最終ﾀﾞﾒｰｼﾞに+<VAL2>％。(使用回数<COUNT>)"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "H_WORKER"
+SkillName  = "努力家"
+SkillText  = "獲得経験値+20％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "M_THRUSTER"
+SkillName  = "ﾏｼﾞｯｸｽﾗｽﾀｰ"
+SkillText  = "MPを<VAL1>消費し、1ﾀｰﾝの間だけ\n命中率と回避率に+<VAL2>％。(使用回数<COUNT>)"
+SkillMaxLv = 2
+
+SkillKind  = 2
+SkillID    = "S_STAR"
+SkillName  = "ｽﾋﾟｰﾄﾞｽﾀｰ"
+SkillText  = "移動力を+1し、\nかつ高速ﾓｰﾄﾞ時のみ回避率+<VAL1>％。"
+SkillMaxLv = 0
+
+//Keine-----------------------
+SkillKind  = 2
+SkillID    = "TEACHER"
+SkillName  = "先生"
+SkillText  = "周囲<VAL1>ﾏｽにいる味方の獲得経験値+<VAL2>％。"
+SkillMaxLv = 2
+
+SkillKind  = 2
+SkillID    = "TOSSHIN"
+SkillName  = "突進力"
+SkillText  = "低速時の移動力に+<VAL1>。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "PAIRTO_MOKOU"
+SkillName  = "世話焼き"
+SkillText  = "妹紅に与える信頼補正ﾚﾍﾞﾙに+<VAL2>。"
+SkillMaxLv = 3
+
+//Alice-----------------------
+SkillKind  = 2
+SkillID    = "DOLL_CREATE_SG"
+SkillName  = "蓬莱人形"
+SkillText  = "MPを<VAL1>消費し、ﾕﾆｯﾄ「蓬莱人形」を生成。\n人形はｽｷﾙ「援護防御」を所持。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "DOLL_CREATE_SA"
+SkillName  = "上海人形"
+SkillText  = "MPを<VAL1>消費し、ﾕﾆｯﾄ「上海人形」を生成。\n人形はｽｷﾙ「援護攻撃」を所持。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "D_BRAIN"
+SkillName  = "弾幕はﾌﾞﾚｲﾝ"
+SkillText  = "ｸﾘﾃｨｶﾙ時のﾀﾞﾒｰｼﾞ+<VAL1>％。"
+SkillMaxLv = 0
+
+//Cirno-----------------------
+SkillKind  = 2
+SkillID    = "FREEZE"
+SkillName  = "ﾌﾘｰｽﾞ"
+SkillText  = "次の攻撃に「1ﾀｰﾝ回避率<VAL1>％ﾀﾞｳﾝ」の\n追加効果を付与。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "PAIR_DAICHIRU"
+SkillName  = "双魔精"
+SkillText  = "大妖精から受ける信頼補正ﾚﾍﾞﾙ、\nおよび大妖精に与える信頼補正ﾚﾍﾞﾙに+<VAL2>。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "I_BARRIER+"
+SkillName  = "こおりﾊﾟﾜｰ"
+SkillText  = "特殊能力「ｱｲｽﾊﾞﾘｱ」の性能を変化。\n効果はﾚﾍﾞﾙに依存。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "NOSIZE_CIRNO"
+SkillName  = "熱い氷精"
+SkillText  = "ｻｲｽﾞ差によるﾀﾞﾒｰｼﾞの減少を無視する。"
+SkillMaxLv = 0
+
+//Daiyosei--------------------
+SkillKind  = 2
+SkillID    = "KENAGE"
+SkillName  = "健気"
+SkillText  = "ｺﾏﾝﾄﾞ「治療」の消費MPを<VAL1>減らし、\nかつ回復値+<VAL2>％。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "IYASHI"
+SkillName  = "癒し系"
+SkillText  = "精神ｺﾏﾝﾄﾞ「信頼」の回復値を+<VAL1>。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "PAIRTO_CIRNO"
+SkillName  = "名参謀"
+SkillText  = "ﾁﾙﾉに与える信頼補正ﾚﾍﾞﾙに+<VAL2>。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "GANBARIYA"
+SkillName  = "がんばりや"
+SkillText  = "全ｽﾃｰﾀｽ+<VAL1>。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "TELEPORT"
+SkillName  = "ﾃﾚﾎﾟｰﾄ"
+SkillText  = "移動時に地形効果を受けない。\nまた、敵も通過することができる。"
+SkillMaxLv = 0
+
+//Rumia-----------------------
+SkillKind  = 2
+SkillID    = "YAMI+"
+SkillName  = "闇強化"
+SkillText  = "特殊能力「闇」の効果量+<VAL2>。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "DARKNESS"
+SkillName  = "暗闇"
+SkillText  = "次の攻撃に「1ﾀｰﾝ命中率<VAL1>％ﾀﾞｳﾝ」の\n追加効果を付与。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "ZOC_NIGHT"
+SkillName  = "夜闇"
+SkillText  = "周囲<VAL1>ﾏｽの地形を「夜」にする。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "SONANOKA"
+SkillName  = "そーなのかー"
+SkillText  = "攻撃を当てた際、相手のﾊﾟﾜｰを<VAL1>下げる。"
+SkillMaxLv = 2
+
+//Sakuya----------------------
+SkillKind  = 2
+SkillID    = "P_SQUARE+"
+SkillName  = "ﾙﾅﾀﾞｲｱﾙ"
+SkillText  = "特殊能力「ﾌﾟﾗｲﾍﾞｰﾄｽｸｳｪｱ」の\n発動確率に+<VAL1>％。"
+SkillMaxLv = 4
+
+SkillKind  = 2
+SkillID    = "KNIFE_COLLECT"
+SkillName  = "ﾅｲﾌ回収"
+SkillText  = "消費MPを増やす代わりに、弾数の消費をなくす。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "MEIDOCHO"
+SkillName  = "ﾒｲﾄﾞ長"
+SkillText  = "技量差に応じてｶｳﾝﾀｰが発動する。\n効果はｽｷﾙ「ﾊﾟﾀｰﾝ化」と重複するが、上限あり。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "T_PARADOX"
+SkillName  = "ﾀｲﾑﾊﾟﾗﾄﾞｯｸｽ"
+SkillText  = "自分に援護攻撃ができる。\n使用回数はｽｷﾙ「援護攻撃」のﾚﾍﾞﾙに依存。"
+SkillMaxLv = 0
+
+//Meiling---------------------
+SkillKind  = 2
+SkillID    = "HAISUI"
+SkillName  = "背水の陣"
+SkillText  = "残りHPに応じてｽﾃｰﾀｽ「防御」に補正。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "KOUKIKOU"
+SkillName  = "硬気功"
+SkillText  = "ｽｷﾙ「ｼｰﾙﾄﾞ防御L<VAL1>」と同じ効果。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "SHUKIHOU"
+SkillName  = "集気法"
+SkillText  = "特殊能力「HP回復(小)」を追加。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "SHINKYAKU"
+SkillName  = "震脚"
+SkillText  = "地形適応「陸」をSにする。"
+SkillMaxLv = 0
+
+//Komachi---------------------
+SkillKind  = 2
+SkillID    = "MUGEN"
+SkillName  = "無間の道"
+SkillText  = "一度だけ、最大射程が3以上の攻撃の射程を\n∞にする。効果中は移動不能。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "TAKURAKU"
+SkillName  = "拓落失路"
+SkillText  = "特殊能力「HP回復(中)」を追加するが、\n出撃時のﾊﾟﾜｰに-<VAL2>。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "POINT+_KOMACHI"
+SkillName  = "渡し賃徴収"
+SkillText  = "獲得点+<VAL1>％。"
+SkillMaxLv = 0
+
+//Mokou-----------------------
+SkillKind  = 2
+SkillID    = "KISHIKAISEI"
+SkillName  = "起死回生"
+SkillText  = "HP・MP・SPがすべて10％以下になった時、\n一度だけHP・MP・SPが最大値まで回復する。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "REVITALIZE"
+SkillName  = "ﾘｻﾞﾚｸｼｮﾝ"
+SkillText  = "被撃墜時、一度だけHP20％で復活する。\n復活時にはSPが<VAL1>％回復し、ﾊﾟﾜｰが<VAL2>上昇する。"
+SkillMaxLv = 2
+
+SkillKind  = 2
+SkillID    = "KAMARI"
+SkillName  = "捨て奸"
+SkillText  = "HP回復(中)をなくす代わりに、\n与えるﾀﾞﾒｰｼﾞ+<VAL1>％。"
+SkillMaxLv = 0
+
+//Elliy-----------------------
+SkillKind  = 2
+SkillID    = "PERDITION"
+SkillName  = "ﾊﾟｰﾃﾞｨｼｮﾝ"
+SkillText  = "相手に近づくほどｸﾘﾃｨｶﾙ率がｱｯﾌﾟ。\n効果はﾚﾍﾞﾙに依存。"
+SkillMaxLv = 4
+
+SkillKind  = 2
+SkillID    = "TILE"
+SkillName  = "床弾幕"
+SkillText  = "1ﾀｰﾝの間、自分の攻撃に「1ﾀｰﾝ移動不能」の\n追加効果を付与。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+//Kurumi----------------------
+SkillKind  = 2
+SkillID    = "SABBATH"
+SkillName  = "ﾌﾞﾚｲｸｻﾞｻﾊﾞｽ"
+SkillText  = "次の攻撃に「1ﾀｰﾝ防御・回避不能」の\n追加効果を付与。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "NIGHT_DEMON"
+SkillName  = "夜の眷属"
+SkillText  = "地形「夜」にいる時、命中率・回避率+<VAL1>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "CONTRACT_KURUMI"
+SkillName  = "悪魔の契約(くるみ)"
+SkillText  = "指定したﾕﾆｯﾄに精神ｺﾏﾝﾄﾞ「必中」をかける。\nただし対象のMPは<VAL1>減少。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+//Sunny----------------------
+SkillKind  = 2
+SkillID    = "SUN_FAIRY"
+SkillName  = "日の妖精"
+SkillText  = "昼ﾏｯﾌﾟでのHP回復量+<VAL2>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "THREE_FAIRIES_SUNNY"
+SkillName  = "光の三妖精"
+SkillText  = "ｽﾀｰ、ﾙﾅから受ける信頼補正ﾚﾍﾞﾙ、\nおよび二人に与える信頼補正ﾚﾍﾞﾙに+<VAL2>。"
+SkillMaxLv = 4
+
+SkillKind  = 2
+SkillID    = "REFLECTION"
+SkillName  = "ﾘﾌﾚｸｼｮﾝ"
+SkillText  = "1ﾀｰﾝの間、周囲<VAL1>ﾏｽのﾕﾆｯﾄが敵の攻撃対象に\nされない。反撃は受ける。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "S_BARRIER+"
+SkillName  = "ｻﾆｰﾊﾞﾘｱｰ強化"
+SkillText  = "特殊能力「ｻﾆｰﾊﾞﾘｱｰ」の効果量+<VAL2>。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "COMBINE_P+_SUNNY"
+SkillName  = "仲良し三人組"
+SkillText  = "移動後に「合体」「分離」ができる。"
+SkillMaxLv = 0
+
+//Luna----------------------
+SkillKind  = 2
+SkillID    = "LUNA_FAIRY"
+SkillName  = "月の妖精"
+SkillText  = "夜ﾏｯﾌﾟでのHP回復量+<VAL2>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "THREE_FAIRIES_LUNA"
+SkillName  = "光の三妖精"
+SkillText  = "ｽﾀｰ、ｻﾆｰから受ける信頼補正ﾚﾍﾞﾙ、\nおよび二人に与える信頼補正ﾚﾍﾞﾙに+<VAL2>。"
+SkillMaxLv = 4
+
+SkillKind  = 2
+SkillID    = "SILENCE"
+SkillName  = "ｻｲﾚﾝｽ"
+SkillText  = "周囲<VAL1>ﾏｽにいる味方ﾕﾆｯﾄの命中率+<VAL2>％。"
+SkillMaxLv = 3
+
+//Star----------------------
+SkillKind  = 2
+SkillID    = "STAR_FAIRY"
+SkillName  = "星の妖精"
+SkillText  = "昼夜に関わらずHP回復量+<VAL2>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "THREE_FAIRIES_STAR"
+SkillName  = "光の三妖精"
+SkillText  = "ｻﾆｰ、ﾙﾅから受ける信頼補正ﾚﾍﾞﾙ、\nおよび二人に与える信頼補正ﾚﾍﾞﾙに+<VAL2>。"
+SkillMaxLv = 4
+
+SkillKind  = 2
+SkillID    = "RADER"
+SkillName  = "ﾚｰﾀﾞｰ"
+SkillText  = "周囲<VAL1>ﾏｽにいる味方ﾕﾆｯﾄの回避率+<VAL2>％。"
+SkillMaxLv = 4
+
+//Patchouli----------------------
+SkillKind  = 2
+SkillID    = "HAWAY_PATCHE"
+SkillName  = "高速詠唱"
+SkillText  = "移動せずに攻撃した場合、\n攻撃後に移動できる。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "ENCHANT_AGNI"
+SkillName  = "ｴﾝﾁｬﾝﾄ(火符)"
+SkillText  = "「ｱｸﾞﾆｼｬｲﾝ」が移動後でも使えるようになる。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "LIBRARY"
+SkillName  = "動かない大図書館"
+SkillText  = "移動せずにﾀｰﾝを終了すると、次のﾀｰﾝでの\n射撃攻撃の射程に+<VAL1>。また、消費MPを軽減。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "M_SHIELD+_PATCHE"
+SkillName  = "障壁強化(ﾊﾟﾁｪ)"
+SkillText  = "「魔法障壁」の消費MPを<VAL2>増やし、\n効果量に+<VAL1>。"
+SkillMaxLv = 4
+
+//Koakuma----------------------
+SkillKind  = 2
+SkillID    = "K_BOOSTER"
+SkillName  = "こぁﾌﾞｰｽﾀｰ"
+SkillText  = "移動後でも「補給」ｺﾏﾝﾄﾞが使えるようになる。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "CONTRACT_KOA"
+SkillName  = "悪魔の契約"
+SkillText  = "指定したﾕﾆｯﾄに「毎ﾀｰﾝMP<VAL2>％回復、ﾊﾟﾜｰ-<VAL1>」の\n特殊効果を付与。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "K_FIGHTER"
+SkillName  = "こぁﾌｧｲﾀｰ"
+SkillText  = "すべての武器の攻撃力に+<VAL1>。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "K_BLOCK"
+SkillName  = "こぁﾌﾞﾛｯｸ"
+SkillText  = "被弾時に<VAL1>％の確率で防御する。"
+SkillMaxLv = 3
+
+//Nitori----------------------
+SkillKind  = 2
+SkillID    = "N_ARM+"
+SkillName  = "のびーるｱｰﾑ+"
+SkillText  = "移動後でも「ｱｲﾃﾑ」ｺﾏﾝﾄﾞが使える。\nただし移動後にｱｲﾃﾑを使うと、行動終了になる。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "SP_COST-_NITORI"
+SkillName  = "盟友の絆"
+SkillText  = "精神ｺﾏﾝﾄﾞ「<VAL1>」の消費SPが<VAL2>になる。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "SATTACK_HIT+"
+SkillName  = "ｻﾎﾟｰﾄｱﾀｯｸ"
+SkillText  = "援護攻撃の命中率+<VAL1>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "OPTICAL"
+SkillName  = "O・ｶﾓﾌﾗｰｼﾞｭ"
+SkillText  = "特殊能力「O・ｶﾓﾌﾗｰｼﾞｭ」を追加。\n<VAL2>％の確率で攻撃を回避する。(消費MP10)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "BACKPACK"
+SkillName  = "大型ﾘｭｯｸｻｯｸ"
+SkillText  = "装備ｽﾛｯﾄ+<VAL1>。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "CARPET"
+SkillName  = "ｳｫｰﾀｰｶｰﾍﾟｯﾄ"
+SkillText  = "1ﾀｰﾝの間、距離<VAL1>ﾏｽ以内の地形を「水」にする。\n(使用回数<COUNT>)"
+SkillMaxLv = 2
+
+//Minoriko----------------------
+SkillKind  = 2
+SkillID    = "CROP"
+SkillName  = "収穫"
+SkillText  = "ｽﾃｰｼﾞｸﾘｱ時にｱｲﾃﾑ「おいも」を入手。\n最大<VAL2>個まで所持できる。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "BONUS_LVUP_AKI"
+SkillName  = "稔り"
+SkillText  = "ﾚﾍﾞﾙｱｯﾌﾟ時にﾎﾞｰﾅｽ点とﾎﾞｰﾅｽPPを獲得する。\n（補給によるﾚﾍﾞﾙｱｯﾌﾟも含む）"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "IMO+"
+SkillName  = "黄金の味"
+SkillText  = "穣子が出撃していると、ｱｲﾃﾑ「おいも」の\n効果がｱｯﾌﾟ。SPが20回復する。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "PAIR+_MINORIKO"
+SkillName  = "姉妹ｺﾝﾋﾞﾈｰｼｮﾝ"
+SkillText  = "静葉との相互の信頼補正ﾚﾍﾞﾙに+<VAL2>。"
+SkillMaxLv = 3
+
+//Shizuha----------------------
+SkillKind  = 2
+SkillID    = "SABI"
+SkillName  = "寂び"
+SkillText  = "次の攻撃に「1ﾀｰﾝﾊﾟﾜｰ上昇なし」の\n追加効果を付与。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "AKI_SHIZUHA"
+SkillName  = "黄金の秋"
+SkillText  = "獲得経験値+<VAL1>％、受けるﾀﾞﾒｰｼﾞ-<VAL2>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "PAIR+_SHIZUHA"
+SkillName  = "姉妹ｺﾝﾋﾞﾈｰｼｮﾝ"
+SkillText  = "穣子との相互の信頼補正ﾚﾍﾞﾙに+<VAL2>。"
+SkillMaxLv = 3
+
+//Hina----------------------
+SkillKind  = 2
+SkillID    = "BAD_FORTUNE"
+SkillName  = "ﾊﾞｯﾄﾞﾌｫｰﾁｭﾝ"
+SkillText  = "次の攻撃に「確率発動効果を1ﾀｰﾝ封印」の\n追加効果を付与。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "SPIN"
+SkillName  = "回転加速"
+SkillText  = "移動距離に応じて回避率、\nおよび与ﾀﾞﾒｰｼﾞに補正。"
+SkillMaxLv = 2
+
+SkillKind  = 2
+SkillID    = "YAKU_FLOW"
+SkillName  = "厄流し"
+SkillText  = "次の攻撃に「被弾時ｸﾘﾃｨｶﾙ」の\n追加効果を付与。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "YAKU_RETURN"
+SkillName  = "厄返し"
+SkillText  = "自分に攻撃を当てた相手に\n「被弾時ｸﾘﾃｨｶﾙ」の追加効果を付与。"
+SkillMaxLv = 0
+
+/*
+SkillKind  = 2
+SkillID    = "SACRIFICE"
+SkillName  = "身代わり雛"
+SkillText  = "現在位置に関わらず、\n指定したﾕﾆｯﾄの援護防御に入る。(使用回数<COUNT>)"
+SkillMaxLv = 1
+*/
+
+//Sanae----------------------
+SkillKind  = 2
+SkillID    = "SANAE"
+SkillName  = "現人神"
+SkillText  = "戦闘で得られる信仰ｹﾞｰｼﾞ上昇量に+<VAL1>。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "OMIKUJI"
+SkillName  = "おみくじ爆弾"
+SkillText  = "与えるﾀﾞﾒｰｼﾞに-<VAL1>％～+<VAL2>％の補正。\n効果量はﾗﾝﾀﾞﾑで、ﾀｰﾝごとに決定。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "SP_COST-_SANAE"
+SkillName  = "奇跡の少女"
+SkillText  = "精神ｺﾏﾝﾄﾞ「<VAL1>」の消費SPを<VAL2>にする。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "CURE_SP_SANAE"
+SkillName  = "SP回復"
+SkillText  = "ﾀｰﾝ開始時、SPが<VAL1>回復する。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "PAIRFROM+_SANAE"
+SkillName  = "二柱の加護"
+SkillText  = "神奈子、諏訪子から受ける信頼補正Lに+<VAL2>。"
+SkillMaxLv = 3
+
+//Suika----------------------
+SkillKind  = 2
+SkillID    = "MPOWER"
+SkillName  = "ﾐｯｼﾝｸﾞﾊﾟﾜｰ"
+SkillText  = "1ﾀｰﾝの間、ｻｲｽﾞが<VAL1>になる。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+//Koishi----------------------
+SkillKind  = 2
+SkillID    = "MUISHIKI"
+SkillName  = "無意識"
+SkillText  = "距離<VAL1>ﾏｽ以内の味方ﾕﾆｯﾄが攻撃対象にされない。"
+SkillMaxLv = 0
+
+//Letty----------------------
+SkillKind  = 2
+SkillID    = "KANPA"
+SkillName  = "寒波"
+SkillText  = "距離<VAL1>ﾏｽの敵ﾕﾆｯﾄの回避率-<VAL2>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "DAIKANPA"
+SkillName  = "大寒波"
+SkillText  = "敵全体を「回避率-<VAL1>％」の状態にする。\n(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "BUTOU"
+SkillName  = "雪の舞踏"
+SkillText  = "機動性重視のﾕﾆｯﾄ性能に変更する。"
+SkillMaxLv = 0
+
+//Aya----------------------
+SkillKind  = 2
+SkillID    = "FUJIN"
+SkillName  = "風神少女"
+SkillText  = "ﾊﾟﾜｰ120以上のとき移動力+1、回避率+<VAL1>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "OIKAZE"
+SkillName  = "追い風"
+SkillText  = "指定した味方ﾕﾆｯﾄに「<VAL1>」の効果。\n(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "SUPERFAST"
+SkillName  = "超高速移動"
+SkillText  = "移動力+<VAL1>。効果は「加速」と重複するが、\n移動後の戦闘では必ず被弾する。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+//Momiji----------------------
+SkillKind  = 2
+SkillID    = "SHIELD+_MOMIJI"
+SkillName  = "堅狼"
+SkillText  = "相手に近づくほど、ｽｷﾙ「ｼｰﾙﾄﾞ防御」の\n発動確率がｱｯﾌﾟ。効果はﾚﾍﾞﾙに依存。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "SENRI"
+SkillName  = "千里眼"
+SkillText  = "射程<VAL1>以上から攻撃を受けた時、\n回避率+<VAL2>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "SPIRIT_TURN_MOMIJI"
+SkillName  = "ﾃﾚｸﾞﾉｼｽ"
+SkillText  = "ﾊﾟﾜｰ<VAL1>以上の時、「<VAL2>」の消費SP-10。"
+SkillMaxLv = 0
+
+//Lily----------------------
+SkillKind  = 2
+SkillID    = "IBUKI"
+SkillName  = "生命の息吹"
+SkillText  = "ﾀｰﾝ開始時、周囲<VAL1>ﾏｽにいる\n味方のHPが<VAL2>％回復。"
+SkillMaxLv = 2
+
+SkillKind  = 2
+SkillID    = "HARUKAZE"
+SkillName  = "春風の調べ"
+SkillText  = "「春ですよー」が\n移動後でも使えるようになる。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "SP_COST-_LILYW"
+SkillName  = "天使の祝福"
+SkillText  = "精神ｺﾏﾝﾄﾞ「<VAL1>」の消費SPが<VAL2>になる。"
+SkillMaxLv = 0
+
+//Nazrin----------------------
+SkillKind  = 2
+SkillID    = "NEZUMI"
+SkillName  = "齧りﾈｽﾞﾐ"
+SkillText  = "次の攻撃に「1ﾀｰﾝの間、被ﾀﾞﾒｰｼﾞ+<VAL1>％」の\n特殊効果を付与。(使用回数<COUNT>)"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "SP_COST-_ALL_NAZRIN"
+SkillName  = "賢将"
+SkillText  = "消費SP-<VAL1>％（端数は切り上げ）。"
+SkillMaxLv = 3
+
+SkillKind  = 2
+SkillID    = "NOSIZE_NAZRIN"
+SkillName  = "窮鼠噛狸"
+SkillText  = "ｻｲｽﾞ差によるﾀﾞﾒｰｼﾞの減少を無視する。"
+SkillMaxLv = 0
+
+//Sho----------------------
+SkillKind  = 2
+SkillID    = "POINT+_SHO"
+SkillName  = "黄金の震眩"
+SkillText  = "獲得点+<VAL1>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "POW_DAM+_SHO"
+SkillName  = "毘沙門天の加護"
+SkillText  = "ﾊﾟﾜｰ<VAL1>以上の時、与えるﾀﾞﾒｰｼﾞに+<VAL2>％。"
+SkillMaxLv = 0
+
+//Youmu----------------------
+SkillKind  = 2
+SkillID    = "BLOCK+_YOUMU"
+SkillName  = "剣戟"
+SkillText  = "ﾊﾟﾜｰ<VAL1>以上のとき、切り払い発動確率+<VAL2>％。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "BUNSHIN_YOUMU"
+SkillName  = "幽明の苦輪"
+SkillText  = "特殊能力「分身」を追加。ﾊﾟﾜｰ130以上の時、\n25％の確率で攻撃を回避する。"
+SkillMaxLv = 0
+
+SkillKind  = 2
+SkillID    = "KEKKA"
+SkillName  = "結跏趺斬"
+SkillText  = "低速時の移動力-<VAL1>、与えるﾀﾞﾒｰｼﾞに+<VAL2>％。"
+SkillMaxLv = 0
+
+//Ran----------------------
+SkillKind  = 2
+SkillID    = "REVIVE_RAN"
+SkillName  = "式神再生(藍)"
+SkillText  = "一度だけ「橙」を復活させることができる。"
+SkillMaxLv = 0
+
+//Yukari----------------------
+SkillKind  = 2
+SkillID    = "REVIVE_YUKARI"
+SkillName  = "式神再生(紫)"
+SkillText  = "一度だけ「藍」を復活させることができる。"
+SkillMaxLv = 0
+
+//Common----------------------
+SkillKind  = 2
+SkillID    = "M_SHIELD+"
+SkillName  = "障壁強化"
+SkillText  = "「魔法障壁」を「魔法障壁+」に強化し、\nかつﾊﾞﾘｱの効果+<VAL1>。"
+SkillMaxLv = 5
+
+SkillKind  = 2
+SkillID    = "G_KEEPER"
+SkillName  = "門番"
+SkillText  = "援護防御時の被ﾀﾞﾒｰｼﾞを-<VAL1>％。"
+SkillMaxLv = 5
+
+SkillKind  = 2
+SkillID    = "SUCK_HP"
+SkillName  = "吸血"
+SkillText  = "与えたﾀﾞﾒｰｼﾞの<VAL1>％だけHPを回復。"
+SkillMaxLv = 4

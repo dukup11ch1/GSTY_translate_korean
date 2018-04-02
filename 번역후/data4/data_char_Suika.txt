@@ -1,0 +1,27 @@
+var u_id; u_id = argument0;
+var s_id; s_id = argument1;
+
+PName[u_id, s_id]    = "äÂ";
+Char[u_id, s_id*7+0] = 162;
+Char[u_id, s_id*7+1] = 95;
+Char[u_id, s_id*7+2] = 175;
+Char[u_id, s_id*7+3] = 108;
+Char[u_id, s_id*7+4] = 153;
+Char[u_id, s_id*7+5] = 176;
+Char[u_id, s_id*7+6] = 52;
+Temper[u_id, s_id]   = "’´‹­‹C";
+Type[u_id, s_id]     = "ATP_DEF";
+
+Pair[u_id, s_id]     = "|Yukari|2|";
+Revenge[u_id, s_id]  = "|Yukari|15|";
+
+SPList[u_id, s_id]     = "|’¼Œ‚|“S•Ç|•K’†|‹C‡|’¼Œ‚|”MŒŒ|";
+SPListLv[u_id, s_id]   = "|01|05|15|100|100|100|";
+SPListCost[u_id, s_id] = "|15|20|20|35|35|50|";
+
+NumSkills[u_id, s_id]    = 1 + (global.stage_num > 24);
+SkillID[u_id, s_id*10+0] = "HOROYOI";
+SkillLv[u_id, s_id*10+0] = "|1|";
+
+SkillID[u_id, s_id*10+1] = "MPOWER";
+SkillLv[u_id, s_id*10+1] = "|1|";

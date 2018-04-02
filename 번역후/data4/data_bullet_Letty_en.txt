@@ -1,0 +1,42 @@
+NumBullets = 2;
+
+var BulId; BulId = 0;
+
+BulName[BulId]  = "";
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 7;
+BulShape[BulId] = "circle";
+BulSlots[BulId]   = 1;
+
+BulDEF[BulId, 0] = 5;
+BulPRY[BulId, 0] = 35;
+BulMov[BulId, 0] = 0.30;
+BulID[BulId, 0]  = "";
+
+BulHP[BulId]     = 0;
+BulTurns[BulId]  = 0;
+BulPoints[BulId] = 6000;
+BulEXP[BulId]    = 180;
+BulPP[BulId]     = 10;
+BulAnime[BulId]  = "";
+BulUpdate[BulId] = 0;
+
+BulId += 1;
+BulName[BulId]  = "동부「플라워 위더 어웨이」"
+BulRMin[BulId]  = 1;
+BulRMax[BulId]  = 6;
+BulShape[BulId] = "circle";
+BulSlots[BulId]   = 1;
+
+BulDEF[BulId, 0] = 20;
+BulPRY[BulId, 0] = 20;
+BulMov[BulId, 0] = 0.4;
+BulID[BulId, 0]  = "MOTION-_LETTY";
+
+BulHP[BulId]     = 20000;
+BulTurns[BulId]  = 3;
+BulPoints[BulId] = 10000;
+BulEXP[BulId]    = 200;
+BulPP[BulId]     = 15;
+BulAnime[BulId]  = "cold";
+BulUpdate[BulId] = 0;
